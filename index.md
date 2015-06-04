@@ -7,4 +7,4 @@ Homepage
 
 This is just a test.
 
-My papers are [here](papers).
+My papers are [here](./papers/).
