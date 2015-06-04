@@ -1,4 +1,0 @@
-Papers
-======
-
-My papers here.
