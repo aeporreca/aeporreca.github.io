@@ -9,10 +9,10 @@ My current research interest is the computational complexity theory of natural c
 Publications
 ============
 
-Patrick C. Fischer, Albert R. Meyer, and Arnold L. Rosenberg. Counter machines and counter languages. Theory of Computing Systems, 2(3):265–283, 1968
+Patrick C. Fischer, Albert R. Meyer, and Arnold L. Rosenberg. Counter machines and counter languages. *Theory of Computing Systems*, 2(3):265–283, 1968.
 
-Pierluigi Frisco. P systems, Petri nets, and program machines. In Rudolf Freund, Gheorghe Păaun, Grzegorz Rozenberg, and Arto Salomaa, editors, Membrane Computing, 6th International Workshop, WMC 2005, volume 3850 of Lecture Notes in Computer Science, pages 209–223. Springer, 2006
+Pierluigi Frisco. P systems, Petri nets, and program machines. In Rudolf Freund, Gheorghe Păun, Grzegorz Rozenberg, and Arto Salomaa, editors, *Membrane Computing, 6th International Workshop, WMC 2005*, volume 3850 of Lecture Notes in Computer Science, pages 209–223. Springer, 2006.
 
-Marvin Minsky. Computation: Finite and Infinite Machines. Prentice-Hall, 1967.
+Marvin Minsky. *Computation: Finite and Infinite Machines*. Prentice-Hall, 1967.
 
-Christos H. Papadimitriou. Computational Complexity. Addison-Wesley, 1993.
+Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1993.
