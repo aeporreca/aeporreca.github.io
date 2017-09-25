@@ -1,9 +1,14 @@
 body {
     font-family: sans-serif;
+    background-color: ivory;
 }
 
-#content{
+#content {
     padding-top: 50px;
     width: 800px;
     margin: 0 auto;
+}
+
+#sitetitle {
+    font-size: 150%;
 }
