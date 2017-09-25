@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: ivory;    /* rgb(255,255,240) */
+    background-color: Ivory;    /* rgb(255,255,240) */
 }
 
 #content {
@@ -11,5 +11,8 @@ body {
 
 #sitetitle {
     font-size: 250%;
-    color: rgb(77,77,0);
+}
+
+h1 {
+    color: DarkRed; /* rgb(102,102,0) */
 }
