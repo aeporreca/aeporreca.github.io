@@ -1,8 +1,8 @@
 ---
-title: Publications
+title: Papers
 ---
 
-Publications
-============
+Papers
+======
 
-This is a list of my publications.
+This is a list of my papers.
