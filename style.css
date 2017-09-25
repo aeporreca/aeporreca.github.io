@@ -14,7 +14,7 @@ body {
 
 #menubar {
     font-size: 120%;
-    color: dimgray;
+    /* color: dimgray; */
 }
 
 #sitetitle {
@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: dimgray;
+    /* color: dimgray; */
 }
 
 a, u {
