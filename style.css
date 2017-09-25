@@ -12,6 +12,11 @@ body {
     margin: 0 auto;
 }
 
+#menubar {
+    font-size: 120%;
+    color: dimgray;
+}
+
 #sitetitle {
     font-size: 250%;
 }

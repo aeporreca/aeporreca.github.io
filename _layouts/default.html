@@ -4,15 +4,24 @@
 
 <head>
 <meta charset="utf-8">
-<title>{{page.title}} - {{site.title}}</title>
+<title>
+  {{page.title}} - {{site.title}}
+</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
 <div id="content">
-<h1 id="sitetitle">{{site.title}}</h1>
-{{content}}
+  <p id="menubar">
+    <a href="">Publications</a>
+    &bullet;
+    <a href="">Talks</a>
+    &bullet;
+    <a href="">Curriculum Vitae</a>
+  </p>
+  <h1 id="sitetitle">{{site.title}}</h1>
+  {{content}}
 </div>
 
 </body>
