@@ -12,10 +12,6 @@ My current research interest is the computational complexity theory of natural c
 Publications
 ------------
 
-Characterising the complexity of tissue P systems with fission rules
-A Leporati, L Manzoni, G Mauri, AE Porreca, C Zandron
-Journal of Computer and System Sciences
+A.E. Porreca, First Paper, Interesting Journal 3(4), 2017
 
-Space complexity of P systems with active membranes: A survey
-A Leporati, L Manzoni, G Mauri, AE Porreca, C Zandron
-Bulletin of the International Membrane Computing Society 3, 41–54
+A.E. Porreca, Second Paper, Less Interesting Journal 6(7), 2016
