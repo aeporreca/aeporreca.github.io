@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: Ivory;    /* rgb(255,255,240) */
+    background-color: gainsboro;
 }
 
 #content {
@@ -14,5 +14,5 @@ body {
 }
 
 h1 {
-    color: DarkRed; /* rgb(102,102,0) */
+    color: dimgray;
 }
