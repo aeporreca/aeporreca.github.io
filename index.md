@@ -9,6 +9,10 @@ My current research interest is the computational complexity theory of natural c
 Publications
 ============
 
-A.E. Porreca, First Paper, Interesting Journal 3(4), 2017
+Patrick C. Fischer, Albert R. Meyer, and Arnold L. Rosenberg. Counter machines and counter languages. Theory of Computing Systems, 2(3):265–283, 1968
 
-A.E. Porreca, Second Paper, Less Interesting Journal 6(7), 2016
+Pierluigi Frisco. P systems, Petri nets, and program machines. In Rudolf Freund, Gheorghe Păaun, Grzegorz Rozenberg, and Arto Salomaa, editors, Membrane Computing, 6th International Workshop, WMC 2005, volume 3850 of Lecture Notes in Computer Science, pages 209–223. Springer, 2006
+
+Marvin Minsky. Computation: Finite and Infinite Machines. Prentice-Hall, 1967.
+
+Christos H. Papadimitriou. Computational Complexity. Addison-Wesley, 1993.
