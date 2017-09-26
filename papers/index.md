@@ -111,8 +111,6 @@ Conference and workshop papers
 
 1. Andrea Valsecchi, Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [“An efficient simulation of polynomial-space Turing machines by P systems with active membranes”](https://doi.org/10.1007/978-3-642-11467-0_31). In: *Membrane Computing, 10th International Workshop, WMC 2009*. Edited by Gheorghe Păun, Mario J. Pérez-Jiménez, Agustín Riscos-Núñez, Grzegorz Rozenberg and Arto Salomaa. Volume 6501. Lecture Notes in Computer Science. Springer, 2010, pages 461–478. [[preprint](efficient-simulation-of-polynomial-space-turing-machines-by-p-systems-with-active-membranes.pdf)]
 
-*In progress*
-
 Book chapters
 -------------
 
