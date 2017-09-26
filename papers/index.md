@@ -2,6 +2,14 @@
 title: Papers
 ---
 
+<script>
+$("#journal-papers").click(function() {
+    $("#journal-papers").next().toggle("slow", function() {
+        // Animation complete.
+    });
+});
+</script>
+
 Papers
 ======
 
