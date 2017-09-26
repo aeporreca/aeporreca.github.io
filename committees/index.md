@@ -10,9 +10,9 @@ I have been member of the following committees.
 Program committees
 ------------------
 
-1. Member of the program committee of the 18th International Conference on Membrane Computing (CMC18), University of Bradford, UK, July 2017.
+1. Member of the program committee of the [18th International Conference on Membrane Computing (CMC18)](http://computing.brad.ac.uk/cmc18/), University of Bradford, UK, July 2017.
 
-1. Member of the program committee of the 17th International Conference on Membrane Computing (CMC17), Università degli Studi di Milano-Bicocca, Italy, July 2016.
+1. Member of the program committee of the [17th International Conference on Membrane Computing (CMC17)](http://cmc17.disco.unimib.it/), Università degli Studi di Milano-Bicocca, Italy, July 2016.
 
 Organising committees
 ---------------------
