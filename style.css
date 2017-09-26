@@ -6,7 +6,7 @@
 /* Carrot Orange #EC9A29 */
 /* Cornell Red #A8201A */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 :root {
     --background-color: #FFFFF0; /* Ivory */
@@ -32,16 +32,13 @@ body {
 #menubar {
     font-size: 120%;
     margin-bottom: 2em;
-    /* color: dimgray; */
 }
 
 #sitetitle {
     font-size: 250%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    /* color: dimgray; */
-}
+h1, h2, h3, h4, h5, h6 {}
 
 a, u {
     text-decoration: none;
