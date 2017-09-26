@@ -97,7 +97,7 @@ Conference and workshop papers
 
 1. Claudio Zandron, Alberto Leporati, Luca Manzoni, Giancarlo Mauri and Antonio E. Porreca. [“P systems with active membranes working in sublinear space”](https://doi.org/10.1007/978-3-319-14370-5_3). In: *Membrane Computing, 15th International Conference, CMC 2014*. Edited by Marian Gheorghe, Grzegorz Rozenberg, Petr Sosík and Claudio Zandron. Volume 8961 of Lecture Notes in Computer Science. Springer, 2014, pages 35–47. [[preprint](p-systems-with-active-membranes-working-in-sublinear-space.pdf)]
 
-1. Luca Manzoni and Antonio E. Porreca. [“Reaction systems made simple: A normal form and a classification theorem”](https://doi.org/10.1007/978-3-642-39074-6_15). In: Unconventional Computation and Natural Computation, 12th International Conference, UCNC 2013. Edited by Giancarlo Mauri, Alberto Dennunzio, Luca Manzoni and Antonio E. Porreca. Volume 7956. Lecture Notes in Computer Science. Springer, 2013, pages 150–161. [[preprint](reaction-systems-made-simple-normal-form-and-classification-theorem.pdf)]
+1. Luca Manzoni and Antonio E. Porreca. [“Reaction systems made simple: A normal form and a classification theorem”](https://doi.org/10.1007/978-3-642-39074-6_15). In: *Unconventional Computation and Natural Computation, 12th International Conference, UCNC 2013*. Edited by Giancarlo Mauri, Alberto Dennunzio, Luca Manzoni and Antonio E. Porreca. Volume 7956 of Lecture Notes in Computer Science. Springer, 2013, pages 150–161. [[preprint](reaction-systems-made-simple-normal-form-and-classification-theorem.pdf)]
 
 *In progress*
 
