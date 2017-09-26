@@ -77,6 +77,8 @@ Conference and workshop papers
 
 1. Luca Manzoni, Antonio E. Porreca and Hiroshi Umeo. [“The Firing Squad Synchronization Problem on higher-dimensional CA with multiple updating cycles”](https://doi.org/10.1109/CANDAR.2016.0053). In: *2016 Fourth International Symposium on Computing and Networking (CANDAR)*. 2016, pages 258–261. [[preprint](firing-squad-synchronization-problem-on-higher-dimensional-ca-with-multiple-updating-cycles.pdf)]
 
+1. Alberto Dennunzio, Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Preimage problems for reaction systems”](https://doi.org/10.1007/978-3-319-15579-1_42). In: *Language and Automata Theory and Applications, 9th International Conference, LATA 2015*. Edited by Adrian-Horia Dediu, Enrico Formenti, Carlos Martín-Vide and Bianca Truthe. Volume 8977 of Lecture Notes in Computer Science. Springer, 2015, pages 537–548. [[preprint](preimage-problems-for-reaction-systems.pdf)]
+
 *In progress*
 
 Book chapters
