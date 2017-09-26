@@ -32,4 +32,4 @@ Papers in peer-reviewed international journals
 
 1. Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [On the complexity of occurrence and convergence problems in reaction systems](https://doi.org/10.1007/s11047-014-9456-3). In: *Natural Computing* 14(1) (2015), pages 185–191. [[preprint](on-complexity-of-occurrence-and-convergence-problems-in-reaction-systems.pdf)]
 
-1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Membrane division, oracles, and the counting hierarchy](https://doi.org/10.3233/FI-2015-1201). In: *Fundamenta Informaticae* 138(1–2) (2015), pages 97–111.
+1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Membrane division, oracles, and the counting hierarchy](https://doi.org/10.3233/FI-2015-1201). In: *Fundamenta Informaticae* 138(1–2) (2015), pages 97–111. [[preprint](membrane-division-oracles-and-counting-hierarchy.pdf)]
