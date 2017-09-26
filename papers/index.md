@@ -7,11 +7,6 @@ Papers
 
 This is a list of my published papers. Click on the title to reach the publisher’s website, or download a preprint if you do not have access to the published version of the paper.
 
-<h1 onclick="this.style.display='none'">Test</h1>
-
-bla bla
-
-
 Journal papers
 --------------
 
