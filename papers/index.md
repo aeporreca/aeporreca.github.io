@@ -7,8 +7,8 @@ Papers
 
 This is a list of my published papers. Click on the title to reach the publisher’s website, or download a preprint if you do not have access to the published version of the paper.
 
-Papers in peer-reviewed international journals
-----------------------------------------------
+Journal papers
+--------------
 
 1. Alberto Dennunzio, Enrico Formenti, Luca Manzoni, Giancarlo Mauri and Antonio E. Porreca. [Computational complexity of finite asynchronous cellular automata](https://doi.org/10.1016/j.tcs.2015.12.003). In: *Theoretical Computer Science* 664 (2017), pages 131–143. [[preprint](computational-complexity-of-finite-asynchronous-cellular-automata.pdf)]
 
@@ -60,8 +60,8 @@ Papers in peer-reviewed international journals
 
 1. Antonio E. Porreca, Giancarlo Mauri and Claudio Zandron. [Complexity classes for membrane systems](https://doi.org/10.1051/ita:2006001). In: RAIRO Theoretical Informatics and Applications 40(2) (2006), pages 141–162. [[preprint](complexity-classes-for-membrane-systems.pdf)]
 
-Proceedings of peer-reviewed international conferences and workshops
---------------------------------------------------------------------
+Conference and workshop papers
+------------------------------
 
 Book chapters
 -------------
