@@ -101,7 +101,9 @@ Conference and workshop papers
 
 1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [“Sublinear-space P systems with active membranes”](https://doi.org/10.1007/978-3-642-36751-9_23). In: *Membrane Computing, 13th International Conference, CMC 2012*. Edited by Erzsébet Csuhaj-Varjú, Marian Gheorghe, Grzegorz Rozenberg, Arto Salomaa and György Vaszil. Volume 7762 of Lecture Notes in Computer Science. Springer, 2013, pages 342–357. [[preprint](sublinear-space-p-systems-with-active-membranes.pdf)]
 
-1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [“P systems simulating oracle computations”](https://doi.org/10.1007/978-3-642-28024-5_23). In: *Membrane Computing, 12th International Conference, CMC 2011*. Edited by Marian Gheorghe, Gheorghe Păun, Arto Salomaa, Grzegorz Rozenberg and Sergey Verlan. Volume 7184. Lecture Notes in Computer Science. Springer, 2012, pages 346–358. [[preprint](p-systems-simulating-oracle-computations.pdf)]
+1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [“P systems simulating oracle computations”](https://doi.org/10.1007/978-3-642-28024-5_23). In: *Membrane Computing, 12th International Conference, CMC 2011*. Edited by Marian Gheorghe, Gheorghe Păun, Arto Salomaa, Grzegorz Rozenberg and Sergey Verlan. Volume 7184 of Lecture Notes in Computer Science. Springer, 2012, pages 346–358. [[preprint](p-systems-simulating-oracle-computations.pdf)]
+
+1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [“P systems with elementary active membranes: Beyond NP and coNP”](https://doi.org/10.1007/978-3-642-18123-8_26). In: *Membrane Computing, 11th International Conference, CMC 2010*. Edited by Marian Gheorghe, Thomas Hinze, Gheorghe Păun, Grzegorz Rozenberg and Arto Salomaa. Volume 6501. Lecture Notes in Computer Science. Springer, 2011, pages 338–347. [[preprint](p-systems-with-active-membranes-beyond-np-and-conp.pdf)]
 
 *In progress*
 
