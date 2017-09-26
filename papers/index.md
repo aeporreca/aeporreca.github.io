@@ -48,4 +48,6 @@ Papers in peer-reviewed international journals
 
 1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Elementary active membranes have the power of counting](https://doi.org/10.4018/jncr.2011070104). In: *International Journal of Natural Computing Research* 2(3) (2011), pages 329–342. [[preprint](elementary-active-membranes-have-the-power-of-counting.pdf)]
 
-1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [P systems with active membranes: Trading time for space](https://doi.org/10.1007/s11047-010-9189-x). In: Natural Computing 10(1) (2011), pages 167–182. [[preprint](p-systems-with-active-membranes-trating-time-for-space.pdf)]
+1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [P systems with active membranes: Trading time for space](https://doi.org/10.1007/s11047-010-9189-x). In: *Natural Computing* 10(1) (2011), pages 167–182. [[preprint](p-systems-with-active-membranes-trating-time-for-space.pdf)]
+
+1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [P systems with active membranes working in polynomial space](https://doi.org/10.1142/S0129054111007836). In: *International Journal of Foundations of Computer Science* 22(1) (2011), pages 65–73. [[preprint](p-systems-with-active-membranes-working-in-polynomial-space.pdf)]
