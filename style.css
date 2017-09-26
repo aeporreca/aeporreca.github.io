@@ -9,12 +9,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root {
-    --background-color: #FFFFF0;
+    --background-color: #FFFFF0; /* Ivory */
+    --main-text-color: #143642;  /* Yankees Blue */
+    --link-color: #A8201A;  /* Cornell Red */
 }
 
 body {
     font-size: 20px;
     background-color: var(--background-color);
+    color: var(--main-text-color);
     line-height: 150%;
     font-family: Roboto, sans-serif;
 }
@@ -42,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a, u {
     text-decoration: none;
-    color: crimson;
+    color: var(--link-color);
 }
 
 ol, ul {
