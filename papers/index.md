@@ -63,6 +63,8 @@ Journal papers
 Conference and workshop papers
 ------------------------------
 
+1. Artiom Alhazov, Omar Belingheri, Rudolf Freund, Sergiu Ivanov, Antonio E. Porreca and Claudio Zandron. [“Purely catalytic P systems over integers and their generative power”](https://doi.org/10.1007/978-3-319-54072-6_5). In: *Membrane Computing, 17th International Conference, CMC 2016*. Edited by Alberto Leporati, Grzegorz Rozenberg, Arto Salomaa and Claudio Zandron. Volume 10105 of Lecture Notes in Computer Science. Springer, 2017, pages 67–82. [[preprint](purely-catalytic-p-systems-over-integers-and-their-generative-power.pdf)]
+
 *In progress*
 
 Book chapters
