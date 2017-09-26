@@ -2,10 +2,12 @@
 title: Papers
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
 <script>
 $(document).ready(function(){
     $("#journal-papers").click(function() {
-        $("#journal-papers").next().toggle("slow", function() {
+        $("#journal-papers").next().slideToggle("slow", function() {
             // Animation complete.
         });
     });
