@@ -85,7 +85,9 @@ Conference and workshop papers
 
 1. Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Cycles and global attractors of reaction systems”](https://doi.org/10.1007/978-3-319-09704-6_11). In: *Descriptional Complexity of Formal Systems, 16th International Workshop, DCFS 2014*. Edited by Helmut Jürgensen, Juhani Karhumäki and Alexander Okhotin. Volume 8614 of Lecture Notes in Computer Science. Springer, 2014, pages 114–125. [[preprint](cycles-and-global-attractors-of-reaction-systems.pdf)]
 
-1. Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Fixed points and attractors of reaction systems”](https://doi.org/10.1007/978-3-319-08019-2_20). In: *Language, Life, Limits, 10th Conference on Computability in Europe, CiE 2014*. Edited by Arnold Beckmann, Erzsébet Csuhaj-Varjú and Klaus Meer. Volume 8493 of Lecture Notes in Computer Science. Springer, 2014, pages 194–203. [[preprint]()]
+1. Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Fixed points and attractors of reaction systems”](https://doi.org/10.1007/978-3-319-08019-2_20). In: *Language, Life, Limits, 10th Conference on Computability in Europe, CiE 2014*. Edited by Arnold Beckmann, Erzsébet Csuhaj-Varjú and Klaus Meer. Volume 8493 of Lecture Notes in Computer Science. Springer, 2014, pages 194–203. [[preprint](fixed-points-and-attractors-of-reaction-systems.pdf)]
+
+1. Rudolf Freund, Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca, Sergey Verlan and Claudio Zandron. [“Flattening in (tissue) P systems”](https://doi.org/10.1007/978-3-642-54239-8_13). In: Membrane Computing, 14th International Conference, CMC 2013. Edited by Artiom Alhazov, Svetlana Cojocaru, Marian Gheorghe, Yurii Rogozhin, Grzegorz Rozenberg and Arto Salomaa. Volume 8349. Lecture Notes in Computer Science. Springer, 2014, pages 173–188. [[preprint](flattening-in-tissue-p-systems.pdf)]
 
 *In progress*
 
