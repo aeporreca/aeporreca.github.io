@@ -8,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-element {
+:root {
     --background-color: #FFFFF0;
 }
 
