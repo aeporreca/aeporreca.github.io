@@ -1,8 +1,20 @@
+/* Available colors */
+/* https://coolors.co/143642-0f8b8d-fffff0-ec9a29-a8201a */
+/* Yankees Blue #143642 */
+/* Dark Cyan #0F8B8D */
+/* Ivory #FFFFF0 */
+/* Carrot Orange #EC9A29 */
+/* Cornell Red #A8201A */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+element {
+    --background-color: #FFFFF0;
+}
 
 body {
     font-size: 20px;
-    background-color: ivory;
+    background-color: var(--background-color);
     line-height: 150%;
     font-family: Roboto, sans-serif;
 }
@@ -31,4 +43,8 @@ h1, h2, h3, h4, h5, h6 {
 a, u {
     text-decoration: none;
     color: crimson;
+}
+
+ol, ul {
+    padding-left: 0em;
 }
