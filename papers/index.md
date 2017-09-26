@@ -40,4 +40,6 @@ Papers in peer-reviewed international journals
 
 1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Constant-space P systems with active membranes](https://doi.org/10.3233/FI-2014-1094). In: *Fundamenta Informaticae* 134(1–2) (2014), pages 111–128. [[preprint](constant-space-p-systems-with-active-membranes.pdf)]
 
-1. Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [A gap in the space hierarchy of P systems with active membranes](http://theo.cs.ovgu.de/jalc/search/j19_i.html). In: Journal of Automata, Languages and Combinatorics 19(1–4) (2014), pages 173–184. [[preprint](gap-in-the-space-hierarchy-of-p-systems-with-active-membranes.pdf)]
+1. Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [A gap in the space hierarchy of P systems with active membranes](http://theo.cs.ovgu.de/jalc/search/j19_i.html). In: *Journal of Automata, Languages and Combinatorics* 19(1–4) (2014), pages 173–184. [[preprint](gap-in-the-space-hierarchy-of-p-systems-with-active-membranes.pdf)]
+
+1. Luca Manzoni, Diogo Poças and Antonio E. Porreca. [Simple reaction systems and their classification](https://doi.org/10.1142/S012905411440005X). In: *International Journal of Foundations of Computer Science* 25(4) (2014), pages 441–457. [[preprint](simple-reaction-systems-and-their-classification.pdf)]
