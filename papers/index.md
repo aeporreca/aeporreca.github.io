@@ -69,5 +69,7 @@ Book chapters
 Volumes edited
 --------------
 
+1. Alberto Dennunzio, Enrico Formenti, Luca Manzoni and Antonio E. Porreca, editors. [*Cellular Automata and Discrete Complex Systems, 23rd IFIP WG 1.5 International Workshop, AUTOMATA 2017*](https://doi.org/10.1007/978-3-319-58631-1). Volume 10248 of Lecture Notes in Computer Science. 2017.
+
 Technical reports
 -----------------
