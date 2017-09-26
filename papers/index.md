@@ -26,4 +26,4 @@ Papers in peer-reviewed international journals
 
 1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Monodirectional P systems](https://doi.org/10.1007/s11047-016-9565-2). In: *Natural Computing* 15(4) (2016), pages 551–564. [[preprint](monodirectional-p-systems.pdf)]
 
-1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Trading geometric realism for efficiency in tissue P systems](http://www.imt.ro/romjist/Volum19/Number19_1-2/cuprins19_1-2.htm). In: Romanian Journal of Information Science and Technology 19(1–2) (2016), pages 17–30. [[preprint](trading-geometric-realism-for-efficiency-in-tissue-p-systems.pdf)]
+1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Trading geometric realism for efficiency in tissue P systems](http://www.imt.ro/romjist/Volum19/Number19_1-2/cuprins19_1-2.htm). In: *Romanian Journal of Information Science and Technology* 19(1–2) (2016), pages 17–30. [[preprint](trading-geometric-realism-for-efficiency-in-tissue-p-systems.pdf)]
