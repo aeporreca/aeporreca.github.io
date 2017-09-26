@@ -34,4 +34,6 @@ Papers in peer-reviewed international journals
 
 1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Membrane division, oracles, and the counting hierarchy](https://doi.org/10.3233/FI-2015-1201). In: *Fundamenta Informaticae* 138(1–2) (2015), pages 97–111. [[preprint](membrane-division-oracles-and-counting-hierarchy.pdf)]
 
-1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Recent complexity-theoretic results on P systems with active membranes](https://doi.org/10.1093/logcom/exs077). In: Journal of Logic and Computation 25(4) (2015), pages 1047–1071. [[preprint](recent-complexity-theoretic-results-on-p-systems-with-active-membranes.pdf)]
+1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Recent complexity-theoretic results on P systems with active membranes](https://doi.org/10.1093/logcom/exs077). In: *Journal of Logic and Computation* 25(4) (2015), pages 1047–1071. [[preprint](recent-complexity-theoretic-results-on-p-systems-with-active-membranes.pdf)]
+
+1. Artiom Alhazov, Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Space complexity equivalence of P systems with active membranes and Turing machines](https://doi.org/10.1016/j.tcs.2013.11.015). In: *Theoretical Computer Science* 529 (2014), pages 69–81. [[preprint](space-complexity-equivalence-of-p-systems-with-active-membranes-and-turing-machines.pdf)]
