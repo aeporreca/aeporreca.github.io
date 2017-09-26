@@ -93,6 +93,8 @@ Conference and workshop papers
 
 1. Alberto Leporati, Luca Manzoni and Antonio E. Porreca. [“Flattening and simulation of asynchronous divisionless P systems with active membranes”](https://doi.org/10.1007/978-3-642-54239-8_17). In: *Membrane Computing, 14th International Conference, CMC 2013*. Edited by Artiom Alhazov, Svetlana Cojocaru, Marian Gheorghe, Yurii Rogozhin, Grzegorz Rozenberg and Arto Salomaa. Volume 8340 of Lecture Notes in Computer Science. Springer, 2014, pages 238–248. [[preprint](flattening-and-simulation-of-asynchronous-divisionless-p-systems-with-active-membranes.pdf)]
 
+1. Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“Enzymatic numerical P systems using elementary arithmetic operations”](https://doi.org/10.1007/978-3-642-54239-8_18). In: Membrane Computing, 14th International Conference, CMC 2013. Edited by Artiom Alhazov, Svetlana Cojocaru, Marian Gheorghe, Yurii Rogozhin, Grzegorz Rozenberg and Arto Salomaa. Volume 8340. Lecture Notes in Computer Science. Springer, 2014, pages 249–264. [[preprint](enzymatic-numerical-p-systems-using-elementary-arithmetic-operations.pdf)]
+
 *In progress*
 
 Book chapters
