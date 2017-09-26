@@ -66,6 +66,11 @@ Conference and workshop papers
 Book chapters
 -------------
 
+1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. Tissue P systems in the Euclidean space. In: *Multidisciplinary Creativity: Homage to Gheorghe Păun on His 65th Birthday*. Edited by Marian Gheorghe, Ion Petre, Mario J. Pérez-Jiménez, Grzegorz Rozenberg and Arto Salomaa. Editura Spandugino, 2015, pages 118–128. [[preprint](tissue-p-systems-in-euclidean-space.pdf)]
+
+Technical reports
+-----------------
+
 Volumes edited
 --------------
 
@@ -74,7 +79,3 @@ Volumes edited
 1. Giancarlo Mauri, Alberto Dennunzio, Luca Manzoni and Antonio E. Porreca, editors. *International Journal of Foundations of Computer Science*, [Special Issue: Unconventional Computation and Natural Computation 2013](http://www.worldscientific.com/toc/ijfcs/25/04). Volume 25. 2014.
 
 1. Giancarlo Mauri, Alberto Dennunzio, Luca Manzoni and Antonio E. Porreca, editors. [*Unconventional Computation and Natural Computation, 12th International Conference, UCNC 2013*](https://doi.org/10.1007/978-3-642-39074-6). Volume 7956 of Lecture Notes in Computer Science. Springer, 2013.
-
-
-Technical reports
------------------
