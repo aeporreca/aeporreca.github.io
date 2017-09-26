@@ -105,6 +105,8 @@ Conference and workshop papers
 
 1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [“P systems with elementary active membranes: Beyond NP and coNP”](https://doi.org/10.1007/978-3-642-18123-8_26). In: *Membrane Computing, 11th International Conference, CMC 2010*. Edited by Marian Gheorghe, Thomas Hinze, Gheorghe Păun, Grzegorz Rozenberg and Arto Salomaa. Volume 6501. Lecture Notes in Computer Science. Springer, 2011, pages 338–347. [[preprint](p-systems-with-active-membranes-beyond-np-and-conp.pdf)]
 
+1. Giancarlo Mauri, Alberto Leporati, Antonio E. Porreca and Claudio Zandron. [“Computational complexity aspects in membrane computing”](https://doi.org/10.1007/978-3-642-13962-8_35). In: *Programs, Proofs, Processes, 6th Conference on Computability in Europe, CiE 2010*. Edited by Fernando Ferreira, Benedikt Löwe, Elvira Mayordomo and Luís Mendes Gomes. Volume 6158 of Lecture Notes in Computer Science. Springer, 2010, pages 317–320. [[preprint](computational-complexity-aspects-in-membrane-computing.pdf)]
+
 *In progress*
 
 Book chapters
