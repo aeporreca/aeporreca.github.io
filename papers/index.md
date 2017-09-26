@@ -51,3 +51,5 @@ Papers in peer-reviewed international journals
 1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [P systems with active membranes: Trading time for space](https://doi.org/10.1007/s11047-010-9189-x). In: *Natural Computing* 10(1) (2011), pages 167–182. [[preprint](p-systems-with-active-membranes-trating-time-for-space.pdf)]
 
 1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [P systems with active membranes working in polynomial space](https://doi.org/10.1142/S0129054111007836). In: *International Journal of Foundations of Computer Science* 22(1) (2011), pages 65–73. [[preprint](p-systems-with-active-membranes-working-in-polynomial-space.pdf)]
+
+1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Complete problems for a variant of P systems with active membranes](http://www.imt.ro/romjist/Volum13/Number13_2/abstracts.htm). In: *Romanian Journal of Information Science and Technology* 13(2) (2010), pages 197–207. [[preprint](complete-problems-for-a-variant-of-p-systems-with-active-membranes.pdf)]
