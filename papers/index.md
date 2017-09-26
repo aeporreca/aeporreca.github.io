@@ -107,6 +107,8 @@ Conference and workshop papers
 
 1. Giancarlo Mauri, Alberto Leporati, Antonio E. Porreca and Claudio Zandron. [“Computational complexity aspects in membrane computing”](https://doi.org/10.1007/978-3-642-13962-8_35). In: *Programs, Proofs, Processes, 6th Conference on Computability in Europe, CiE 2010*. Edited by Fernando Ferreira, Benedikt Löwe, Elvira Mayordomo and Luís Mendes Gomes. Volume 6158 of Lecture Notes in Computer Science. Springer, 2010, pages 317–320. [[preprint](computational-complexity-aspects-in-membrane-computing.pdf)]
 
+1. Antonio E. Porreca, Alberto Leporati and Claudio Zandron. [“On a powerful class of non-universal P systems with active membranes”](https://doi.org/10.1007/978-3-642-14455-4_33). *In: Developments in Language Theory, 14th International Conference, DLT 2010*. Edited by Yuan Gao, Hanlin Lu, Shinnosuke Seki and Sheng Yu. Volume 6224 of Lecture Notes in Computer Science. Springer, 2010, pages 364–375. [[preprint](on-powerful-class-of-non-universal-p-systems-with-active-membranes.pdf)]
+
 *In progress*
 
 Book chapters
