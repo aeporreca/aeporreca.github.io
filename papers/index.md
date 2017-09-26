@@ -75,6 +75,8 @@ Conference and workshop papers
 
 1. Alberto Dennunzio, Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Reachability in resource-bounded reaction systems”](https://doi.org/10.1007/978-3-319-30000-9_45). In: *Language and Automata Theory and Applications: 10th International Conference, LATA 2016*. Edited by Adrian-Horia Dediu, Jan Janoušek, Carlos Martín-Vide and Bianca Truthe. Volume 9618 of Lecture Notes in Computer Science. Springer, 2016, pages 592–602. [[preprint](reachability-in-resource-bounded-reaction-systems.pdf)]
 
+1. Luca Manzoni, Antonio E. Porreca and Hiroshi Umeo. [“The Firing Squad Synchronization Problem on higher-dimensional CA with multiple updating cycles”](https://doi.org/10.1109/CANDAR.2016.0053). In: *2016 Fourth International Symposium on Computing and Networking (CANDAR)*. 2016, pages 258–261. [[preprint](firing-squad-synchronization-problem-on-higher-dimensional-ca-with-multiple-updating-cycles.pdf)]
+
 *In progress*
 
 Book chapters
