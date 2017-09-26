@@ -73,7 +73,7 @@ Conference and workshop papers
 
 1. Omar Belingheri, Antonio E. Porreca and Claudio Zandron. [“P systems with hybrid sets”](http://hdl.handle.net/10454/8840). In: *Proceedings of the Workshop on Membrane Computing, WMC 2016*. Edited by Marian Gheorghe and Savas Konur. Technical Reports, University of Bradford UB-20160819-1. 2016. [[preprint](p-systems-with-hybrid-sets.pdf)]
 
-1. Alberto Dennunzio, Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Reachability in resource-bounded reaction systems”](https://doi.org/10.1007/978-3-319-30000-9_45). In: *Language and Automata Theory and Applications: 10th International Conference, LATA 2016*. Edited by Adrian-Horia Dediu, Jan Janoušek, Carlos Martín-Vide and Bianca Truthe. Volume 9618 of Lecture Notes in Computer Science. Springer, 2016, pages 592–602. [[preprint]()]
+1. Alberto Dennunzio, Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Reachability in resource-bounded reaction systems”](https://doi.org/10.1007/978-3-319-30000-9_45). In: *Language and Automata Theory and Applications: 10th International Conference, LATA 2016*. Edited by Adrian-Horia Dediu, Jan Janoušek, Carlos Martín-Vide and Bianca Truthe. Volume 9618 of Lecture Notes in Computer Science. Springer, 2016, pages 592–602. [[preprint](reachability-in-resource-bounded-reaction-systems.pdf)]
 
 *In progress*
 
