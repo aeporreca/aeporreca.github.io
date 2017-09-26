@@ -63,6 +63,8 @@ Journal papers
 Conference and workshop papers
 ------------------------------
 
+*In progress*
+
 Book chapters
 -------------
 
@@ -70,6 +72,8 @@ Book chapters
 
 Technical reports
 -----------------
+
+*In progress*
 
 Volumes edited
 --------------
