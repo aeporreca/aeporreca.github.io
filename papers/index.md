@@ -40,19 +40,19 @@ Journal papers
 
 1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Constant-space P systems with active membranes](https://doi.org/10.3233/FI-2014-1094). In: *Fundamenta Informaticae* 134(1–2) (2014), pages 111–128. [[preprint](constant-space-p-systems-with-active-membranes.pdf)]
 
-1. Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [A gap in the space hierarchy of P systems with active membranes](http://theo.cs.ovgu.de/jalc/search/j19_i.html). In: *Journal of Automata, Languages and Combinatorics* 19(1–4) (2014), pages 173–184. [[preprint](gap-in-the-space-hierarchy-of-p-systems-with-active-membranes.pdf)]
+1. Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [A gap in the space hierarchy of P systems with active membranes](http://theo.cs.ovgu.de/jalc/search/j19_i.html). In: *Journal of Automata, Languages and Combinatorics* 19(1–4) (2014), pages 173–184. [[preprint](gap-in-space-hierarchy-of-p-systems-with-active-membranes.pdf)]
 
 1. Luca Manzoni, Diogo Poças and Antonio E. Porreca. [Simple reaction systems and their classification](https://doi.org/10.1142/S012905411440005X). In: *International Journal of Foundations of Computer Science* 25(4) (2014), pages 441–457. [[preprint](simple-reaction-systems-and-their-classification.pdf)]
 
 1. Alberto Leporati, Antonio E. Porreca, Claudio Zandron and Giancarlo Mauri. [Improved universality results for parallel enzymatic numerical P systems](http://www.oldcitypublishing.com/IJUC/IJUCcontents/IJUCv9n5-6contents.html). In: *International Journal of Unconventional Computing* 9 (2013), pages 385–404. [[preprint](improved-universality-results-for-parallel-enzymatic-numerical-p-systems.pdf)]
 
-1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Elementary active membranes have the power of counting](https://doi.org/10.4018/jncr.2011070104). In: *International Journal of Natural Computing Research* 2(3) (2011), pages 329–342. [[preprint](elementary-active-membranes-have-the-power-of-counting.pdf)]
+1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Elementary active membranes have the power of counting](https://doi.org/10.4018/jncr.2011070104). In: *International Journal of Natural Computing Research* 2(3) (2011), pages 329–342. [[preprint](elementary-active-membranes-have-power-of-counting.pdf)]
 
 1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [P systems with active membranes: Trading time for space](https://doi.org/10.1007/s11047-010-9189-x). In: *Natural Computing* 10(1) (2011), pages 167–182. [[preprint](p-systems-with-active-membranes-trating-time-for-space.pdf)]
 
 1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [P systems with active membranes working in polynomial space](https://doi.org/10.1142/S0129054111007836). In: *International Journal of Foundations of Computer Science* 22(1) (2011), pages 65–73. [[preprint](p-systems-with-active-membranes-working-in-polynomial-space.pdf)]
 
-1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Complete problems for a variant of P systems with active membranes](http://www.imt.ro/romjist/Volum13/Number13_2/abstracts.htm). In: *Romanian Journal of Information Science and Technology* 13(2) (2010), pages 197–207. [[preprint](complete-problems-for-a-variant-of-p-systems-with-active-membranes.pdf)]
+1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Complete problems for a variant of P systems with active membranes](http://www.imt.ro/romjist/Volum13/Number13_2/abstracts.htm). In: *Romanian Journal of Information Science and Technology* 13(2) (2010), pages 197–207. [[preprint](complete-problems-for-variant-of-p-systems-with-active-membranes.pdf)]
 
 1. Antonio E. Porreca, Giancarlo Mauri and Claudio Zandron. [Non-confluence in divisionless P systems with active membranes](https://doi.org/10.1016/j.tcs.2009.07.032). In: *Theoretical Computer Science* 411(6) (2010), pages 878–887. [[preprint](non-confluence-in-divisionless-p-systems-with-active-membranes.pdf)]
 
@@ -84,6 +84,8 @@ Conference and workshop papers
 1. Giancarlo Mauri, Alberto Leporati, Luca Manzoni, Antonio E. Porreca and Claudio Zandron. [“Complexity classes for membrane systems: A survey”](https://doi.org/10.1007/978-3-319-15579-1_4). In: *Language and Automata Theory and Applications, 9th International Conference, LATA 2015*. Edited by Adrian-Horia Dediu, Enrico Formenti, Carlos Martín-Vide and Bianca Truthe. Volume 8977 of Lecture Notes in Computer Science. Springer, 2015, pages 56–69.
 
 1. Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Cycles and global attractors of reaction systems”](https://doi.org/10.1007/978-3-319-09704-6_11). In: *Descriptional Complexity of Formal Systems, 16th International Workshop, DCFS 2014*. Edited by Helmut Jürgensen, Juhani Karhumäki and Alexander Okhotin. Volume 8614 of Lecture Notes in Computer Science. Springer, 2014, pages 114–125. [[preprint](cycles-and-global-attractors-of-reaction-systems.pdf)]
+
+1. Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Fixed points and attractors of reaction systems”](https://doi.org/10.1007/978-3-319-08019-2_20). In: *Language, Life, Limits, 10th Conference on Computability in Europe, CiE 2014*. Edited by Arnold Beckmann, Erzsébet Csuhaj-Varjú and Klaus Meer. Volume 8493 of Lecture Notes in Computer Science. Springer, 2014, pages 194–203. [[preprint]()]
 
 *In progress*
 
