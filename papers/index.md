@@ -63,20 +63,22 @@ Journal papers
 Conference and workshop papers
 ------------------------------
 
-1. Artiom Alhazov, Omar Belingheri, Rudolf Freund, Sergiu Ivanov, Antonio E. Porreca and Claudio Zandron. [“Purely catalytic P systems over integers and their generative power”](https://doi.org/10.1007/978-3-319-54072-6_5). In: *Membrane Computing, 17th International Conference, CMC 2016*. Edited by Alberto Leporati, Grzegorz Rozenberg, Arto Salomaa and Claudio Zandron. Volume 10105 of Lecture Notes in Computer Science. Springer, 2017, pages 67–82. [[preprint](purely-catalytic-p-systems-over-integers-and-their-generative-power.pdf)]
+1. Artiom Alhazov, Omar Belingheri, Rudolf Freund, Sergiu Ivanov, Antonio E. Porreca and Claudio Zandron. [“Purely catalytic P systems over integers and their generative power”](https://doi.org/10.1007/978-3-319-54072-6_5). In: *Membrane Computing, 17th International Conference, CMC 2016*. Edited by Alberto Leporati, Grzegorz Rozenberg, Arto Salomaa and Claudio Zandron. Volume 10105 of Lecture Notes in Computer Science. Springer, 2017, pages 67–82. [[preprint](purely-catalytic-p-systems-over-integers-and-their-generative-power.pdf)]
 
 1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca Por- reca and Claudio Zandron. [“Solving a special case of the P conjecture using dependency graphs with dissolution”](http://computing.brad.ac.uk/cmc18/program.html). In: *Proceedings of the 18th International Conference on Membrane Computing (CMC18)*. Edited by Marian Gheorghe, Savas Konur and Raluca Lefticaru. 2017, pages 219–236. [[preprint](solving-special-case-of-p-conjecture-using-dependency-graphs-with-dissolution.pdf)]
 
-1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“Shallow non-confluent P systems”](https://doi.org/10.1007/978-3-319-54072-6_19). In: *Membrane Computing, 17th International Conference, CMC 2016*. Edited by Alberto Leporati, Grzegorz Rozenberg, Arto Salomaa and Claudio Zandron. Volume 10105 of Lecture Notes in Computer Science. Springer, 2017, pages 307–316. [[preprint](shallow-non-confluent-p-systems.pdf)]
+1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“Shallow non-confluent P systems”](https://doi.org/10.1007/978-3-319-54072-6_19). In: *Membrane Computing, 17th International Conference, CMC 2016*. Edited by Alberto Leporati, Grzegorz Rozenberg, Arto Salomaa and Claudio Zandron. Volume 10105 of Lecture Notes in Computer Science. Springer, 2017, pages 307–316. [[preprint](shallow-non-confluent-p-systems.pdf)]
 
-1. Artiom Alhazov, Omar Belingheri, Rudolf Freund, Sergiu Ivanov, Antonio E. Porreca and Claudio Zandron. [“Semilinear sets, register machines, and integer vector addition (P) systems”](http://cmc17.disco.unimib.it). In: *Proceedings of the 17th International Conference on Membrane Computing (CMC17)*. Edited by Alberto Leporati and Claudio Zandron. 2016, pages 39–55. [[preprint](semilinear-sets-register-machines-and-integer-vector-addition-p-systems.pdf)]
+1. Artiom Alhazov, Omar Belingheri, Rudolf Freund, Sergiu Ivanov, Antonio E. Porreca and Claudio Zandron. [“Semilinear sets, register machines, and integer vector addition (P) systems”](http://cmc17.disco.unimib.it). In: *Proceedings of the 17th International Conference on Membrane Computing (CMC17)*. Edited by Alberto Leporati and Claudio Zandron. 2016, pages 39–55. [[preprint](semilinear-sets-register-machines-and-integer-vector-addition-p-systems.pdf)]
+
+1. Omar Belingheri, Antonio E. Porreca and Claudio Zandron. [“P systems with hybrid sets”](http://hdl.handle.net/10454/8840). In: *Proceedings of the Workshop on Membrane Computing, WMC 2016*. Edited by Marian Gheorghe and Savas Konur. Technical Reports, University of Bradford UB-20160819-1. 2016. [[preprint](p-systems-with-hybrid-sets.pdf)]
 
 *In progress*
 
 Book chapters
 -------------
 
-1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. Tissue P systems in the Euclidean space. In: *Multidisciplinary Creativity: Homage to Gheorghe Păun on His 65th Birthday*. Edited by Marian Gheorghe, Ion Petre, Mario J. Pérez-Jiménez, Grzegorz Rozenberg and Arto Salomaa. Editura Spandugino, 2015, pages 118–128. [[preprint](tissue-p-systems-in-euclidean-space.pdf)]
+1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. Tissue P systems in the Euclidean space. In: *Multidisciplinary Creativity: Homage to Gheorghe Păun on His 65th Birthday*. Edited by Marian Gheorghe, Ion Petre, Mario J. Pérez-Jiménez, Grzegorz Rozenberg and Arto Salomaa. Editura Spandugino, 2015, pages 118–128. [[preprint](tissue-p-systems-in-euclidean-space.pdf)]
 
 Technical reports
 -----------------
