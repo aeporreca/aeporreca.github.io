@@ -79,7 +79,11 @@ Conference and workshop papers
 
 1. Alberto Dennunzio, Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Preimage problems for reaction systems”](https://doi.org/10.1007/978-3-319-15579-1_42). In: *Language and Automata Theory and Applications, 9th International Conference, LATA 2015*. Edited by Adrian-Horia Dediu, Enrico Formenti, Carlos Martín-Vide and Bianca Truthe. Volume 8977 of Lecture Notes in Computer Science. Springer, 2015, pages 537–548. [[preprint](preimage-problems-for-reaction-systems.pdf)]
 
-1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“Tissue P systems can be simulated efficiently with counting oracles”](https://doi.org/10.1007/978-3-319-28475-0_17). In: *Membrane Computing, 16th International Conference, CMC 2015*. Edited by Grzegorz Rozenberg, Arto Salomaa, José M. Sempere and Claudio Zandron. Volume 9504. Lecture Notes in Computer Science. 2015, pages 251–261. [[preprint](tissue-p-systems-can-be-simulated-efficiently-with-counting-oracles.pdf)]
+1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“Tissue P systems can be simulated efficiently with counting oracles”](https://doi.org/10.1007/978-3-319-28475-0_17). In: *Membrane Computing, 16th International Conference, CMC 2015*. Edited by Grzegorz Rozenberg, Arto Salomaa, José M. Sempere and Claudio Zandron. Volume 9504 of Lecture Notes in Computer Science. Springer, 2015, pages 251–261. [[preprint](tissue-p-systems-can-be-simulated-efficiently-with-counting-oracles.pdf)]
+
+1. Giancarlo Mauri, Alberto Leporati, Luca Manzoni, Antonio E. Porreca and Claudio Zandron. [“Complexity classes for membrane systems: A survey”](https://doi.org/10.1007/978-3-319-15579-1_4). In: *Language and Automata Theory and Applications, 9th International Conference, LATA 2015*. Edited by Adrian-Horia Dediu, Enrico Formenti, Carlos Martín-Vide and Bianca Truthe. Volume 8977 of Lecture Notes in Computer Science. Springer, 2015, pages 56–69.
+
+1. Enrico Formenti, Luca Manzoni and Antonio E. Porreca. [“Cycles and global attractors of reaction systems”](https://doi.org/10.1007/978-3-319-09704-6_11). In: *Descriptional Complexity of Formal Systems, 16th International Workshop, DCFS 2014*. Edited by Helmut Jürgensen, Juhani Karhumäki and Alexander Okhotin. Volume 8614 of Lecture Notes in Computer Science. Springer, 2014, pages 114–125. [[preprint](cycles-and-global-attractors-of-reaction-systems.pdf)]
 
 *In progress*
 
