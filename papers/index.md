@@ -59,3 +59,15 @@ Papers in peer-reviewed international journals
 1. Antonio E. Porreca, Alberto Leporati, Giancarlo Mauri and Claudio Zandron. [Introducing a space complexity measure for P systems](http://univagora.ro/jour/index.php/ijccc/article/view/2779). In: *International Journal of Computers, Communications & Control* 4(3) (2009), pages 301–310. [[preprint](introducing-a-space-complexity-measure-for-p-systems.pdf)]
 
 1. Antonio E. Porreca, Giancarlo Mauri and Claudio Zandron. [Complexity classes for membrane systems](https://doi.org/10.1051/ita:2006001). In: RAIRO Theoretical Informatics and Applications 40(2) (2006), pages 141–162. [[preprint](complexity-classes-for-membrane-systems.pdf)]
+
+Proceedings of peer-reviewed international conferences and workshops
+--------------------------------------------------------------------
+
+Book chapters
+-------------
+
+Volumes edited
+--------------
+
+Technical reports
+-----------------
