@@ -31,7 +31,7 @@ We can now define the function <em>R</em>(<em>M’</em>, <em>x</em>) = (<em>M</e
 
 We’re finally ready to prove our undecidability result.
 
-<strong>Theorem.</strong> <em>R</em> is a many-one reduction from <em>H</em> to <em>L</em>.
+**Theorem.** <em>R</em> is a many-one reduction from <em>H</em> to <em>L</em>.
 
 <em>Proof.</em> Clearly <em>R</em> is a computable function, so we just need to show that
 <blockquote style="border:none;font-style:normal;">
@@ -42,4 +42,4 @@ If  (<em>M’</em>, <em>x</em>) ∈ <em>H</em>, that is, if <em>M’</em> halts 
 
 On the other hand, if <em>M’</em> does not halt on <em>x</em>, then <em>M</em> never completes its simulation, and the runtime for <em>M</em> is <em>O</em>(<em>n</em><sup>3</sup>). Thus (<em>M</em>, <em>F</em>) ∉ <em>L</em>. □
 
-<strong>Remark.</strong> We’ve actually proved a stronger statement, i.e., that the set of Turing machines running in <em>O</em>(<em>n</em><sup>2</sup>) time is undecidable, even if we restrict the domain to machines halting in polynomial time. Similar undecidability results hold for an infinite class of time bounds.
+**Remark.** We’ve actually proved a stronger statement, i.e., that the set of Turing machines running in <em>O</em>(<em>n</em><sup>2</sup>) time is undecidable, even if we restrict the domain to machines halting in polynomial time. Similar undecidability results hold for an infinite class of time bounds.
