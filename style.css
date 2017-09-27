@@ -22,14 +22,14 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-#content {
+#page {
     padding-top: 50px;
     padding-bottom: 50px;
     width: 700px;
     margin: 0 auto;
 }
 
-#menubar {
+#menu-bar {
     font-size: 120%;
     margin-bottom: 2em;
 }
