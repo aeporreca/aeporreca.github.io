@@ -119,6 +119,8 @@ Book chapters
 Technical reports
 -----------------
 
+The papers included in this section only include those that do not possess an extended version published in a peer-reviewed journal or conference.
+
 1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [Space complexity of P systems with active membranes: A survey](http://membranecomputing.net/IMCSBulletin/pdf/BullIMCSJune2017.pdf). In: *Bulletin of the International Membrane Computing Society* 3 (2017), pages 41–54. [[preprint](space-complexity-of-p-systems-with-active-membranes-survey.pdf)]
 
 1. Artiom Alhazov, Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“The computational power of exponential-space P systems with active membranes”](http://www.gcn.us.es/icdmc2012_proceedings). In: *Proceedings of the Tenth Brainstorming Week on Membrane Computing, Volume I*. Edited by Miguel Ángel Martínez-del-Amor, Gheorghe Păun, Ignacio Pérez-Hurtado and Francisco José Romero-Campero. RGNC Reports 1/2012. Fénix Editora, 2012, pages 35–60. [[preprint](computational-power-of-exponential-space-p-systems-with-active-membranes.pdf)]
