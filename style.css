@@ -1,23 +1,17 @@
-/* Available colors */
+/* Available colors                                      */
 /* https://coolors.co/143642-0f8b8d-fffff0-ec9a29-a8201a */
-/* Yankees Blue #143642 */
-/* Dark Cyan #0F8B8D */
-/* Ivory #FFFFF0 */
-/* Carrot Orange #EC9A29 */
-/* Cornell Red #A8201A */
+/* Yankees Blue #143642                                  */
+/* Dark Cyan #0F8B8D                                     */
+/* Ivory #FFFFF0                                         */
+/* Carrot Orange #EC9A29                                 */
+/* Cornell Red #A8201A                                   */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-
-:root {
-    --background-color: #FFFFF0; /* Ivory */
-    --main-text-color: #143642;  /* Yankees Blue */
-    --link-color: #A8201A;  /* Cornell Red */
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 body {
     font-size: 20px;
-    background-color: var(--background-color);
-    color: var(--main-text-color);
+    background-color: #FFFFF0;  /* Ivory */
+    color: #143642;             /* Yankees Blue */
     line-height: 1.5;
     font-family: Roboto, sans-serif;
 }
@@ -48,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a, u {
     text-decoration: none;
-    color: var(--link-color);
+    color: #A8201A;             /* Cornell Red */
 }
 
 ol, ul {
