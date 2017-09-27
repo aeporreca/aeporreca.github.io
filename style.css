@@ -51,3 +51,7 @@ a, u {
 ol, ul {
     padding-left: 0em;
 }
+
+blockquote {
+    font-style: italic;
+}
