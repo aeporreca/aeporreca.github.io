@@ -52,7 +52,8 @@ a, u {
 }
 
 ol, ul {
-    padding-left: 0em;
+    /* padding-left: 0em; */
+    list-style-position: outside;
 }
 
 blockquote {
