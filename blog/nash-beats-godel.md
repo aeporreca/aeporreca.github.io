@@ -13,21 +13,21 @@ What we <em>didn't</em> know until a few days ago (I personally discovered it to
 
 I assume Nash was familiar with Shannon's work <em>Communication theory of secrecy systems</em> (1949), so he already knew that the only mathematically unbreakable cipher is one-time pad. Hence, in order to discuss practical encryption systems, he invented the principles of modern cryptography about 20 years in advance:
 
-<blockquote>If [the computation required in order to recover the key from the ciphertext], although possible in principle, were sufficiently long at best then the process could still be secure in a practical sense.</blockquote>
+<blockquote style="border:none;">If <span style="font-style:normal;">[</span>the computation required in order to recover the key from the ciphertext<span style="font-style:normal;">]</span>, although possible in principle, were sufficiently long at best then the process could still be secure in a practical sense.</blockquote>
 
 Here is some computational complexity, 8 years before Hartmanis and Stearns:
 
-<blockquote>The most direct computation procedure would be for the enemy to try all 2<sup><em>r</em></sup> possible keys, one by one. Obviously this is easily made impractical for the enemy by simply choosing <em>r</em> large enough.</blockquote>
+<blockquote style="border:none;">The most direct computation procedure would be for the enemy to try all <span style="font-style:normal;">2</span><sup><em>r</em></sup> possible keys, one by one. Obviously this is <span style="font-style:normal;">easily</span> made impractical for the enemy by simply choosing <em>r</em> large enough.</blockquote>
 
 Apparently Nash already knew quite well ("obviously", "easily") that exponential time is too much.
 
 And here is how one can classify cryptosystems (but also general computation problems) according to him. I think you can read essentially the same paragraph in all modern complexity theory and cryptography books.
 
-<blockquote>So a logical way to classify enciphering processes is by the way in which the computation length for the computation of the key increases with increasing length of the key. This is at best exponential and at worst probably a relatively small power of <em>r</em>, <em>ar</em><sup>2</sup> or <em>ar</em><sup>3</sup>, as in substitution ciphers.</blockquote>
+<blockquote style="border:none;">So a logical way to classify enciphering processes is by the way in which the computation length for the computation of the key increases with increasing length of the key. This is at best exponential and at worst probably a relatively small power of <em>r</em>, <em>ar</em><sup><span style="font-style:normal;">2</span></sup> or <em>ar</em><sup><span style="font-style:normal;">3</span></sup>, as in substitution ciphers.</blockquote>
 
 Nash also conjectures that many problems cannot be solved in polynomial time. In hindsight, there is some naivety here about the design of good ciphers, but this is still very interesting:
 
-<blockquote>Now my general conjecture is as follows: For almost all sufficiently complex types of enciphering, especially where the instructions given by different portions of the key interact complexly with each other in the determination of their ultimate effects on the enciphering, the mean key computation length increases exponentially with the length of the key, or in other words, with the information content of the key.
+<blockquote style="border:none;">Now my general conjecture is as follows: For almost all sufficiently complex types of enciphering, especially where the instructions given by different portions of the key interact complexly with each other in the determination of their ultimate effects on the enciphering, the mean key computation length increases exponentially with the length of the key, or in other words, with the information content of the key.
 
 The significance of this general conjecture, assuming its truth, is easy to see. It means that it is quite feasible to design ciphers that are effectively unbreakable. As ciphers became more sophisticated the game of cipher breaking by skilled teams, etc., should become a thing of the past.</blockquote>
 
