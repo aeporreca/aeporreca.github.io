@@ -1,6 +1,6 @@
 {% include header.html %}
 {% include menu-bar.html %}
-{{page.date | date_to_long_string}}
+<p id="post-date">{{page.date | date_to_long_string}}</p>
 <h1 id="title">{{page.title}}</h1>
 {{content}}
 {% include footer.html %}
