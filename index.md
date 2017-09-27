@@ -8,3 +8,11 @@ I am a postdoctoral researcher at [Dipartimento di Informatica, Sistemistica e C
 My current research interest is the computational complexity theory of parallel computing models, and in particular bio-inspired ones such as membrane systems (or P systems), reaction systems, and cellular automata.
 
 You can contact me by email at <porreca@disco.unimib.it>.
+
+Contacts
+========
+
+Antonio E. Porreca, <porreca@disco.unimib.it>  
+Dipartimento di Informatica, Sistemistica e Comunicazione  
+Università degli Studi di Milano-Bicocca  
+Room 1047, Viale Sarca 336/14, 20126 Milano, Italy
