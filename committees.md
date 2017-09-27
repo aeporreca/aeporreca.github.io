@@ -18,6 +18,6 @@ Organising committees
 
 1. Member of the organising committee of the [17th International Conference on Membrane Computing (CMC17)](http://cmc17.disco.unimib.it), Università degli Studi di Milano-Bicocca, Italy, 25–29 July 2016.
 
-1. Chair of the organising committee of [12th International Conference on Unconventional Computation and Natural Computation (UCNC 2013)](https://ucnc2013.wordpress.com), Università degli Studi di Milano-Bicocca, Italy, 1–5 July 2013.
+1. Chair of the organising committee of the [12th International Conference on Unconventional Computation and Natural Computation (UCNC 2013)](https://ucnc2013.wordpress.com), Università degli Studi di Milano-Bicocca, Italy, 1–5 July 2013.
 
-1. Member of the organising committee of [15th International Conference on Developments in Language Theory (DLT 2011)](http://dlt2011.disco.unimib.it), Università degli Studi di Milano-Bicocca, Italy, 19–22 July 2011.
+1. Member of the organising committee of the [15th International Conference on Developments in Language Theory (DLT 2011)](http://dlt2011.disco.unimib.it), Università degli Studi di Milano-Bicocca, Italy, 19–22 July 2011.
