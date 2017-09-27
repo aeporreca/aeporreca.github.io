@@ -123,6 +123,9 @@ Technical reports
 
 1. Artiom Alhazov, Alberto Leporati, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“The computational power of exponential-space P systems with active membranes”](http://www.gcn.us.es/icdmc2012_proceedings). In: *Proceedings of the Tenth Brainstorming Week on Membrane Computing, Volume I*. Edited by Miguel Ángel Martínez-del-Amor, Gheorghe Păun, Ignacio Pérez-Hurtado and Francisco José Romero-Campero. RGNC Reports 1/2012. Fénix Editora, 2012, pages 35–60. [[preprint](computational-power-of-exponential-space-p-systems-with-active-membranes.pdf)]
 
+1. Antonio E. Porreca, Niall Murphy and Mario J. Pérez-Jiménez. [“An optimal frontier of the efficiency of tissue P systems with cell division”](http://www.gcn.us.es/icdmc2012_proceedings). In: Tenth Brainstorming Week on Membrane Computing, Volume II. Edited by Manuel García-Quismondo, Luis F. Macías-Ramos, Gheorghe Păun and Luis Valencia-Cabrera. RGNC Reports 2/2012. Fénix Editora, 2012, pages 141–166. [[preprint](optimal-frontier-of-efficiency-of-tissue-p-systems-with-cell-division.pdf)]
+
+
 *In progress*
 
 Volumes edited
