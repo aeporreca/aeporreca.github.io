@@ -1,6 +1,6 @@
 ---
 redirect_from: "/2012/02/17/nash-beats-godel/"
-title: Homepage
+title: Nash beats Gödel: On the history of complexity and cryptography
 ---
 
 Nash beats Gödel: On the history of complexity and cryptography
