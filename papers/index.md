@@ -65,7 +65,7 @@ Conference and workshop papers
 
 1. Artiom Alhazov, Omar Belingheri, Rudolf Freund, Sergiu Ivanov, Antonio E. Porreca and Claudio Zandron. [“Purely catalytic P systems over integers and their generative power”](https://doi.org/10.1007/978-3-319-54072-6_5). In: *Membrane Computing, 17th International Conference, CMC 2016*. Edited by Alberto Leporati, Grzegorz Rozenberg, Arto Salomaa and Claudio Zandron. Volume 10105 of Lecture Notes in Computer Science. Springer, 2017, pages 67–82. [[preprint](purely-catalytic-p-systems-over-integers-and-their-generative-power.pdf)]
 
-1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca Porreca and Claudio Zandron. [“Solving a special case of the P conjecture using dependency graphs with dissolution”](http://computing.brad.ac.uk/cmc18/program.html). In: *Proceedings of the 18th International Conference on Membrane Computing (CMC18)*. Edited by Marian Gheorghe, Savas Konur and Raluca Lefticaru. 2017, pages 219–236. [[preprint](solving-special-case-of-p-conjecture-using-dependency-graphs-with-dissolution.pdf)]
+1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“Solving a special case of the P conjecture using dependency graphs with dissolution”](http://computing.brad.ac.uk/cmc18/program.html). In: *Proceedings of the 18th International Conference on Membrane Computing (CMC18)*. Edited by Marian Gheorghe, Savas Konur and Raluca Lefticaru. 2017, pages 219–236. [[preprint](solving-special-case-of-p-conjecture-using-dependency-graphs-with-dissolution.pdf)]
 
 1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca and Claudio Zandron. [“Shallow non-confluent P systems”](https://doi.org/10.1007/978-3-319-54072-6_19). In: *Membrane Computing, 17th International Conference, CMC 2016*. Edited by Alberto Leporati, Grzegorz Rozenberg, Arto Salomaa and Claudio Zandron. Volume 10105 of Lecture Notes in Computer Science. Springer, 2017, pages 307–316. [[preprint](shallow-non-confluent-p-systems.pdf)]
 
@@ -118,6 +118,8 @@ Book chapters
 
 Technical reports
 -----------------
+
+1. Alberto Leporati, Luca Manzoni, Giancarlo Mauri, Antonio E. Porreca Porreca and Claudio Zandron. [Space complexity of P systems with active membranes: A survey](http://membranecomputing.net/IMCSBulletin/pdf/BullIMCSJune2017.pdf). In: *Bulletin of the International Membrane Computing Society* 3 (2017), pages 41–54. [[preprint](space-complexity-of-p-systems-with-active-membranes-survey.pdf)]
 
 *In progress*
 
