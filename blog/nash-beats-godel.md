@@ -1,6 +1,7 @@
 ---
 title: Nash beats Gödel: On the history of complexity and cryptography
 layout: blog-post
+date: 2013-11-29 00:00:00 -0500
 ---
 
 Nash beats Gödel: On the history of complexity and cryptography
