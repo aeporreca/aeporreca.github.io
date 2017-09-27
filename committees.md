@@ -2,9 +2,6 @@
 title: Committees
 ---
 
-Committees
-==========
-
 I have been member of program committees and member or chair of organising committees of several international conferences and workshops.
 
 Program committees
