@@ -3,7 +3,7 @@ description: My academic website
 author:
 - name: Antonio E. Porreca
 - email: porreca@disco.unimib.it
-permalink: pretty
+permalink: /:title/
 plugins:
 - jekyll-redirect-from
 - jekyll-sitemap
