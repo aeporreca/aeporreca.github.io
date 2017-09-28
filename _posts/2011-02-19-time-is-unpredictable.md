@@ -24,7 +24,7 @@ $H = \{(M’, x) : M$ halts on input $x\}$.
 
 We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ and $M$, on input $y$, behaves as follows:
 
-- Simulate $M'$ on $x$ for $n = |y|$ steps.</li>
+- Simulate $M'$ on $x$ for $n = |y|$ steps.
 - If $M'$ has already halted, then loop for $n^2$ steps.
 - Otherwise, loop for $n^3$ steps.
 
