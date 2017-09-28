@@ -22,7 +22,7 @@ Also let <em>H</em> be the halting problem:
 <em>H</em> = {(<em>M’</em>, <em>x</em>) : <em>M</em> halts on input <em>x</em>}.
 </blockquote>
 
-We can now define the function <em>R</em>(<em>M’</em>, <em>x</em>) = (<em>M</em>, <em>F</em>), where <em>F</em> computes <em>n</em><sup>2</sup> and <em>M</em>, on input <em>y</em>, behaves as follows:
+We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ and $M$, on input $y$, behaves as follows:
 <ul>
 <li>Simulate <em>M’</em> on <em>x</em> for <em>n</em> = |<em>y</em>| steps.</li>
 <li>If <em>M’</em> has already halted, then loop for <em>n</em><sup>2</sup> steps.
