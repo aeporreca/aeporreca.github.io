@@ -1,0 +1,17 @@
+---
+layout: post
+title: Undecidability in terms of complexity
+redirect_from: /2010/12/13/undecidability-as-complexity/
+---
+
+In his classic book <a href="http://books.google.com/books?id=JogZAQAAIAAJ"><em>Computational Complexity</em></a>, Papadimitriou writes (page 59) that
+
+> Undecidability is in some sense the most lethal form of complexity.
+
+I’ve <a href="http://mathoverflow.net/questions/8632/cut-elimination/8634#8634">just come across</a> a paper with a very interesting remark along the same lines: <a href="http://www.ams.org/journals/bull/1997-34-02/S0273-0979-97-00715-5/">Making proofs without Modus Ponens: An introduction to the combinatorics and complexity of cut elimination</a> by A. Carbone and S. Semmes, published in the <em>Bulletin of the American Mathematical Society</em>. This paper is about the length of proofs (a subject I’ve already touched upon <a href="http://aeporreca.org/2010/07/04/length-of-proofs/">here</a> and <a href="http://aeporreca.org/2010/07/12/length-of-proofs-2/">here</a>) without <a href="http://en.wikipedia.org/wiki/Cut-elimination_theorem">cut elimination</a>.
+
+On page 113, the authors write
+
+> By contrast [with propositional logic] in predicate logic one typically faces issues of algorithmic decidability or undecidability. That is, whether there is an algorithm at all that always gives the right answer, never mind how long it takes. The problem of determining whether a formula in predicate logic is a tautology is algorithmically undecidable. One can think of this as a matter of complexity, as follows. The tautologies in predicate logic of length at most $n$ form a finite set for which one can choose a finite set of proofs. Let $f(n)$ denote the maximum of the lengths of the shortest proofs of tautologies of length ≤ $n$. The fact that there is no algorithm for determining whether or not a formula is a tautology means that $f(n)$ grows very fast, faster than any recursive function.
+
+Essentially, this means that we can’t design an algorithm to solve an undecidable problem because the search space is too large, and the only way to somehow bound it is via a function that grows faster than any computable function. Compare this with the search space of the “witnesses” for an <strong>NP</strong>-complete problem: its size is exponential, which is too large to be explored efficiently (at least, as far as we know at the moment), but still small enough to make the problem decidable.
