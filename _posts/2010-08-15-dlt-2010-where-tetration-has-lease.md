@@ -10,7 +10,7 @@ Our <abbr>DLT</abbr> 2010 paper, authored by yours truly, Alberto Leporati and C
 
 Consider the operation of <a href="http://en.wikipedia.org/wiki/Tetration"><em>tetration</em></a> (iterated exponentiation), defined as
 
-$${}^n b = \underbrace{\,b^{b^{b^{\cdot^{\cdot^{\cdot^b}}}}}}_{n \text{times}}$$
+$${}^n b = \underbrace{\,b^{b^{b^{\cdot^{\cdot^{\cdot^b}}}}}}_{n \text{ times}}$$
 
 and call <strong>PTETRA</strong> the class of languages decided by Turing machines working in time ${}^{p(n)}2$ for some polynomial <em>p</em> (the <strong>P</strong> in <strong>PTETRA</strong> signifies the fact that exponentiation is iterated only polynomially many times instead of, say, exponentially many). This class is trivially closed under union, intersection, complement, and polytime reductions. Furthermore, it's easy to see that it can also be defined in terms of <em>space</em> ${}^{p(n)}2$ (you can also throw in nondeterminism, if you really want to).
 
