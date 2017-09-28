@@ -6,14 +6,14 @@ redirect_from: /2011/02/19/time-is-unpredictable/
 
 <em>This post is inspired by the question <a href="http://cstheory.stackexchange.com/q/5004/182">Are runtime bounds in P decidable?</a> asked by <a href="http://www.mrfm.org/">John Sidles</a> on the CSTheory website, and the <a href="http://cstheory.stackexchange.com/questions/5004/are-runtime-bounds-in-p-decidable-answer-no/5006#5006">answer</a> given by <a href="http://www.ccs.neu.edu/home/viola/">Emanuele Viola</a>.</em>
 
-Is there an automatic procedure to determine whether a given Turing machine, <em>known</em> to be halting, operates within time bound $O(f)$ (assuming <em>f</em> is a computable function)?
+Is there an automatic procedure to determine whether a given Turing machine, <em>known</em> to be halting, operates within time bound $O(f)$ (assuming $f$ is a computable function)?
 
 Predictably, the answer turns out to be negative.
 
-Let’s start by formalising the problem. Assume <em>M</em> is the Turing machine whose runtime we’re interested in, and <em>F</em> is another TM computing the time bound <em>f</em>; then
+Let’s start by formalising the problem. Assume $M$ is the Turing machine whose runtime we’re interested in, and $F$ is another TM computing the time bound $f$; then
 
 <blockquote style="border:none;font-style:normal;">
-<em>L</em> = {(<em>M</em>, <em>F</em>) : <em>M</em> halts within <em>O</em>(<em>F</em>) steps}.
+$L = \{(M, F) : M \text{halts within} O(F) \text{steps}\}$.
 </blockquote>
 
 Also let <em>H</em> be the halting problem:
