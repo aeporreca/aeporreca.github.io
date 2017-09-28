@@ -37,7 +37,7 @@ We’re finally ready to prove our undecidability result.
 $(M', x) \in H \iff (M, F) \in L$.
 </blockquote>
 
-If  (<em>M’</em>, <em>x</em>) &isin; <em>H</em>, that is, if <em>M’</em> halts on input <em>x</em>, then it does so in <em>k</em> steps (for some <em>k</em> &isin; ℕ). Hence <em>M</em> runs in <em>O</em>(<em>n</em><sup>2</sup>) time (notice that it runs in <em>n</em><sup>3</sup> time for |<em>y</em>| &lt; <em>k</em>, but it’s only the asymptotic behaviour that matters for us). Thus (<em>M</em>, <em>F</em>) &isin; <em>L</em>.
+If  $(M', x) \in H$, that is, if $M'$ halts on input $x$, then it does so in $k$ steps (for some $k \in \mathbb{N}$). Hence $M$ runs in $O(n^2)$ time (notice that it runs in $n^3$ time for $|y| < k$, but it's only the asymptotic behaviour that matters for us). Thus $(M, F) \in L$.
 
 On the other hand, if <em>M’</em> does not halt on <em>x</em>, then <em>M</em> never completes its simulation, and the runtime for <em>M</em> is <em>O</em>(<em>n</em><sup>3</sup>). Thus (<em>M</em>, <em>F</em>) &notin; <em>L</em>. □
 
