@@ -12,11 +12,11 @@ Predictably, the answer turns out to be negative.
 
 Let’s start by formalising the problem. Assume $M$ is the Turing machine whose runtime we’re interested in, and $F$ is another TM computing the time bound $f$; then
 
-$ L = \{ (M, F) : M \text{ halts within } O(F) \text{ steps} \}. $
+$$L = \{ (M, F) : M \text{ halts within } O(F) \text{ steps} \}.$$
 
 Also let $H$ be the halting problem:
 
-$ H = \{ (M’, x) : M \text{ halts on input } x \}. $
+$$H = \{ (M’, x) : M \text{ halts on input } x \}.$$
 
 We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ and $M$, on input $y$, behaves as follows:
 
@@ -30,7 +30,7 @@ We’re finally ready to prove our undecidability result.
 
 <em>Proof.</em> Clearly $R$ is a computable function, so we just need to show that
 
-$ (M', x) \in H \iff (M, F) \in L. $
+$$(M', x) \in H \iff (M, F) \in L.$$
 
 If  $(M', x) \in H$, that is, if $M'$ halts on input $x$, then it does so in $k$ steps (for some $k \in \mathbb{N}$). Hence $M$ runs in $O(n^2)$ time (notice that it runs in $n^3$ time for $\lvert y \rvert < k$, but it's only the asymptotic behaviour that matters for us). Thus $(M, F) \in L$.
 
