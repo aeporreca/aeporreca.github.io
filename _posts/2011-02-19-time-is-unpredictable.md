@@ -13,7 +13,7 @@ Predictably, the answer turns out to be negative.
 Let’s start by formalising the problem. Assume $M$ is the Turing machine whose runtime we’re interested in, and $F$ is another TM computing the time bound $f$; then
 
 <blockquote style="border:none;font-style:normal;">
-$L = \{(M, F) : M \text{halts within} O(F) \text{steps}\}$.
+$L = \{(M, F) : M$ halts within $O(F)$ steps $\}$.
 </blockquote>
 
 Also let <em>H</em> be the halting problem:
