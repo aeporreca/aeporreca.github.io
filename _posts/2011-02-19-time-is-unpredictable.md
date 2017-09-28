@@ -6,7 +6,7 @@ redirect_from: /2011/02/19/time-is-unpredictable/
 
 <em>This post is inspired by the question <a href="http://cstheory.stackexchange.com/q/5004/182">Are runtime bounds in P decidable?</a> asked by <a href="http://www.mrfm.org/">John Sidles</a> on the CSTheory website, and the <a href="http://cstheory.stackexchange.com/questions/5004/are-runtime-bounds-in-p-decidable-answer-no/5006#5006">answer</a> given by <a href="http://www.ccs.neu.edu/home/viola/">Emanuele Viola</a>.</em>
 
-Is there an automatic procedure to determine whether a given Turing machine, <em>known</em> to be halting, operates within time bound <em>O</em>(<em>f</em>) (assuming <em>f</em> is a computable function)?
+Is there an automatic procedure to determine whether a given Turing machine, <em>known</em> to be halting, operates within time bound $O(f)$ (assuming <em>f</em> is a computable function)?
 
 Predictably, the answer turns out to be negative.
 
