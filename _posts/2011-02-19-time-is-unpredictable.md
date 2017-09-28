@@ -20,9 +20,9 @@ $$H = \{ (M’, x) : M \text{ halts on input } x \}.$$
 
 We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ and $M$, on input $y$, behaves as follows:
 
-1. Simulate $M'$ on $x$ for $n = \lvert y \rvert$ steps.
-2. If $M'$ has already halted, then loop for $n^2$ steps.
-3. Otherwise, loop for $n^3$ steps.
+- Simulate $M'$ on $x$ for $n = \lvert y \rvert$ steps.
+- If $M'$ has already halted, then loop for $n^2$ steps.
+- Otherwise, loop for $n^3$ steps.
 
 We’re finally ready to prove our undecidability result.
 
@@ -34,6 +34,6 @@ $$(M', x) \in H \iff (M, F) \in L.$$
 
 If  $(M', x) \in H$, that is, if $M'$ halts on input $x$, then it does so in $k$ steps (for some $k \in \mathbb{N}$). Hence $M$ runs in $O(n^2)$ time (notice that it runs in $n^3$ time for $\lvert y \rvert < k$, but it's only the asymptotic behaviour that matters for us). Thus $(M, F) \in L$.
 
-On the other hand, if <em>M’</em> does not halt on <em>x</em>, then <em>M</em> never completes its simulation, and the runtime for <em>M</em> is <em>O</em>(<em>n</em><sup>3</sup>). Thus (<em>M</em>, <em>F</em>) &notin; <em>L</em>. □
+On the other hand, if $M'$ does not halt on $x$, then $M$ never completes its simulation, and the runtime for $M$ is $O(n^3)$. Thus $(M, F) \notin L$. □
 
-<strong>Remark.</strong> We’ve actually proved a stronger statement, i.e., that the set of Turing machines running in <em>O</em>(<em>n</em><sup>2</sup>) time is undecidable, even if we restrict the domain to machines halting in polynomial time. Similar undecidability results hold for an infinite class of time bounds.
+<strong>Remark.</strong> We’ve actually proved a stronger statement, i.e., that the set of Turing machines running in $O(n^2)$ time is undecidable, even if we restrict the domain to machines halting in polynomial time. Similar undecidability results hold for an infinite class of time bounds.
