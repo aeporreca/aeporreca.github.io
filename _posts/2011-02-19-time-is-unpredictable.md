@@ -23,11 +23,9 @@ $H = \{(M’, x) : M$ halts on input $x\}$.
 </blockquote>
 
 We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ and $M$, on input $y$, behaves as follows:
-<ul>
-<li>Simulate $M'$ on $x$ for $n = |y|$ steps.</li>
-<li>If $M'$ has already halted, then loop for $n^2$ steps.
-<li>Otherwise, loop for $n^3$ steps.
-</ul>
+- Simulate $M'$ on $x$ for $n = |y|$ steps.</li>
+- If $M'$ has already halted, then loop for $n^2$ steps.
+- Otherwise, loop for $n^3$ steps.
 
 We’re finally ready to prove our undecidability result.
 
