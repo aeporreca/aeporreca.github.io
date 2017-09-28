@@ -4,7 +4,7 @@ title: On the length of proofs
 redirect_from: /2010/07/04/length-of-proofs/
 ---
 
-One of the most amazing facts about (un)computability is the existence of functions <em>f</em> : ℕ → ℕ that <em>grow faster than any recursive function</em>, that is, for all computable <em>g</em> : ℕ → ℕ we have
+One of the most amazing facts about (un)computability is the existence of functions $f \colon \mathbb{N} \to \mathbb{N}$ that <em>grow faster than any recursive function</em>, that is, for all computable $g \colon \mathbb{N} \to \mathbb{N}$ we have
 
 $$\displaystyle \lim_{n \to \infty} \frac{g(n)}{f(n)} = 0.$$
 
