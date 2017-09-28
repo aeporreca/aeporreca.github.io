@@ -24,18 +24,18 @@ $H = \{(M’, x) : M$ halts on input $x\}$.
 
 We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ and $M$, on input $y$, behaves as follows:
 <ul>
-<li>Simulate <em>M’</em> on <em>x</em> for <em>n</em> = |<em>y</em>| steps.</li>
-<li>If <em>M’</em> has already halted, then loop for <em>n</em><sup>2</sup> steps.
-<li>Otherwise, loop for <em>n</em><sup>3</sup> steps.
+<li>Simulate $M'$ on $x$ for $n = |y|$ steps.</li>
+<li>If $M'$ has already halted, then loop for $n^2$ steps.
+<li>Otherwise, loop for $n^3$ steps.
 </ul>
 
 We’re finally ready to prove our undecidability result.
 
-<strong>Theorem.</strong> <em>R</em> is a many-one reduction from <em>H</em> to <em>L</em>.
+<strong>Theorem.</strong> $R$ is a many-one reduction from $H$ to $L$.
 
-<em>Proof.</em> Clearly <em>R</em> is a computable function, so we just need to show that
+<em>Proof.</em> Clearly $R$ is a computable function, so we just need to show that
 <blockquote style="border:none;font-style:normal;">
-(<em>M’</em>, <em>x</em>) &isin; <em>H</em> &hArr; (<em>M</em>, <em>F</em>) &isin; <em>L</em>.
+$(M', x) \in H \iff (M, F) \in L$.
 </blockquote>
 
 If  (<em>M’</em>, <em>x</em>) &isin; <em>H</em>, that is, if <em>M’</em> halts on input <em>x</em>, then it does so in <em>k</em> steps (for some <em>k</em> &isin; ℕ). Hence <em>M</em> runs in <em>O</em>(<em>n</em><sup>2</sup>) time (notice that it runs in <em>n</em><sup>3</sup> time for |<em>y</em>| &lt; <em>k</em>, but it’s only the asymptotic behaviour that matters for us). Thus (<em>M</em>, <em>F</em>) &isin; <em>L</em>.
