@@ -13,13 +13,13 @@ Predictably, the answer turns out to be negative.
 Let’s start by formalising the problem. Assume $M$ is the Turing machine whose runtime we’re interested in, and $F$ is another TM computing the time bound $f$; then
 
 <blockquote style="border:none;font-style:normal;">
-$L = \{(M, F) : M$ halts within $O(F)$ steps $\}$.
+$L = \{(M, F) : M$ halts within $O(F)$ steps$\}$.
 </blockquote>
 
 Also let <em>H</em> be the halting problem:
 
 <blockquote style="border:none;font-style:normal;">
-<em>H</em> = {(<em>M’</em>, <em>x</em>) : <em>M</em> halts on input <em>x</em>}.
+$H = \{(M’, x) : M$ halts on input $x\}$.
 </blockquote>
 
 We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ and $M$, on input $y$, behaves as follows:
