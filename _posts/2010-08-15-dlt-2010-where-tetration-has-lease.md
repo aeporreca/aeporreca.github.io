@@ -9,9 +9,9 @@ Tomorrow I'm leaving for Canada, to attend the <a href="http://www.csd.uwo.ca/DL
 Our <abbr>DLT</abbr> 2010 paper, authored by yours truly, Alberto Leporati and Claudio Zandron, is titled <a href="https://doi.org/10.1007/978-3-642-14455-4_33">On a powerful class of non-universal P systems with active membranes</a>. In it, we describe a restricted variant of <a href="http://researchspace.auckland.ac.nz/handle/2292/3611">P systems with active membranes</a> (computing devices inspired by biological cells) that is not Turing-equivalent, but nonetheless decide a surprisingly large class of languages. This class also seems to be somewhat "new" (we haven't been able to find any reference to it in the literature).
 
 Consider the operation of <a href="http://en.wikipedia.org/wiki/Tetration"><em>tetration</em></a> (iterated exponentiation), defined as
-<div style="text-align:center;">
-${}^n b = \underbrace{\,b^{b^{b^{\cdot^{\cdot^{\cdot^b}}}}}}_{\text{\emph{n} times}}$
-</div>
+
+$${}^n b = \underbrace{\,b^{b^{b^{\cdot^{\cdot^{\cdot^b}}}}}}_{n \text{times}}$$
+
 and call <strong>PTETRA</strong> the class of languages decided by Turing machines working in time ${}^{p(n)}2$ for some polynomial <em>p</em> (the <strong>P</strong> in <strong>PTETRA</strong> signifies the fact that exponentiation is iterated only polynomially many times instead of, say, exponentially many). This class is trivially closed under union, intersection, complement, and polytime reductions. Furthermore, it's easy to see that it can also be defined in terms of <em>space</em> ${}^{p(n)}2$ (you can also throw in nondeterminism, if you really want to).
 
 Well, the main result of our paper is the following funny theorem.
