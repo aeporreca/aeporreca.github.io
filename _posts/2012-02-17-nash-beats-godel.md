@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Nash beats Gödel: On the history of complexity and cryptography"
+redirect_from: /2012/02/17/nash-beats-godel/
 ---
 
 We know that Kurt Gödel, unhappy with having only completeness and incompleteness theorems named after him, also essentially invented the <strong>P</strong> vs <strong>NP</strong> question in a <a href="http://rjlipton.wordpress.com/the-gdel-letter/">1956 letter to John Von Neumann</a>. Unfortunately, there were no blogs back then, so we had to wait until the 1980s to read it, and Cook, Karp & co. had to reinvent the question from scratch.
