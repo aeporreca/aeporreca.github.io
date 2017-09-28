@@ -10,6 +10,7 @@ Let $L(\varphi)$ be the length in symbols of the shortest proof of the sentence 
 
 **Theorem.** $L$ grows faster than any computable function.
 
-*Proof.* Otherwise, given a sentence $\varphi$, we can first compute an integer $f(\lvert\varphi\rvert) \ge L(\lvert\varphi\rvert)$, then enumerate all proofs of length at most $f(\lvert\varphi\rvert)$ and check them. If at least one of these is a proof of $\varphi$, we answer "yes", otherwise "no". But this is a decision procedure for $T$, since we know that if $\varphi$ is a theorem, then it has a proof of length at most$f(\lvert\varphi\rvert)$; contradiction. □
+*Proof.* Otherwise, given a sentence $\varphi$, we can first compute an integer $f(\lvert\varphi\rvert) \ge L(\lvert\varphi\rvert)$, then enumerate all proofs of length at most $f(\lvert\varphi\rvert)$ and check them. If at least one of these is a proof of $\varphi$, we answer "yes", otherwise "no". But this is a decision procedure for $T$, since we know that if $\varphi$ is a theorem, then it has a proof of length at most $f(\lvert\varphi\rvert)$; contradiction. □
 
 In particular, the theorem holds for Peano arithmetic and friends.
+on
