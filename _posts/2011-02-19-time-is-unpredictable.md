@@ -4,9 +4,9 @@ title: Time is unpredictable
 redirect_from: /2011/02/19/time-is-unpredictable/
 ---
 
-<em>This post is inspired by the question <a href="http://cstheory.stackexchange.com/q/5004/182">Are runtime bounds in P decidable?</a> asked by <a href="http://www.mrfm.org/">John Sidles</a> on the CSTheory website, and the <a href="http://cstheory.stackexchange.com/questions/5004/are-runtime-bounds-in-p-decidable-answer-no/5006#5006">answer</a> given by <a href="http://www.ccs.neu.edu/home/viola/">Emanuele Viola</a>.</em>
+*This post is inspired by the question [Are runtime bounds in P decidable?](http://cstheory.stackexchange.com/q/5004/182) asked by [John Sidles](http://www.mrfm.org/) on the CSTheory website, and the [answer](http://cstheory.stackexchange.com/questions/5004/are-runtime-bounds-in-p-decidable-answer-no/5006#5006) given by [Emanuele Viola](http://www.ccs.neu.edu/home/viola/).*
 
-Is there an automatic procedure to determine whether a given Turing machine, <em>known</em> to be halting, operates within time bound $O(f)$ (assuming $f$ is a computable function)?
+Is there an automatic procedure to determine whether a given Turing machine, *known* to be halting, operates within time bound $O(f)$ (assuming $f$ is a computable function)?
 
 Predictably, the answer turns out to be negative.
 
@@ -26,9 +26,9 @@ We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ a
 
 We’re finally ready to prove our undecidability result.
 
-<strong>Theorem.</strong> $R$ is a many-one reduction from $H$ to $L$.
+**Theorem.** $R$ is a many-one reduction from $H$ to $L$.
 
-<em>Proof.</em> Clearly $R$ is a computable function, so we just need to show that
+*Proof.* Clearly $R$ is a computable function, so we just need to show that
 
 $$(M', x) \in H \iff (M, F) \in L.$$
 
@@ -36,4 +36,4 @@ If  $(M', x) \in H$, that is, if $M'$ halts on input $x$, then it does so in $k$
 
 On the other hand, if $M'$ does not halt on $x$, then $M$ never completes its simulation, and the runtime for $M$ is $O(n^3)$. Thus $(M, F) \notin L$. □
 
-<strong>Remark.</strong> We’ve actually proved a stronger statement, i.e., that the set of Turing machines running in $O(n^2)$ time is undecidable, even if we restrict the domain to machines halting in polynomial time. Similar undecidability results hold for an infinite class of time bounds.
+**Remark.** We’ve actually proved a stronger statement, i.e., that the set of Turing machines running in $O(n^2)$ time is undecidable, even if we restrict the domain to machines halting in polynomial time. Similar undecidability results hold for an infinite class of time bounds.
