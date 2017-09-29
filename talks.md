@@ -2,7 +2,7 @@
 title: Talks
 ---
 
-This is a list of my talks. Click on the title to download the slides for the talk (where available).
+Click on the title of the talk to download the slides (where available).
 
 Seminars
 --------
@@ -42,7 +42,7 @@ Talks at conferences and workshops
 
 1. “P systems simulating oracle computations”, 12th International Conference on Membrane Computing (CMC12), Fontainebleau, France. August 2011.
 
-1. “P systems with elementary active membranes: Beyond NP and coNP”, 11th International Conference on Membrane Computing (CMC11), Friedrich-Schiller-Universität, Jena, Germany. August 2010.
+1. [“P systems with elementary active membranes: Beyond NP and coNP”](p-systems-with-active-membranes-beyond-np-and-conp.pdf), 11th International Conference on Membrane Computing (CMC11), Friedrich-Schiller-Universität, Jena, Germany. August 2010.
 
 1. [“On a powerful class of non-universal P systems with active membranes”](on-powerful-class-of-non-universal-p-systems-with-active-membranes.pdf), 14th International Conference on Developments in Language Theory (DLT2010), University of Western Ontario, London, Canada. August 2010.
 
