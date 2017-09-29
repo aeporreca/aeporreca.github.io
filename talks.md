@@ -46,7 +46,7 @@ Talks at conferences and workshops
 
 1. “On a powerful class of non-universal P systems with active membranes”, 14th International Conference on Developments in Language Theory (DLT2010), University of Western Ontario, London, Canada. August 2010.
 
-1. “Do complexity classes for P systems have complete prob- lems?” 8th Brainstorming Week on Membrane Computing (BWMC 2010), Universidad de Sevilla, Spain. February 2010.
+1. “Do complexity classes for P systems have complete problems?” 8th Brainstorming Week on Membrane Computing (BWMC 2010), Universidad de Sevilla, Spain. February 2010.
 
 1. “An efficient simulation of polynomial-space Turing machines by P systems with active membranes”, 10th Workshop on Membrane Computing (WMC10), Curtea de Argeș, Romania. August 2009.
 
