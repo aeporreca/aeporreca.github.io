@@ -24,19 +24,19 @@ Talks at conferences and workshops
 
 1. “Shallow non-confluent P systems”, 17th International Conference on Membrane Computing (CMC17), Università degli Studi di Milano-Bicocca, Italy. July 2016.
 
-1. “P systems with hybrid sets”, Workshop on Membrane Computing (WMC 2016) at 15th International Conference of Unconventional Computation and Natural Computation (UCNC 2016), Manchester Metropolitan University, United Kingdom. July 2016.
+1. [“P systems with hybrid sets”](p-systems-with-hybrid-sets-wmc2016.pdf), Workshop on Membrane Computing (WMC 2016) at 15th International Conference of Unconventional Computation and Natural Computation (UCNC 2016), Manchester Metropolitan University, United Kingdom. July 2016.
 
-1. “P systems with hybrid sets”, 14th Brainstorming Week on Membrane Computing (BWMC 2016), Universidad de Sevilla, Spain. February 2016.
+1. [“P systems with hybrid sets”](p-systems-with-hybrid-sets-bwmc2016.pdf), 14th Brainstorming Week on Membrane Computing (BWMC 2016), Universidad de Sevilla, Spain. February 2016.
 
-1. “Simulating elementary active membranes, with an application to the P conjecture”, 15th International Conference on Membrane Computing (CMC15), Prague, Czech Republic. August 2014.
+1. [“Simulating elementary active membranes, with an application to the P conjecture”](simulating-elementary-active-membranes-with-application-to-p-conjecture.pdf), 15th International Conference on Membrane Computing (CMC15), Prague, Czech Republic. August 2014.
 
-1. “Fixed points and attractors of reaction systems”, Computability in Europe 2014 (CiE 2014), Budapest, Hungary. June 2014.
+1. [“Fixed points and attractors of reaction systems”](“fixed-points-and-attractors-of-reaction-systems.pdf), Computability in Europe 2014 (CiE 2014), Budapest, Hungary. June 2014.
 
-1. “Enzymatic numerical P system using elementary arithmetic operations”, 14th International Conference on Membrane Computing (CMC14), Institute of Mathematics and Computer Science of the Academy of Sciences of Moldova. August 2013.
+1. [“Enzymatic numerical P system using elementary arithmetic operations”](enzymatic-numerical-p-system-using-elementary-arithmetic-operations.pdf), 14th International Conference on Membrane Computing (CMC14), Institute of Mathematics and Computer Science of the Academy of Sciences of Moldova. August 2013.
 
-1. “Flattening and simulation of asynchronous divisionless P systems with active membranes”, 14th International Conference on Membrane Computing (CMC14), Institute of Mathematics and Computer Science of the Academy of Sciences of Moldova. August 2013.
+1. [“Flattening and simulation of asynchronous divisionless P systems with active membranes”](flattening-and-simulation-of-asynchronous-divisionless-p-systems-with-active-membranes.pdf), 14th International Conference on Membrane Computing (CMC14), Institute of Mathematics and Computer Science of the Academy of Sciences of Moldova. August 2013.
 
-1. “Simulating EXPSPACE Turing machines using P systems with active membranes”, 13th Italian Conference on Theoretical Computer Science (ICTCS 2012), Università degli Studi dell’Insubria, Italy. September 2012.
+1. [“Simulating EXPSPACE Turing machines using P systems with active membranes”](simulating-expspace-turing-machines-using-p-systems-with-active-membranes.pdf), 13th Italian Conference on Theoretical Computer Science (ICTCS 2012), Università degli Studi dell’Insubria, Italy. September 2012.
 
 1. [“Sublinear-space P systems with active membranes”](sublinear-space-p-systems-with-active-membranes.pdf), 13th International Conference on Membrane Computing (CMC13), Budapest, Hungary. August 2012.
 
