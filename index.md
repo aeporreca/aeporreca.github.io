@@ -10,7 +10,7 @@ My current research interest is the computational complexity theory of parallel 
 Contacts
 --------
 
-Antonio E. Porreca &lt;<{{site.author.email}}>&rt;  
+Antonio E. Porreca &lt;<{{site.author.email}}>&gt;  
 Dipartimento di Informatica, Sistemistica e Comunicazione  
 Università degli Studi di Milano-Bicocca  
 Room 1047, Viale Sarca 336/14, 20126 Milano, Italy
