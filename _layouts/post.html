@@ -5,9 +5,9 @@
 {{content}}
 <hr>
 {% if page.previous.url %}
-Previous: <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+<p>Previous: <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a></p>
 {% endif %}
 {% if page.next.url %}
-Next: <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
+<p>Next: <a class="next" href="{{page.next.url}}">{{page.next.title}}</a></p>
 {% endif %}
 {% include footer.html %}
