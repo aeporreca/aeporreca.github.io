@@ -1,8 +1,8 @@
 title: Antonio E. Porreca
 description: My academic website
 author:
-- name: Antonio E. Porreca
-- email: porreca@disco.unimib.it
+  name: Antonio E. Porreca
+  email: porreca@disco.unimib.it
 permalink: /blog/:title/
 plugins:
 - jekyll-redirect-from
