@@ -9,20 +9,20 @@ Seminars
 
 1. “The computational complexity theory of membrane systems”, seminar at Laboratoire I3S, Université Nice Sophia Antipolis, France. November 2015.
 
-1. (with Luca Manzoni) “Dynamics of reaction systems”, seminar at Dipartimento di Informatica, Sistemistica e Comunicazione, Università degli Studi di Milano-Bicocca, Italy. October 2015.
+1. (with Luca Manzoni) [“Dynamics of reaction systems”](dynamics-of-reaction-systems.pdf), seminar at Dipartimento di Informatica, Sistemistica e Comunicazione, Università degli Studi di Milano-Bicocca, Italy. October 2015.
 
-1. “Space complexity of membrane systems”, Research Group on Natural Computing seminar, Universidad de Sevilla, Spain. February 2011.
+1. [“Space complexity of membrane systems”](space-complexity-of-membrane-systems.pdf), Research Group on Natural Computing seminar, Universidad de Sevilla, Spain. February 2011.
 
 Talks at conferences and workshops
 ----------------------------------
 
-1. “Solving a special case of the P conjecture using dependency graphs with dissolution”, 18th International Conference on Membrane Computing (CMC18), University of Bradford, UK. July 2017.
+1. [“Solving a special case of the P conjecture using dependency graphs with dissolution”](solving-special-case-of-p-conjecture-using-dependency-graphs-with-dissolution.pdf), 18th International Conference on Membrane Computing (CMC18), University of Bradford, UK. July 2017.
 
-1. “Closure under oracles of complexity classes for P systems”, 15th Brainstorming Week on Membrane Computing (BWMC 2017), Universidad de Sevilla, Spain. January 2017.
+1. [“Closure under oracles of complexity classes for P systems”](closure-under-oracles-of-complexity-classes-for-p-systems.pdf), 15th Brainstorming Week on Membrane Computing (BWMC 2017), Universidad de Sevilla, Spain. January 2017.
 
-1. (with Luca Manzoni) “A toolbox for simpler active membrane algorithms”, 15th Brainstorming Week on Membrane Computing (BWMC 2017), Universidad de Sevilla, Spain. January 2017.
+1. (with Luca Manzoni) [“A toolbox for simpler active membrane algorithms”](toolbox-for-simpler-active-membranes-algorithms.pdf), 15th Brainstorming Week on Membrane Computing (BWMC 2017), Universidad de Sevilla, Spain. January 2017.
 
-1. “Shallow non-confluent P systems”, 17th International Conference on Membrane Computing (CMC17), Università degli Studi di Milano-Bicocca, Italy. July 2016.
+1. [“Shallow non-confluent P systems”](shallow-non-confluent-p-systems.pdf), 17th International Conference on Membrane Computing (CMC17), Università degli Studi di Milano-Bicocca, Italy. July 2016.
 
 1. [“P systems with hybrid sets”](p-systems-with-hybrid-sets-wmc2016.pdf), Workshop on Membrane Computing (WMC 2016) at 15th International Conference of Unconventional Computation and Natural Computation (UCNC 2016), Manchester Metropolitan University, United Kingdom. July 2016.
 
