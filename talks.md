@@ -2,7 +2,7 @@
 title: Talks
 ---
 
-Click on the title of the talk to download the slides (where available).
+Click on the title of the talk to download the slides, where available.
 
 Seminars
 --------
