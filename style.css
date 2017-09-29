@@ -40,6 +40,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
 }
 
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
 a, u {
     text-decoration: none;
     color: #A8201A;             /* Cornell Red */
