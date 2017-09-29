@@ -38,9 +38,9 @@ Talks at conferences and workshops
 
 1. “Simulating EXPSPACE Turing machines using P systems with active membranes”, 13th Italian Conference on Theoretical Computer Science (ICTCS 2012), Università degli Studi dell’Insubria, Italy. September 2012.
 
-1. “Sublinear-space P systems with active membranes”, 13th International Conference on Membrane Computing (CMC13), Budapest, Hungary. August 2012.
+1. [“Sublinear-space P systems with active membranes”](sublinear-space-p-systems-with-active-membranes.pdf), 13th International Conference on Membrane Computing (CMC13), Budapest, Hungary. August 2012.
 
-1. “P systems simulating oracle computations”, 12th International Conference on Membrane Computing (CMC12), Fontainebleau, France. August 2011.
+1. [“P systems simulating oracle computations”](p-systems-simulating-oracle-computations.pdf), 12th International Conference on Membrane Computing (CMC12), Fontainebleau, France. August 2011.
 
 1. [“P systems with elementary active membranes: Beyond NP and coNP”](p-systems-with-active-membranes-beyond-np-and-conp.pdf), 11th International Conference on Membrane Computing (CMC11), Friedrich-Schiller-Universität, Jena, Germany. August 2010.
 
