@@ -1,11 +1,3 @@
-/* Available colors                                      */
-/* https://coolors.co/143642-0f8b8d-fffff0-ec9a29-a8201a */
-/* Yankees Blue #143642                                  */
-/* Dark Cyan #0F8B8D                                     */
-/* Ivory #FFFFF0                                         */
-/* Carrot Orange #EC9A29                                 */
-/* Cornell Red #A8201A                                   */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 body {
@@ -14,10 +6,10 @@ body {
     color: #143642;             /* Yankees Blue */
     line-height: 1.5;
     font-family: Roboto, sans-serif;
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
+    /* text-align: justify; */
+    /* hyphens: auto; */
+    /* -webkit-hyphens: auto; */
+    /* -moz-hyphens: auto; */
 }
 
 #page {
@@ -64,3 +56,11 @@ blockquote {
 strong {
     font-weight: 500;
 }
+
+/* Color palette                                         */
+/* https://coolors.co/143642-0f8b8d-fffff0-ec9a29-a8201a */
+/* Yankees Blue #143642                                  */
+/* Dark Cyan #0F8B8D                                     */
+/* Ivory #FFFFF0                                         */
+/* Carrot Orange #EC9A29                                 */
+/* Cornell Red #A8201A                                   */
