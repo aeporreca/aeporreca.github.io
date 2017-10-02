@@ -100,6 +100,33 @@
   url: https://doi.org/10.3233/FI-2017-1565
   preprint: tissue-p-systems-with-small-cell-volume.pdf
 
+- type: journal
+  title: Fake paper
+  authors:
+    - family: Giangioberto
+      given: Alessandrico
+  publication: Fake journal
+  volume: 154
+  issue: 1–4
+  pages: 261–275
+  year: 2017
+  url: https://doi.org/10.3233/FI-2017-1565
+  preprint: tissue-p-systems-with-small-cell-volume.pdf
+
+- type: journal
+  title: Fakissimo
+  authors:
+    - family: Zuzzurro
+      given: Zanaboni
+  publication: Fake journal
+  volume: 154
+  issue: 1–4
+  pages: 261–275
+  year: 2019
+  url: https://doi.org/10.3233/FI-2017-1565
+  preprint: tissue-p-systems-with-small-cell-volume.pdf
+
+
 - type:
   title:
   authors:

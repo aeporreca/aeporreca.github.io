@@ -7,7 +7,7 @@ This is a list of my [journal](#journal-papers) and [conference](#conference-and
 Journal papers
 --------------
 
-{% assign journals = site.data.papers | where:'type','journal' %}
+{% assign journals = site.data.papers | where:'type','journal' | sort: 'author' | sort: 'year' %}
 {% for paper in journals %}
 1. {% include paper.html %}
 {% endfor %}
