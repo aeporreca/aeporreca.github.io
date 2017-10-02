@@ -9,15 +9,15 @@
 {%- endif -%}
 
 {%- if paper.editors and paper.title -%}
-  <span>, in </span>
+  , in&#32;
 {%- endif -%}
 
 {%- for editor in paper.editors -%}
   {{editor.given}} {{editor.family}}
   {%- if forloop.last == true -%}
-    <span> (editors)</span>
+    &#32;(editors)
   {%- else -%}
-    <span>, </span>
+    ,&#32;
   {%- endif -%}
 {%- endfor -%}
 
