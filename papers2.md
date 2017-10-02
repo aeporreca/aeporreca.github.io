@@ -6,8 +6,10 @@ title: Papers test
 {% for author in paper.authors %}
 {{author.given}} {{author.family}}, 
 {% endfor %}
-[{{paper.title}}](paper.url).
-In
+[{{paper.title}}](paper.url),
+{% if paper.editors %}
+in
+{% endif %}
 {% for editor in paper.editors %}
 {{editor.given}} {{editor.family}}
 {% if forloop.last == true %}
@@ -16,7 +18,7 @@ In
 {% endfor %}
 {{paper.publication}}
 {% if paper.series %}
-volume {{paper.volume}} of {{paper.series}}
+, volume {{paper.volume}} of {{paper.series}}
 {% elsif paper.volume %}
 {{paper.volume}}
 {% endif %}
