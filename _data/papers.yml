@@ -80,8 +80,8 @@
   preprint: computational-complexity-of-finite-asynchronous-cellular-automata.pdf
 
 - type: volume
-  publication: Cellular Automata and Discrete Complex Systems, 23rd IFIP WG 1.5 International Workshop, AUTOMATA 2017
-  editors:
+  title: Cellular Automata and Discrete Complex Systems, 23rd IFIP WG 1.5 International Workshop, AUTOMATA 2017
+  authors:
     - family: Dennunzio
       given: Alberto
     - family: Formenty
