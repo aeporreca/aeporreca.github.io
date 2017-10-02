@@ -3,5 +3,11 @@ title: Papers test
 ---
 
 {% for paper in site.data.papers %}
-1. {% for author in paper.authors %}{{author}}, {% endfor %} [{{paper.title}}]({{paper.url}}). In *{{paper.publication}}* {{paper.volume}}, pages {{paper.pages}}, {{paper.year}}. [[preprint](/papers/{{paper.preprint}})]
+1. {% for author in paper.authors %}{{author}}, {% endfor %}
+   [{{paper.title}}]({{paper.url}}).
+   {% if paper.publication %}In *{{paper.publication}}*{% endif %}
+   {% if paper.volume %} {{paper.volume}}{% endif %}
+   {% if paper.pages %}, pages {{paper.pages}}{% endif %}
+   {% if paper.year %}, pages {{paper.year}}{% endif %}.
+   {% if paper.preprint %}[[preprint](/papers/{{paper.preprint}})]{% endif %}
 {% endfor %}
