@@ -8,7 +8,7 @@ Journal papers
 --------------
 
 {% assign journals = site.data.papers
-                   | where:'type','journal'
+                   | where: 'type', 'journal'
                    | sort: 'year' | reverse %}
 {% for paper in journals %}
 1. {% include paper.html %}
@@ -17,7 +17,9 @@ Journal papers
 Conference papers
 -----------------
 
-{% assign conferences = site.data.papers | where:'type','conference' %}
+{% assign conferences = site.data.papers
+                      | where: 'type', 'conference'
+                      | sort: 'year' | reverse %}
 {% for paper in conferences %}
 1. {% include paper.html %}
 {% endfor %}
@@ -25,7 +27,9 @@ Conference papers
 Book chapters
 -------------
 
-{% assign chapters = site.data.papers | where:'type','chapter' %}
+{% assign chapters = site.data.papers
+                   | where: 'type', 'chapter'
+                   | sort: 'year' | reverse %}
 {% for paper in chapters %}
 1. {% include paper.html %}
 {% endfor %}
@@ -33,7 +37,9 @@ Book chapters
 Technical reports
 -----------------
 
-{% assign reports = site.data.papers | where:'type','techreport' %}
+{% assign techreports = site.data.papers
+                      | where: 'type', 'techreport'
+                      | sort: 'year' | reverse %}
 {% for paper in reports %}
 1. {% include paper.html %}
 {% endfor %}
@@ -41,7 +47,9 @@ Technical reports
 Volumes edited
 --------------
 
-{% assign volumes = site.data.papers | where:'type','volume' %}
+{% assign volumes = site.data.papers
+                  | where: 'type', 'volume'
+                  | sort: 'year' | reverse %}
 {% for paper in volumes %}
 1. {% include paper.html %}
 {% endfor %}
