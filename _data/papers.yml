@@ -17,35 +17,35 @@
   url: https://doi.org/10.1016/j.jcss.2017.06.008
   preprint: computational-complexity-of-finite-asynchronous-cellular-automata.pdf
 
-- title: Shallow non-confluent P systems
-  authors:
-    - family: Leporati
-      given: Alberto
-    - family: Manzoni
-      given: Luca
-    - family: Mauri
-      given: Giancarlo
-    - family: Porreca
-      given: Antonio E.
-    - family: Zandron
-      given: Claudio
-  publication: Membrane Computing, 17th International Conference, CMC 2016
-  editors:
-    - family: Leporati
-      given: Alberto
-    - family: Rozenberg
-      given: Grzegorz
-    - family: Salomaa
-      given: Arto
-    - family: Zandron
-      given: Claudio
-  volume: 10105
-  series: Lecture Notes in Computer Science
-  pages: 307–316
-  publisher: Springer
-  year: 2017
-  url: https://doi.org/10.1007/978-3-319-54072-6_19
-  preprint: shallow-non-confluent-p-systems.pdf
+# - title: Shallow non-confluent P systems
+#   authors:
+#     - family: Leporati
+#       given: Alberto
+#     - family: Manzoni
+#       given: Luca
+#     - family: Mauri
+#       given: Giancarlo
+#     - family: Porreca
+#       given: Antonio E.
+#     - family: Zandron
+#       given: Claudio
+#   publication: Membrane Computing, 17th International Conference, CMC 2016
+#   editors:
+#     - family: Leporati
+#       given: Alberto
+#     - family: Rozenberg
+#       given: Grzegorz
+#     - family: Salomaa
+#       given: Arto
+#     - family: Zandron
+#       given: Claudio
+#   volume: 10105
+#   series: Lecture Notes in Computer Science
+#   pages: 307–316
+#   publisher: Springer
+#   year: 2017
+#   url: https://doi.org/10.1007/978-3-319-54072-6_19
+#   preprint: shallow-non-confluent-p-systems.pdf
   
-- title: Test
-  publication: Some Journal
+# - title: Test
+#   publication: Some Journal
