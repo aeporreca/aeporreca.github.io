@@ -3,9 +3,11 @@
 {%- endfor -%}
 
 {%- if paper.url -%}
-  [{{paper.title}}]({{paper.url}})
-{%- else -%}
-  {{paper.title}}
+  <a href="{{paper.url}}">
+{%- endif -%}
+{{paper.title}}
+{%- if paper.url -%}
+  </a>
 {%- endif -%}
 
 {%- if paper.editors and paper.title -%}
