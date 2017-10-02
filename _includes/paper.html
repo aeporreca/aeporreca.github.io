@@ -1,7 +1,5 @@
-<span>
-
 {%- for author in paper.authors -%}
-  <span>{{author.given}} {{author.family}}, </span>
+  {{author.given}} {{author.family}},&#32;
 {%- endfor -%}
 
 {%- if paper.url -%}
@@ -64,5 +62,3 @@
 {%- if paper.preprint -%}
   [[preprint](/papers/{{paper.preprint}})]
 {%- endif -%}
-
-<span>
