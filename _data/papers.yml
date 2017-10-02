@@ -1,10 +1,15 @@
 - title: Computational complexity of finite asynchronous cellular automata
   authors:
-    - Alberto Dennunzio
-    - Enrico Formenti
-    - Luca Manzoni
-    - Giancarlo Mauri
-    - Antonio E. Porreca
+    - family: Dennunzio
+      given: Alberto
+    - family: Formenti
+      given: Enrico 
+    - family: Manzoni
+      given: Luca
+    - family: Mauri
+      given: Giancarlo
+    - family: Porreca
+      given: Antonio E.
   publication: Theoretical Computer Science
   volume: 664
   pages: 131–143
