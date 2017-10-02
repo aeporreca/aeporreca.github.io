@@ -4,9 +4,7 @@ title: Papers test
 
 {% for paper in site.data.papers %}
 
-{% for x in paper.authors %}
-{{x}},
-{% endfor %}
+{% for author in paper.authors %}{{author}},{% endfor %}
 {{paper.title}}
 
 {% endfor %}
