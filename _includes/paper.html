@@ -25,15 +25,6 @@
   {%- endif -%}
 {%- endfor -%}
 
-<!-- {%- if paper.publication -%} -->
-<!--   ,&#32; -->
-<!--   {%- if paper.title or paper.url == nil -%} -->
-<!--   <em>{{paper.publication}}</em> -->
-<!--   {%- else -%} -->
-<!--     [<em>{{paper.publication}}</em>]({{paper.url}}) -->
-<!--   {%- endif -%} -->
-<!-- {%- endif -%} -->
-
 {%- if paper.publication -%}
   ,&#32;
   {%- unless paper.title or paper.url == nil -%}
