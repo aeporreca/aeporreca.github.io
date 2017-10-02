@@ -40,6 +40,26 @@
   url: https://doi.org/10.1016/j.jcss.2017.06.008
   preprint: characterising-complexity-of-tissue-p-systems-with-fission-rules.pdf
 
+- type: journal
+  title: A toolbox for simpler active membrane algorithms
+  authors:
+  authors:
+    - family: Leporati
+      given: Alberto
+    - family: Manzoni
+      given: Luca
+    - family: Mauri
+      given: Giancarlo
+    - family: Porreca
+      given: Antonio E.
+    - family: Zandron
+      given: Claudio
+  publication: Theoretical Computer Science
+  volume: 673
+  pages: 42–57
+  year: 2017
+  url: https://doi.org/10.1016/j.tcs.2017.03.015
+  preprint: toolbox-for-simpler-active-membrane-algorithms.pdf
 
 #############
 
