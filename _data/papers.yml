@@ -1,3 +1,49 @@
+# Journal papers
+
+- type: journal
+  title: Computational complexity of finite asynchronous cellular automata
+  authors:
+    - family: Dennunzio
+      given: Alberto
+    - family: Formenti
+      given: Enrico 
+    - family: Manzoni
+      given: Luca
+    - family: Mauri
+      given: Giancarlo
+    - family: Porreca
+      given: Antonio E.
+  publication: Theoretical Computer Science
+  volume: 664
+  pages: 131–143
+  year: 2017
+  url: https://doi.org/10.1016/j.jcss.2017.06.008
+  preprint: computational-complexity-of-finite-asynchronous-cellular-automata.pdf
+
+- type: journal
+  title: Characterising the complexity of tissue P systems with fission rules
+  authors:
+    - family: Leporati
+      given: Alberto
+    - family: Manzoni
+      given: Luca
+    - family: Mauri
+      given: Giancarlo
+    - family: Porreca
+      given: Antonio E.
+    - family: Zandron
+      given: Claudio
+  publication: Journal of Computer and System Sciences
+  volume: 90
+  pages: 115–128
+  year: 2017
+  url: https://doi.org/10.1016/j.jcss.2017.06.008
+  preprint: characterising-complexity-of-tissue-p-systems-with-fission-rules.pdf
+
+
+#############
+
+    
 - type: chapter
   title: Tissue P systems in the Euclidean space
   authors:
@@ -58,26 +104,6 @@
   year: 2017
   url: https://doi.org/10.1007/978-3-319-54072-6_19
   preprint: shallow-non-confluent-p-systems.pdf
-
-- type: journal
-  title: Computational complexity of finite asynchronous cellular automata
-  authors:
-    - family: Dennunzio
-      given: Alberto
-    - family: Formenti
-      given: Enrico 
-    - family: Manzoni
-      given: Luca
-    - family: Mauri
-      given: Giancarlo
-    - family: Porreca
-      given: Antonio E.
-  publication: Theoretical Computer Science
-  volume: 664
-  pages: 131–143
-  year: 2017
-  url: https://doi.org/10.1016/j.jcss.2017.06.008
-  preprint: computational-complexity-of-finite-asynchronous-cellular-automata.pdf
 
 - type: volume
   publication: Cellular Automata and Discrete Complex Systems, 23rd IFIP WG 1.5 International Workshop, AUTOMATA 2017
