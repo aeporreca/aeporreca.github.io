@@ -1,18 +1,18 @@
-<!-- 6 -->
+<span>
 
-{%- for author in paper.authors %}
-  {{author.given}} {{author.family}}, 
-{%- endfor %}
+{%- for author in paper.authors -%}
+  <span>{{author.given}} {{author.family}}, </span>
+{%- endfor -%}
 
-{%- if paper.url %}
+{%- if paper.url -%}
   [{{paper.title}}]({{paper.url}})
-{%- else %}
+{%- else -%}
   {{paper.title}}
-{%- endif %}
+{%- endif -%}
 
-{%- if paper.editors and paper.title %}
+{%- if paper.editors and paper.title -%}
   , in 
-{%- endif %}
+{%- endif -%}
 
 {%- for editor in paper.editors -%}
   {{editor.given}} {{editor.family}}
@@ -64,3 +64,5 @@
 {%- if paper.preprint -%}
   [[preprint](/papers/{{paper.preprint}})]
 {%- endif -%}
+
+<span>
