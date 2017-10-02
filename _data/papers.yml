@@ -43,7 +43,6 @@
 - type: journal
   title: A toolbox for simpler active membrane algorithms
   authors:
-  authors:
     - family: Leporati
       given: Alberto
     - family: Manzoni
@@ -60,6 +59,36 @@
   year: 2017
   url: https://doi.org/10.1016/j.tcs.2017.03.015
   preprint: toolbox-for-simpler-active-membrane-algorithms.pdf
+
+- type: journal
+  title: The counting power of P systems with antimatter
+  authors:
+    - family: Leporati
+      given: Alberto
+    - family: Manzoni
+      given: Luca
+    - family: Mauri
+      given: Giancarlo
+    - family: Porreca
+      given: Antonio E.
+    - family: Zandron
+      given: Claudio
+  publication: Theoretical Computer Science
+  year: 2017
+  url: https://doi.org/10.1016/j.tcs.2017.03.045
+  preprint: counting-power-of-p-systems-with-antimatter.pdf
+  note: in press
+
+- type:
+  title:
+  authors:
+  publication:
+  volume:
+  pages:
+  year:
+  url:
+  preprint:
+  
 
 #############
 
