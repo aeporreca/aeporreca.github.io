@@ -3,11 +3,7 @@ title: Papers test
 ---
 
 {% for paper in site.data.papers %}
-{% assign authors = ("1","2","3") %}
-{{authors}}
-<!-- {% for author in paper.authors %} -->
-<!-- {{author.given}} {{author.family}} -->
-<!-- {% endfor %} -->
+{{paper.authors | array_to_sentence_string}}
 {% endfor %}
 
 <!-- {% for paper in site.data.papers %} -->
