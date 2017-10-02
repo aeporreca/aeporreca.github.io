@@ -11,5 +11,5 @@ title: Blog
 [{{post.title}}]({{post.url}})
 ------------------------------
 <p id="post-date">{{post.date | date_to_long_string}}</p>
-<div>{{post.excerpt}} [continue…]</div>
+{{post.excerpt | remove: "<p>" | remove: "</p>"}} [continue…]
 {% endfor %}
