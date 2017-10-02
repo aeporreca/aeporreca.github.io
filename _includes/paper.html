@@ -1,4 +1,4 @@
-<!-- 5 -->
+<!-- 6 -->
 
 {%- for author in paper.authors %}
   {{author.given}} {{author.family}}, 
@@ -11,17 +11,17 @@
 {%- endif %}
 
 {%- if paper.editors and paper.title %}
-  , in
+  , in 
 {%- endif %}
 
-{% for editor in paper.editors -%}
+{%- for editor in paper.editors -%}
   {{editor.given}} {{editor.family}}
   {%- if forloop.last == true -%}
     (editors)
   {%- else -%}
     ,
   {%- endif -%}
-{% endfor -%}
+{%- endfor -%}
 
 {%- if paper.publication -%}
   , 
