@@ -5,7 +5,9 @@
 {%- if paper.url -%}
   <a href="{{paper.url}}">
 {%- endif -%}
-"{{paper.title}}"
+{%- if paper.title -%}
+  "{{paper.title}}"
+{%- endif -%}
 {%- if paper.url -%}
   </a>
 {%- endif -%}
@@ -23,13 +25,24 @@
   {%- endif -%}
 {%- endfor -%}
 
+<!-- {%- if paper.publication -%} -->
+<!--   ,&#32; -->
+<!--   {%- if paper.title or paper.url == nil -%} -->
+<!--   <em>{{paper.publication}}</em> -->
+<!--   {%- else -%} -->
+<!--     [<em>{{paper.publication}}</em>]({{paper.url}}) -->
+<!--   {%- endif -%} -->
+<!-- {%- endif -%} -->
+
 {%- if paper.publication -%}
   ,&#32;
-  {%- if paper.title or paper.url == nil -%}
-  <em>{{paper.publication}}</em>
-  {%- else -%}
-    [<em>{{paper.publication}}</em>]({{paper.url}})
-  {%- endif -%}
+  {%- unless paper.title and paper.url == nil -%}
+    <a href="asdf">
+  {%- endunless -%}
+  {{paper.publication}}
+  {%- unless paper.title and paper.url == nil -%}
+    </a>
+  {%- endunless -%}
 {%- endif -%}
 
 {%- if paper.series -%}
