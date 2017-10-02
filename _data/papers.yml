@@ -79,6 +79,27 @@
   preprint: counting-power-of-p-systems-with-antimatter.pdf
   note: in press
 
+- type: journal
+  title: Tissue P systems with small cell volume
+  authors:
+    - family: Leporati
+      given: Alberto
+    - family: Manzoni
+      given: Luca
+    - family: Mauri
+      given: Giancarlo
+    - family: Porreca
+      given: Antonio E.
+    - family: Zandron
+      given: Claudio
+  publication: Fundamenta Informaticae
+  volume: 154
+  issue: 1–4
+  pages: 261–275
+  year: 2017
+  url: https://doi.org/10.3233/FI-2017-1565
+  preprint: tissue-p-systems-with-small-cell-volume.pdf
+
 - type:
   title:
   authors:
@@ -88,7 +109,7 @@
   year:
   url:
   preprint:
-  
+
 
 #############
 
