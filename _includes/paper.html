@@ -17,7 +17,7 @@
 {%- for editor in paper.editors -%}
   {{editor.given}} {{editor.family}}
   {%- if forloop.last == true -%}
-    (editors)
+    <span> (editors)</span>
   {%- else -%}
     ,
   {%- endif -%}
