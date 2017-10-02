@@ -127,7 +127,7 @@
       given: Antonio E.
     - family: Zandron
       given: Claudio
-  publication: "Multidisciplinary Creativity: Homage to Gheorghe Păun on His 65th Birthday"
+  publication: 'Multidisciplinary Creativity: Homage to Gheorghe Păun on His 65th Birthday'
   editors:
     - family: Gheorghe
       given: Marian
@@ -206,7 +206,7 @@
     - family: Porreca
       given: Antonio E.
   volume: 25
-  issue: 04
+  issue: '04'
   series: International Journal of Foundations of Computer Science
   year: 2014
   url: http://www.worldscientific.com/toc/ijfcs/25/04
