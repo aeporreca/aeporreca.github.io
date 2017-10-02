@@ -9,13 +9,13 @@
 {%- endif -%}
 
 {%- if paper.editors and paper.title -%}
-  , in&#32;
+  , in&nbsp;
 {%- endif -%}
 
 {%- for editor in paper.editors -%}
   {{editor.given}} {{editor.family}}
   {%- if forloop.last == true -%}
-    &#32;(editors)
+    &nbsp;(editors)
   {%- else -%}
     ,&#32;
   {%- endif -%}
