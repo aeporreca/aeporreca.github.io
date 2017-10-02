@@ -37,6 +37,8 @@ Book chapters
 Technical reports
 -----------------
 
+The papers in this section only include those that do not possess an extended version published in a peer-reviewed journal or conference.
+
 {% assign techreports = site.data.papers
                       | where: 'type', 'techreport'
                       | sort: 'year' | reverse %}
