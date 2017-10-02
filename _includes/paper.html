@@ -30,7 +30,7 @@
   {%- unless paper.title or paper.url == nil -%}
     <a href="{{paper.url}}">
   {%- endunless -%}
-  {{paper.publication}}
+  <em>{{paper.publication}}</em>
   {%- unless paper.title or paper.url == nil -%}
     </a>
   {%- endunless -%}
