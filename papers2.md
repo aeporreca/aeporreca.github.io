@@ -30,7 +30,7 @@ Technical reports
 
 The papers in this section only include those that do not possess an extended version published in a peer-reviewed journal or conference.
 
-{% for paper in site.data.technical-report %}
+{% for paper in site.data.technical-reports %}
 {% include paper.html %}
 {% endfor %}
 
