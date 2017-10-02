@@ -14,7 +14,9 @@ in
 {{editor.given}} {{editor.family}}
 {% if forloop.last == true %}
 (eds.)
-{% endif %},
+{% else %}
+,
+{% endif %}
 {% endfor %}
 {{paper.publication}}
 {% if paper.series %}
