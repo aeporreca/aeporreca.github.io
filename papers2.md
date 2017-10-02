@@ -18,7 +18,9 @@ in
 ,
 {% endif %}
 {% endfor %}
-{{paper.publication}}
+{% if paper.publication %}
+, {{paper.publication}}
+{% endif %}
 {% if paper.series %}
 , volume {{paper.volume}} of {{paper.series}}
 {% elsif paper.volume %}
