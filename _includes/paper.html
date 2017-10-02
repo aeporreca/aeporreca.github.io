@@ -36,11 +36,11 @@
 
 {%- if paper.publication -%}
   ,&#32;
-  {%- unless paper.title and paper.url == nil -%}
+  {%- unless paper.title or paper.url == nil -%}
     <a href="{{paper.url}}">
   {%- endunless -%}
   {{paper.publication}}
-  {%- unless paper.title and paper.url == nil -%}
+  {%- unless paper.title or paper.url == nil -%}
     </a>
   {%- endunless -%}
 {%- endif -%}
