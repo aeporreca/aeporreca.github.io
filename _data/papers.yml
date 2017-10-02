@@ -195,7 +195,7 @@
   url: https://doi.org/10.1007/978-3-319-58631-1
 
 - type: volume
-  publication: International Journal of Foundations of Computer Science
+  publication: Special Issue – Unconventional Computation and Natural Computation 2013
   editors:
     - family: Mauri
       given: Giancarlo
@@ -205,6 +205,8 @@
       given: Luca
     - family: Porreca
       given: Antonio E.
-  volume: 25, special issue "Unconventional Computation and Natural Computation 2013"
+  volume: 25
+  issue: 04
+  series: International Journal of Foundations of Computer Science
   year: 2014
   url: http://www.worldscientific.com/toc/ijfcs/25/04
