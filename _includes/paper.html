@@ -31,13 +31,13 @@
 {%- endif -%}
 
 {%- if paper.series -%}
-  , volume {{paper.volume}}
+  , volume&nbsp;{{paper.volume}}
   {%- if paper.issue -%}
     ({{paper.issue}})
   {%- endif -%}
   &#32;of {{paper.series}}
 {%- elsif paper.volume -%}
-  &#32;{{paper.volume}}
+  &nbsp;{{paper.volume}}
   {%- if paper.issue -%}
     ({{paper.issue}})
   {%- endif -%}
