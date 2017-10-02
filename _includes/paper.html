@@ -4,11 +4,11 @@
   {{author.given}} {{author.family}}, 
 {%- endfor %}
 
-{% if paper.url %}
+{%- if paper.url %}
   [{{paper.title}}]({{paper.url}})
-{% else %}
+{%- else %}
   {{paper.title}}
-{% endif %}
+{%- endif %}
 
 {%- if paper.editors and paper.title -%}
   , in
