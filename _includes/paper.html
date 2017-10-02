@@ -1,0 +1,40 @@
+{% for author in parameter.authors %}
+  {{author.given}} {{author.family}},
+{% endfor %}
+
+<a href="{{parameter.url}}">{{parameter.title}</a>
+
+{% if parameter.editors %}
+  , in
+{% endif %}
+
+{% for editor in parameter.editors %}
+  {{editor.given}} {{editor.family}}
+  {% if forloop.last == true %}
+    (editors)
+  {% else %}
+  ,
+  {% endif %}
+{% endfor %}
+
+{% if parameter.publication %}
+  , <em>{{parameter.publication}}</em>
+{% endif %}
+
+{% if parameter.series %}
+  , volume {{parameter.volume}} of {{parameter.series}}
+{% elsif parameter.volume %}
+  {{parameter.volume}}
+{% endif %}
+
+{% if parameter.publisher %}
+, {{parameter.publisher}}
+{% endif %}
+
+{% if parameter.year %}
+  , {{parameter.year}}
+{% endif %}
+
+{% if parameter.preprint %}
+  [<a href="/papers/{{parameter.preprint}}">preprint</a>]
+{% endif %}
