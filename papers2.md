@@ -3,7 +3,10 @@ title: Papers test
 ---
 
 {% for paper in site.data.papers %}
-{{paper.authors | array_to_sentence_string}}
+{% for author in paper.authors %}
+{{author.given}} {{author.family}}
+{% if forloop.last != true %},{% endif %}
+{% endfor %}
 {% endfor %}
 
 <!-- {% for paper in site.data.papers %} -->
