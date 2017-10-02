@@ -1,0 +1,28 @@
+- title: Tissue P systems in the Euclidean space
+  authors:
+    - family: Leporati
+      given: Alberto
+    - family: Manzoni
+      given: Luca
+    - family: Mauri
+      given: Giancarlo
+    - family: Porreca
+      given: Antonio E.
+    - family: Zandron
+      given: Claudio
+  publication: Membrane Computing, 17th International Conference, CMC 2016
+  editors:
+    - family: Gheorghe
+      given: Marian
+    - family: Petre
+      given: Ion
+    - family: Pérez-Jiménez
+      given: Mario J.
+    - family: Rozenberg
+      given: Grzegorz
+    - family: Salomaa
+      given: Arto
+  pages: 118–128
+  publisher: Editura Spandugino
+  year: 2015
+  preprint: tissue-p-systems-in-euclidean-space.pdf
