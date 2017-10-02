@@ -7,39 +7,39 @@ This is a list of my [journal](#journal-papers) and [conference](#conference-and
 Journal papers
 --------------
 
-{% assign papers = site.data.papers | where:'type','journal %}
-{% for paper in papers %}
+{% assign journals = site.data.papers | where:'type','journal %}
+{% for paper in journals %}
 1. {% include paper.html %}
 {% endfor %}
 
 Conference papers
 -----------------
 
-{% assign papers = site.data.papers | where:'type','conference' %}
-{% for paper in papers %}
+{% assign conferences = site.data.papers | where:'type','conference' %}
+{% for paper in conferences %}
 1. {% include paper.html %}
 {% endfor %}
 
 Book chapters
 -------------
 
-{% assign papers = site.data.papers | where:'type','chapters' %}
-{% for paper in papers %}
+{% assign chapters = site.data.papers | where:'type','chapters' %}
+{% for paper in chapters %}
 1. {% include paper.html %}
 {% endfor %}
 
 Technical reports
 -----------------
 
-{% assign papers = site.data.papers | where:'type','techreport' %}
-{% for paper in papers %}
+{% assign reports = site.data.papers | where:'type','techreport' %}
+{% for paper in reports %}
 1. {% include paper.html %}
 {% endfor %}
 
 Volumes edited
 --------------
 
-{% assign papers = site.data.papers | where:'type','edited' %}
-{% for paper in papers %}
+{% assign volumes = site.data.papers | where:'type','volume' %}
+{% for paper in volumes %}
 1. {% include paper.html %}
 {% endfor %}
