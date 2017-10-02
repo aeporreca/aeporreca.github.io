@@ -24,9 +24,9 @@
 {%- if paper.publication -%}
   ,&#32;
   {%- if paper.title or paper.url == nil -%}
-  *{{paper.publication}}*
+  <em>{{paper.publication}}</em>
   {%- else -%}
-    [*{{paper.publication}}*]({{paper.url}})
+    [<em>{{paper.publication}}</em>]({{paper.url}})
   {%- endif -%}
 {%- endif -%}
 
