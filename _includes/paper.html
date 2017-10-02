@@ -24,7 +24,7 @@
 {%- endfor -%}
 
 {%- if paper.publication -%}
-  , 
+  <span>, </span>
   {%- if paper.title or paper.url == nil -%}
   *{{paper.publication}}*
   {%- else -%}
@@ -33,7 +33,7 @@
 {%- endif -%}
 
 {%- if paper.series -%}
-  , volume {{paper.volume}}
+  <span>, volume {{paper.volume}}<span>
   {%- if paper.issue -%}
     ({{paper.issue}})
   {%- endif -%}
