@@ -23,7 +23,7 @@ Conference papers
 Book chapters
 -------------
 
-{% assign chapters = site.data.papers | where:'type','chapters' %}
+{% assign chapters = site.data.papers | where:'type','chapter' %}
 {% for paper in chapters %}
 1. {% include paper.html %}
 {% endfor %}
