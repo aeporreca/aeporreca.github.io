@@ -1,6 +1,6 @@
-{%- for author in paper.authors -%}
-  {{author.given}} {{author.family}},
-{%- endfor -%}
+{%- for author in paper.authors %}
+  {{author.given}} {{author.family}}, 
+{%- endfor %}
 
 {%- if paper.url -%}
   [{{paper.title}}]({{paper.url}})
