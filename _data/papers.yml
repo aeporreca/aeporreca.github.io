@@ -194,7 +194,7 @@
   year: 2017
   url: https://doi.org/10.1007/978-3-319-58631-1
 
-  - type: volume
+- type: volume
   publication: International Journal of Foundations of Computer Science
   editors:
     - family: Mauri
