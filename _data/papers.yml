@@ -175,12 +175,14 @@
   url: https://doi.org/10.1007/978-3-319-54072-6_19
   preprint: shallow-non-confluent-p-systems.pdf
 
+# Volumes edited
+
 - type: volume
   publication: Cellular Automata and Discrete Complex Systems, 23rd IFIP WG 1.5 International Workshop, AUTOMATA 2017
   editors:
     - family: Dennunzio
       given: Alberto
-    - family: Formenty
+    - family: Formenti
       given: Enrico
     - family: Manzoni
       given: Luca
@@ -190,4 +192,19 @@
   series: Lecture Notes in Computer Science
   publisher: Springer
   year: 2017
+  url: https://doi.org/10.1007/978-3-319-58631-1
+
+  - type: volume
+  publication: International Journal of Foundations of Computer Science
+  editors:
+    - family: Mauri
+      given: Giancarlo
+    - family: Dennunzio
+      given: Alberto
+    - family: Manzoni
+      given: Luca
+    - family: Porreca
+      given: Antonio E.
+  volume: "25 (special issue: Unconventional Computation and Natural Computation 2013)"
+  year: 2014
   url: https://doi.org/10.1007/978-3-319-58631-1
