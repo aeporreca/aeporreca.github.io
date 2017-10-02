@@ -37,7 +37,7 @@
 {%- if paper.publication -%}
   ,&#32;
   {%- unless paper.title and paper.url == nil -%}
-    <a href="asdf">
+    <a href="{{paper.url}}">
   {%- endunless -%}
   {{paper.publication}}
   {%- unless paper.title and paper.url == nil -%}
