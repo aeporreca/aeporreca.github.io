@@ -3,7 +3,9 @@ title: Papers test
 ---
 
 {% for paper in site.data.papers %}
-1. {{paper.authors | join: ', '}}
+{% for author in paper.authors %}
+{{author.given}} {{author.family}}
+{% endfor %}
 {% endfor %}
 
 <!-- {% for paper in site.data.papers %} -->
