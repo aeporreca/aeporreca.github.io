@@ -10,9 +10,9 @@
   {{paper.title}}
 {%- endif %}
 
-{%- if paper.editors and paper.title -%}
+{%- if paper.editors and paper.title %}
   , in
-{%- endif -%}
+{%- endif %}
 
 {%- for editor in paper.editors -%}
   {{editor.given}} {{editor.family}}
