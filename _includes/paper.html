@@ -1,14 +1,14 @@
-{% for author in parameter.authors %}
+{% for author in paper.authors %}
   {{author.given}} {{author.family}},
 {% endfor %}
 
-<a href="{{parameter.url}}">{{parameter.title}}</a>
+<a href="{{paper.url}}">{{paper.title}}</a>
 
-{% if parameter.editors %}
+{% if paper.editors %}
   , in
 {% endif %}
 
-{% for editor in parameter.editors %}
+{% for editor in paper.editors %}
   {{editor.given}} {{editor.family}}
   {% if forloop.last == true %}
     (editors)
@@ -17,24 +17,24 @@
   {% endif %}
 {% endfor %}
 
-{% if parameter.publication %}
-  , <em>{{parameter.publication}}</em>
+{% if paper.publication %}
+  , <em>{{paper.publication}}</em>
 {% endif %}
 
-{% if parameter.series %}
-  , volume {{parameter.volume}} of {{parameter.series}}
-{% elsif parameter.volume %}
-  {{parameter.volume}}
+{% if paper.series %}
+  , volume {{paper.volume}} of {{paper.series}}
+{% elsif paper.volume %}
+  {{paper.volume}}
 {% endif %}
 
-{% if parameter.publisher %}
-, {{parameter.publisher}}
+{% if paper.publisher %}
+, {{paper.publisher}}
 {% endif %}
 
-{% if parameter.year %}
-  , {{parameter.year}}
+{% if paper.year %}
+  , {{paper.year}}
 {% endif %}
 
-{% if parameter.preprint %}
-  [<a href="/papers/{{parameter.preprint}}">preprint</a>]
+{% if paper.preprint %}
+  [<a href="/papers/{{paper.preprint}}">preprint</a>]
 {% endif %}

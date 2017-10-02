@@ -7,5 +7,5 @@ title: Papers test
 <!-- {% endfor %} -->
 
 {% for paper in site.data.papers %}
-{% include paper.html parameter=paper %}
+{% include paper.html %}
 {% endfor %}
