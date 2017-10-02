@@ -8,10 +8,8 @@ Journal papers
 --------------
 
 {% assign papers = site.data.papers | where: "type", "journal-paper" | sort: 'year' %}
-{% for paper in site.data.papers %}
-{% if paper.type = "journal-paper" %}
+{% for paper in papers %}
 {% include paper.html %}
-{% endif %}
 {% endfor %}
 
 Conference and workshop papers
