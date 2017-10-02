@@ -7,36 +7,62 @@ This is a list of my [journal](#journal-papers) and [conference](#conference-and
 Journal papers
 --------------
 
-{% for paper in site.data.journal-papers %}
+{% for paper in site.data.papers %}
+{% if paper.type = "journal-paper" %}
 {% include paper.html %}
+{% endif %}
 {% endfor %}
 
 Conference and workshop papers
 ------------------------------
 
-{% for paper in site.data.conference-papers %}
+{% for paper in site.data.papers %}
+{% if paper.type = "conference-paper" %}
 {% include paper.html %}
+{% endif %}
 {% endfor %}
+
+<!-- {% for paper in site.data.conference-papers %} -->
+<!-- {% include paper.html %} -->
+<!-- {% endfor %} -->
 
 Book chapters
 -------------
 
-{% for paper in site.data.book-chapters %}
+{% for paper in site.data.papers %}
+{% if paper.type = "book-chapter" %}
 {% include paper.html %}
+{% endif %}
 {% endfor %}
+
+<!-- {% for paper in site.data.book-chapters %} -->
+<!-- {% include paper.html %} -->
+<!-- {% endfor %} -->
 
 Technical reports
 -----------------
 
 The papers in this section only include those that do not possess an extended version published in a peer-reviewed journal or conference.
 
-{% for paper in site.data.technical-reports %}
+{% for paper in site.data.papers %}
+{% if paper.type = "technical-report" %}
 {% include paper.html %}
+{% endif %}
 {% endfor %}
+
+<!-- {% for paper in site.data.technical-reports %} -->
+<!-- {% include paper.html %} -->
+<!-- {% endfor %} -->
 
 Volumes edited
 --------------
 
-{% for paper in site.data.volumes-edited %}
+{% for paper in site.data.papers %}
+{% if paper.type = "edited-volume" %}
 {% include paper.html %}
+{% endif %}
 {% endfor %}
+
+<!-- {% for paper in site.data.volumes-edited %} -->
+<!-- {% include paper.html %} -->
+<!-- {% endfor %} -->
