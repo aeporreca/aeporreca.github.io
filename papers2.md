@@ -20,6 +20,15 @@ volume {{paper.volume}} of {{paper.series}}
 {% elsif paper.volume %}
 {{paper.volume}}
 {% endif %}
+{% if paper.publisher %}
+, {{paper.publisher}}
+{% endif %}
+{% if paper.year %}
+, {{paper.year}}
+{% endif %}
+{% if paper.preprint %}
+[[preprint](/papers/{{paper.preprint}})]
+{% endif %}
 {% endfor %}
 
 <!-- {% for paper in site.data.papers %} -->
