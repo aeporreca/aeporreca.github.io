@@ -6,7 +6,7 @@ title: Papers test
 {% for author in paper.authors %}
 {{author.given}} {{author.family}}, 
 {% endfor %}
-{{paper.title}}.
+[{{paper.title}}](paper.url).
 In
 {% for editor in paper.editors %}
 {{editor.given}} {{editor.family}}
@@ -15,6 +15,11 @@ In
 {% endif %},
 {% endfor %}
 {{paper.publication}}
+{% if paper.series %}
+volume {{paper.volume}} of {{paper.series}}
+{% elsif paper.volume %}
+{{paper.volume}}
+{% endif %}
 {% endfor %}
 
 <!-- {% for paper in site.data.papers %} -->
