@@ -1,4 +1,4 @@
-- type: book-chapter
+- type: chapter
   title: Tissue P systems in the Euclidean space
   authors:
     - family: Leporati
@@ -28,7 +28,7 @@
   year: 2015
   preprint: tissue-p-systems-in-euclidean-space.pdf
 
-- type: conference-paper
+- type: conference
   title: Shallow non-confluent P systems
   authors:
     - family: Leporati
@@ -59,7 +59,7 @@
   url: https://doi.org/10.1007/978-3-319-54072-6_19
   preprint: shallow-non-confluent-p-systems.pdf
 
-- type: journal-paper
+- type: journal
   title: Computational complexity of finite asynchronous cellular automata
   authors:
     - family: Dennunzio
