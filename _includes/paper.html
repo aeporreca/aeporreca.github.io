@@ -88,4 +88,48 @@
     &#32;[[preprint](/papers/{{paper.preprint}})]
   {%- endif -%}
 
+{%- elsif paper.type == "volume" -%}
+
+  {%- for editor in paper.editors -%}
+    {%- assign name = editor | split: ", " -%}
+    {{name[1]}} {{name[0]}}
+    {%- if forloop.last == true -%}
+      &nbsp;(editors)
+    {%- endif -%}
+    ,&#32;
+  {%- endfor -%}
+  <em>{{paper.book}}</em>
+
+  {%- if paper.url -%}
+    <a href="{{paper.url}}">
+  {%- endif -%}
+  "{{paper.book}}"
+  {%- if paper.url -%}
+    </a>
+  {%- endif -%}
+
+  {%- if paper.volume and paper.series -%}
+    , volume {{paper.volume}} of {{paper.series}}
+  {%- endif -%}
+
+  {%- if paper.pages -%}
+    , pages&nbsp;{{paper.pages}}
+  {%- endif -%}
+
+  {%- if paper.note -%}
+    , {{paper.note}}
+  {%- endif -%}
+
+  {%- if paper.publisher -%}
+    , {{paper.publisher}}
+  {%- endif -%}
+
+  {%- if paper.year -%}
+    , {{paper.year}}
+  {%- endif -%}
+
+  {%- if paper.preprint -%}
+    &#32;[[preprint](/papers/{{paper.preprint}})]
+  {%- endif -%}
+
 {%- endif -%}

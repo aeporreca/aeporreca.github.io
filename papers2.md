@@ -36,3 +36,7 @@ The papers in this section only include those that do not possess an extended ve
 
 Volumes edited
 --------------
+
+{% for paper in site.data.volumes %}
+1. {% include paper.html %}
+{% endfor %}
