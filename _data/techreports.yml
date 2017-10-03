@@ -1,0 +1,14 @@
+- type: journal
+  title: "Space complexity of P systems with active membranes: A survey"
+  authors:
+    - Leporati, Alberto
+    - Manzoni, Luca
+    -  Mauri, Giancarlo
+    - Porreca, Antonio E.
+    - Zandron, Claudio
+  journal: Bulletin of the International Membrane Computing Society
+  volume: 3
+  year: 2017
+  pages: 41–54
+  url: http://membranecomputing.net/IMCSBulletin/pdf/BullIMCSJune2017.pdf
+  preprint: space-complexity-of-p-systems-with-active-membranes-survey.pdf
