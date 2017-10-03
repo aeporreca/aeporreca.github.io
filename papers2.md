@@ -16,7 +16,7 @@ Conference papers
 -----------------
 
 {% assign conferences = site.data.papers2 | where: "type", "conference" %}
-{% for paper in conferenes  %}
+{% for paper in conferences  %}
 1. {% include format-conference.html %}
 {% endfor %}
 
