@@ -15,11 +15,11 @@
 {%- for editor in paper.editors -%}
   {%- assign name = editor | split: ", " -%}
   {{name[1]}} {{name[0]}}
-  <!-- {%- if forloop.last == true %-} -->
-  <!--   gino -->
-  <!-- {%- else -%} -->
-  <!--   pippo -->
-  <!-- {%- endif -%} -->
+  {%- if forloop.last == true %-}
+    gino
+  {%- else -%}
+    pippo
+  {%- endif -%}
 {%- endfor -%}
 <em>{{paper.book}}</em>
 
