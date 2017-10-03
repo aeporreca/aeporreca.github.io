@@ -11,8 +11,12 @@ Journal papers
 1. {% include paper.html %}
 {% endfor %}
 
-<!-- Conference papers -->
-<!-- ----------------- -->
+Conference papers
+-----------------
+
+{% for paper in site.data.conferences  %}
+1. {% include paper.html %}
+{% endfor %}
 
 <!-- {% assign conferences = site.data.papers2 | where: "type", "conference" %} -->
 <!-- {% for paper in conferences  %} -->
