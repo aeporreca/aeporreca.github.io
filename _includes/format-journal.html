@@ -1,7 +1,7 @@
-{%- for author in paper.author -%}
+{%- for author in paper.authors -%}
   <!-- {%- assign name = author | split: "," -%} -->
   <!-- {{name[1]}} {{name[0]}},&#32; -->
-  {{author}}1
+  {{author}}
 {%- endfor -%}
 
 {%- if paper.url -%}
