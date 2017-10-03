@@ -7,20 +7,29 @@ This is a list of my [journal](#journal-papers) and [conference](#conference-and
 Journal papers
 --------------
 
-{% for paper in site.data.journals  %}
+{% for paper in site.data.journals %}
 1. {% include paper.html %}
 {% endfor %}
 
 Conference papers
 -----------------
 
-{% for paper in site.data.conferences  %}
+{% for paper in site.data.conferences %}
 1. {% include paper.html %}
 {% endfor %}
 
 Book chapters
 -------------
 
-{% for paper in site.data.chapters  %}
+{% for paper in site.data.chapters %}
+1. {% include paper.html %}
+{% endfor %}
+
+Technical reports
+-----------------
+
+The papers in this section only include those that do not possess an extended version published in a peer-reviewed journal or conference.
+
+{% for paper in site.data.techreports %}
 1. {% include paper.html %}
 {% endfor %}
