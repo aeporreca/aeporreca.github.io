@@ -7,26 +7,16 @@ This is a list of my [journal](#journal-papers) and [conference](#conference-and
 Journal papers
 --------------
 
-<!-- {% assign journals = site.data.papers -->
-<!--                    | where: 'type', 'journal' -->
-<!--                    | sort: 'year' | reverse %} -->
-<!-- {% for paper in journals %} -->
-<!-- 1. {% include paper.html %} -->
-<!-- {% endfor %} -->
-
 {% for paper in site.data.papers2 | where: 'type', 'journal' %}
 1. {% include format-journal.html %}
 {% endfor %}
 
-<!-- Conference papers -->
-<!-- ----------------- -->
+Conference papers
+-----------------
 
-<!-- {% assign conferences = site.data.papers -->
-<!--                       | where: 'type', 'conference' -->
-<!--                       | sort: 'year' | reverse %} -->
-<!-- {% for paper in conferences %} -->
-<!-- 1. {% include paper.html %} -->
-<!-- {% endfor %} -->
+{% for paper in site.data.papers2 | where: 'type', 'conference' %}
+1. {% include format-conference.html %}
+{% endfor %}
 
 <!-- Book chapters -->
 <!-- ------------- -->

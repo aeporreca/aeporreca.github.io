@@ -14,3 +14,27 @@
   year: 2017
   url: https://doi.org/10.1016/j.tcs.2015.12.003
   preprint: computational-complexity-of-finite-asynchronous-cellular-automata.pdf
+
+# Conference papers
+
+- type: conference
+  title: Shallow non-confluent P systems
+  authors:
+    - Leporati, Alberto
+    - Manzoni, Luca
+    - Mauri, Giancarlo
+    - Porreca, Antonio E.
+    - Zandron, Claudio
+  book: Membrane Computing, 17th International Conference, CMC 2016
+  editors:
+    - Leporati, Alberto
+    - Rozenberg, Grzegorz
+    - Salomaa, Arto
+    - Zandron, Claudio
+  volume: 10105
+  series: Lecture Notes in Computer Science
+  pages: 307–316
+  publisher: Springer
+  year: 2017
+  url: https://doi.org/10.1007/978-3-319-54072-6_19
+  preprint: shallow-non-confluent-p-systems.pdf
