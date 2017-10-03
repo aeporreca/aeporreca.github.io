@@ -16,33 +16,10 @@
   {%- assign name = editor | split: ", " -%}
   {{name[1]}} {{name[0]}}
   {{forloop.last}}
-  {%- if forloop.last == true %-}
+  {%- if forloop.last == true -%}
     gino
   {%- else -%}
     pippo
   {%- endif -%}
 {%- endfor -%}
 <em>{{paper.book}}</em>
-
-{%- if paper.volume -%}
-  &nbsp;{{paper.volume}}
-  {%- if paper.issue -%}
-    ({{paper.issue}})
-  {%- endif -%}
-{%- endif -%}
-
-{%- if paper.pages -%}
-  , pages&nbsp;{{paper.pages}}
-{%- endif -%}
-
-{%- if paper.note -%}
-  , {{paper.note}}
-{%- endif -%}
-
-{%- if paper.year -%}
-  , {{paper.year}}
-{%- endif -%}
-
-{%- if paper.preprint -%}
-  &#32;[[preprint](/papers/{{paper.preprint}})]
-{%- endif -%}
