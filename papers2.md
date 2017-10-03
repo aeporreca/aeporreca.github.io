@@ -18,44 +18,44 @@ Journal papers
 1. {% include format-journal.html %}
 {% endfor %}
 
-Conference papers
------------------
+<!-- Conference papers -->
+<!-- ----------------- -->
 
-{% assign conferences = site.data.papers
-                      | where: 'type', 'conference'
-                      | sort: 'year' | reverse %}
-{% for paper in conferences %}
-1. {% include paper.html %}
-{% endfor %}
+<!-- {% assign conferences = site.data.papers -->
+<!--                       | where: 'type', 'conference' -->
+<!--                       | sort: 'year' | reverse %} -->
+<!-- {% for paper in conferences %} -->
+<!-- 1. {% include paper.html %} -->
+<!-- {% endfor %} -->
 
-Book chapters
--------------
+<!-- Book chapters -->
+<!-- ------------- -->
 
-{% assign chapters = site.data.papers
-                   | where: 'type', 'chapter'
-                   | sort: 'year' | reverse %}
-{% for paper in chapters %}
-1. {% include paper.html %}
-{% endfor %}
+<!-- {% assign chapters = site.data.papers -->
+<!--                    | where: 'type', 'chapter' -->
+<!--                    | sort: 'year' | reverse %} -->
+<!-- {% for paper in chapters %} -->
+<!-- 1. {% include paper.html %} -->
+<!-- {% endfor %} -->
 
-Technical reports
------------------
+<!-- Technical reports -->
+<!-- ----------------- -->
 
-The papers in this section only include those that do not possess an extended version published in a peer-reviewed journal or conference.
+<!-- The papers in this section only include those that do not possess an extended version published in a peer-reviewed journal or conference. -->
 
-{% assign techreports = site.data.papers
-                      | where: 'type', 'techreport'
-                      | sort: 'year' | reverse %}
-{% for paper in reports %}
-1. {% include paper.html %}
-{% endfor %}
+<!-- {% assign techreports = site.data.papers -->
+<!--                       | where: 'type', 'techreport' -->
+<!--                       | sort: 'year' | reverse %} -->
+<!-- {% for paper in reports %} -->
+<!-- 1. {% include paper.html %} -->
+<!-- {% endfor %} -->
 
-Volumes edited
---------------
+<!-- Volumes edited -->
+<!-- -------------- -->
 
-{% assign volumes = site.data.papers
-                  | where: 'type', 'volume'
-                  | sort: 'year' | reverse %}
-{% for paper in volumes %}
-1. {% include paper.html %}
-{% endfor %}
+<!-- {% assign volumes = site.data.papers -->
+<!--                   | where: 'type', 'volume' -->
+<!--                   | sort: 'year' | reverse %} -->
+<!-- {% for paper in volumes %} -->
+<!-- 1. {% include paper.html %} -->
+<!-- {% endfor %} -->
