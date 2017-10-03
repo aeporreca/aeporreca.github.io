@@ -14,6 +14,7 @@ Journal papers
 
 Conference papers
 -----------------
+
 {% assign conferences = site.data.papers2 | where: "type", "conference" %}
 {% for paper in conferenes  %}
 1. {% include format-conference.html %}
