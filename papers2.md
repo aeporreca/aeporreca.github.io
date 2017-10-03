@@ -20,8 +20,13 @@ Conference papers
 1. {% include format-conference.html %}
 {% endfor %}
 
-<!-- Book chapters -->
-<!-- ------------- -->
+Book chapters
+-------------
+
+{% assign chapters = site.data.papers2 | where: "type", "chapter" %}
+{% for paper in chapters  %}
+1. {% include format-chapter.html %}
+{% endfor %}
 
 <!-- {% assign chapters = site.data.papers -->
 <!--                    | where: 'type', 'chapter' -->
