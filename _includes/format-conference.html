@@ -21,3 +21,7 @@
   ,&#32;
 {%- endfor -%}
 <em>{{paper.book}}</em>
+
+{%- if paper.volume and paper.series -%}
+  , volume {{paper.volume}} of {{paper.series}}
+{%- endif -%}
