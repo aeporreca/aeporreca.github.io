@@ -1,6 +1,11 @@
 {%- for author in paper.authors -%}
   {%- assign name = author | split: ", " -%}
   {{namef[1]}} {{name[0]}},&#32;
+  {%- if forloop.last == true %-}
+    gino
+  {%- else -%}
+    pippo
+  {%- endif -%}
 {%- endfor -%}
 
 {%- if paper.url -%}
