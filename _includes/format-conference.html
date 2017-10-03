@@ -12,7 +12,6 @@
 {%- endif -%}
 
 , in&#32;
-{%- assign x = paper.editors.last %-}
 {%- for editor in paper.editors -%}
   {%- assign name = editor | split: ", " -%}
   {{name[1]}} {{name[0]}}
