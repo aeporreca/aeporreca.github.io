@@ -29,3 +29,23 @@
   {%- endif -%}
   of {{paper.series}}
 {%- endif -%}
+
+{%- if paper.pages -%}
+  , pages&nbsp;{{paper.pages}}
+{%- endif -%}
+
+{%- if paper.note -%}
+  , {{paper.note}}
+{%- endif -%}
+
+{%- if paper.publisher -%}
+  , {{paper.publisher}}
+{%- endif -%}
+
+{%- if paper.year -%}
+  , {{paper.year}}
+{%- endif -%}
+
+{%- if paper.preprint -%}
+  &#32;[[preprint](/papers/{{paper.preprint}})]
+{%- endif -%}
