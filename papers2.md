@@ -7,11 +7,15 @@ This is a list of my [journal](#journal-papers) and [conference](#conference-and
 Journal papers
 --------------
 
-{% assign journals = site.data.papers
-                   | where: 'type', 'journal'
-                   | sort: 'year' | reverse %}
-{% for paper in journals %}
-1. {% include paper.html %}
+<!-- {% assign journals = site.data.papers -->
+<!--                    | where: 'type', 'journal' -->
+<!--                    | sort: 'year' | reverse %} -->
+<!-- {% for paper in journals %} -->
+<!-- 1. {% include paper.html %} -->
+<!-- {% endfor %} -->
+
+{% for paper in site.data.papers2.journal %}
+1. {% include format-journal.html %}
 {% endfor %}
 
 Conference papers

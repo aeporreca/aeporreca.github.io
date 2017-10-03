@@ -1,0 +1,71 @@
+{%- for author in paper.authors -%}
+  {%- assign name = author | split: "," -%}
+  {{name[1]}} {{name[2]}},&#32;
+{%- endfor -%}
+
+{%- if paper.url -%}
+  <a href="{{paper.url}}">
+{%- endif -%}
+{%- if paper.title -%}
+  "{{paper.title}}"
+{%- endif -%}
+{%- if paper.url -%}
+  </a>
+{%- endif -%}
+
+{%- if paper.editors and paper.title -%}
+  , in&nbsp;
+{%- endif -%}
+
+{%- for editor in paper.editors -%}
+  {{editor.given}} {{editor.family}}
+  {%- if forloop.last == true -%}
+    &nbsp;(editors)
+  {%- else -%}
+    ,&#32;
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if paper.publication -%}
+  ,&#32;
+  {%- unless paper.title or paper.url == nil -%}
+    <a href="{{paper.url}}">
+  {%- endunless -%}
+  <em>{{paper.publication}}</em>
+  {%- unless paper.title or paper.url == nil -%}
+    </a>
+  {%- endunless -%}
+{%- endif -%}
+
+{%- if paper.series -%}
+  , volume&nbsp;{{paper.volume}}
+  {%- if paper.issue -%}
+    ({{paper.issue}})
+  {%- endif -%}
+  &#32;of&nbsp;{{paper.series}}
+{%- elsif paper.volume -%}
+  &nbsp;{{paper.volume}}
+  {%- if paper.issue -%}
+    ({{paper.issue}})
+  {%- endif -%}
+{%- endif -%}
+
+{%- if paper.pages -%}
+  , pages&nbsp;{{paper.pages}}
+{%- endif -%}
+
+{%- if paper.note -%}
+  , {{paper.note}}
+{%- endif -%}
+
+{%- if paper.publisher -%}
+  , {{paper.publisher}}
+{%- endif -%}
+
+{%- if paper.year -%}
+  , {{paper.year}}
+{%- endif -%}
+
+{%- if paper.preprint -%}
+  &#32;[[preprint](/papers/{{paper.preprint}})]
+{%- endif -%}
