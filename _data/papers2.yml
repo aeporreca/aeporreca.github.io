@@ -1,6 +1,6 @@
 # Journal papers
 
-journal:
+- type: journal
   title: Computational complexity of finite asynchronous cellular automata
   author: Dennunzio, Alberto
   author: Formenti, Enrico 

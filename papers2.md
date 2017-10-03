@@ -14,7 +14,7 @@ Journal papers
 <!-- 1. {% include paper.html %} -->
 <!-- {% endfor %} -->
 
-{% for paper in site.data.papers2.journal %}
+{% for paper in site.data.papers2 | where: 'type', 'journal' %}
 1. {% include format-journal.html %}
 {% endfor %}
 
