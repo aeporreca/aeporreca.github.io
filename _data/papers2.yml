@@ -17,7 +17,7 @@
 
 # Conference papers
 
-- type: conference
+- type: chapter
   title: Shallow non-confluent P systems
   authors:
     - Leporati, Alberto

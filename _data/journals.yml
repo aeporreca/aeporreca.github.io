@@ -1,0 +1,14 @@
+- type: journal
+  title: Computational complexity of finite asynchronous cellular automata
+  authors:
+    - Dennunzio, Alberto
+    - Formenti, Enrico 
+    - Manzoni, Luca
+    - Mauri, Giancarlo
+    - Porreca, Antonio E.
+  journal: Theoretical Computer Science
+  volume: 664
+  pages: 131–143
+  year: 2017
+  url: https://doi.org/10.1016/j.tcs.2015.12.003
+  preprint: computational-complexity-of-finite-asynchronous-cellular-automata.pdf
