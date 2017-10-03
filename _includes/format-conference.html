@@ -13,6 +13,9 @@
 
 , in&#32;
 {%- for editor in paper.editors -%}
+  {%- assign name = editor | split: ", " -%}
+  {{name[1]}} {{name[0]}}
+  {{forloop.last}}
   {%- if forloop.last == true %-}
     gino
   {%- else -%}
