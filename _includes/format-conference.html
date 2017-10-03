@@ -11,7 +11,21 @@
   </a>
 {%- endif -%}
 
-<em>{{paper.journal}}</em>
+{%- if paper.book -%}
+  , in
+  {%- if paper.editors %-}
+    {%- for editor in paper.editors -%}
+      {%- assign name = editor | split: "," -%}
+      {{name[1]}} {{name[0]}}
+      {%- if forloop.last == true %-}
+        &nbsp;(editors)
+      {%- else -%}
+        ,&#32;
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  <em>{{paper.book}}</em>
+{%- endif -%}
 
 {%- if paper.volume -%}
   &nbsp;{{paper.volume}}
