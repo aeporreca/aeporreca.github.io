@@ -17,3 +17,10 @@ Conference papers
 {% for paper in site.data.conferences  %}
 1. {% include paper.html %}
 {% endfor %}
+
+Book chapters
+-------------
+
+{% for paper in site.data.chapters  %}
+1. {% include paper.html %}
+{% endfor %}
