@@ -8,7 +8,7 @@ Journal papers
 --------------
 
 {% for paper in data.journals  %}
-1. {% include paper.html %}
+1. gino <!-- {% include paper.html %} -->
 {% endfor %}
 
 <!-- Conference papers -->
