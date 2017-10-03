@@ -7,6 +7,6 @@ This is a list of my [journal](#journal-papers) and [conference](#conference-and
 Journal papers
 --------------
 
-{% for paper in data.journals  %}
+{% for paper in data.journals %}
 1. gino <!-- {% include paper.html %} -->
 {% endfor %}
