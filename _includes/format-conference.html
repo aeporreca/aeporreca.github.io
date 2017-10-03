@@ -23,5 +23,9 @@
 <em>{{paper.book}}</em>
 
 {%- if paper.volume and paper.series -%}
-  , volume {{paper.volume}} of {{paper.series}}
+  , volume {{paper.volume}}
+  {%- if paper.issue %-}
+    ({{paper.issue}})
+  {%- endif -%}
+  of {{paper.series}}
 {%- endif -%}
