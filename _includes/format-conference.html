@@ -13,7 +13,7 @@
 
 , in
 {%- for editor in paper.editors -%}
-  {%- assign name = editor | split: "," -%}
+  {%- assign name = editor | split: ", " -%}
   {{name[1]}} {{name[0]}}
   {%- if forloop.last == true %-}
     &nbsp;(editors)
