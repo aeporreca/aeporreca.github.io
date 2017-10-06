@@ -15,7 +15,8 @@ body {
 #page {
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 700px;
+    width: 90%;
+    width-max: 700px;
     margin: 0 auto;
 }
 
