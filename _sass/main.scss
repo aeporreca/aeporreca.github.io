@@ -10,8 +10,8 @@ $cornell_red:    #A8201A;
 
 body {
     font-size: 20px;
-    background-color: #FFFFF0;  /* Ivory */
-    color: #143642;             /* Yankees Blue */
+    background-color: $ivory;
+    color: $yankees_blue;
     line-height: 1.5;
     font-family: Roboto, sans-serif;
 }
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a, u {
     text-decoration: none;
-    color: #A8201A;             /* Cornell Red */
+    color: $cornell_red;
 }
 
 ol, ul {
