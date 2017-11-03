@@ -15,7 +15,7 @@ October 2017: Our paper [“Subroutines in P systems and closure properties of 
 Contacts
 --------
 
-Antonio E. Porreca &lt;<{{site.author.email}}>&gt;<br>
-Dipartimento di Informatica, Sistemistica e Comunicazione<br>
-Università degli Studi di Milano-Bicocca<br>
+Antonio E. Porreca &lt;<{{site.author.email}}>&gt;  
+Dipartimento di Informatica, Sistemistica e Comunicazione  
+Università degli Studi di Milano-Bicocca  
 Room 1047, Viale Sarca 336/14, 20126 Milano, Italy
