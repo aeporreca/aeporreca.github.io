@@ -9,8 +9,15 @@ title: Blog
 
 <p id="post-date">{{post.date | date_to_long_string}}</p>
 
-{{post.excerpt}}
+{{post.excerpt | markdownify | strip_html | append: '[more]'}}
 
-[[read more…]({{post.url}})]
+<!-- [{{post.title}}]({{post.url}}) -->
+<!-- ------------------------------ -->
+
+<!-- <p id="post-date">{{post.date | date_to_long_string}}</p> -->
+
+<!-- {{post.excerpt}} -->
+
+<!-- [[read more…]({{post.url}})] -->
 
 {% endfor %}
