@@ -11,6 +11,8 @@ title: Blog
 
 {{post.excerpt | strip_newlines | append: '[read more…]' | strip_newlines}}
 
+{{post.excerpt | strip_newlines | append: '[read more…]' | strip_newlines | strip_newlines}}
+
 <!-- {{post.excerpt | append: '[read more…]' | strip_newlines | markdownify | strip_html}} -->
 
 <!-- [{{post.title}}]({{post.url}}) -->
