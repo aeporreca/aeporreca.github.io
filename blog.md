@@ -11,7 +11,7 @@ title: Blog
 
 {% assign paragraphs = post.content | newline_to_br | split: '<br />' %}
 <!-- {{post.excerpt | append: '[read more…]' | markdownify | strip_html}} -->
-{{post.paragraphs[0] | append: '[read more…]'}}
+{{post.paragraphs[1] | append: '[read more…]'}}
 
 <!-- [{{post.title}}]({{post.url}}) -->
 <!-- ------------------------------ -->
