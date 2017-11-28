@@ -16,7 +16,7 @@ Program committees
 Organising committees
 ---------------------
 
-1. Member of the organising committee of the [23rd International Workshop on Cellular Automata and Discrete Complex Systems (AUTOMATA 2017)](https://automata2017.disco.unimib.it), Università degli Studi di Milano-Bicocca, Italy, 7–9 June 2017.
+1. Member of the organising committee of the [23rd International Workshop on Cellular Automata and Discrete Complex Systems (AUTOMATA 2017)](https://automata2017.wordpress.com), Università degli Studi di Milano-Bicocca, Italy, 7–9 June 2017.
 
 1. Member of the organising committee of the [17th International Conference on Membrane Computing (CMC17)](http://cmc17.disco.unimib.it), Università degli Studi di Milano-Bicocca, Italy, 25–29 July 2016.
 
