@@ -4,7 +4,12 @@
 
 <head>
 <meta charset="utf-8">
-<title>{{page.title}} &bullet; {{site.title}}</title>
+<title>
+{%- if page.title != "Home" -%}
+{{page.title}} &bullet;
+{%- endif -%}
+{{site.title}}
+</title>
 <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=0.9">
 <script type="text/x-mathjax-config">
