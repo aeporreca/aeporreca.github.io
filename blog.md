@@ -14,13 +14,4 @@ title: Blog
 {{post.excerpt | markdownify | strip_newlines
     | remove: '<p>' | remove: '</p>' | append: more}}
 
-<!-- [{{post.title}}]({{post.url}}) -->
-<!-- ------------------------------ -->
-
-<!-- <p class="post-date">{{post.date | date_to_long_string}}</p> -->
-
-<!-- {{post.excerpt}} -->
-
-<!-- [[read more…]({{post.url}})] -->
-
 {% endfor %}
