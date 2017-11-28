@@ -9,7 +9,9 @@ title: Blog
 
 <p id="post-date">{{post.date | date_to_long_string}}</p>
 
-{{post.excerpt | append: '[read more…]' | markdownify | strip_html}}
+{% assign paragraphs = post.content | newline_to_br | split: '<br />' %}
+<!-- {{post.excerpt | append: '[read more…]' | markdownify | strip_html}} -->
+{{post.paragraphs[0] | append: '[read more…]'}}
 
 <!-- [{{post.title}}]({{post.url}}) -->
 <!-- ------------------------------ -->
