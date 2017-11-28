@@ -9,7 +9,7 @@ title: Blog
 
 <p class="post-date">{{post.date | date_to_long_string}}</p>
 
-{{post.content | markdownify | strip_html | truncatewords: 50 | append: '[read more…]'}}
+{{post.content | markdownify | strip_html | truncatewords: 50 | append: ' [[read more…]({{post.url}})]'}}
 
 <!-- {{post.excerpt | append: '[read more…]' | strip_newlines | markdownify | strip_html}} -->
 
