@@ -9,7 +9,7 @@ title: Blog
 
 <p id="post-date">{{post.date | date_to_long_string}}</p>
 
-{{post.excerpt | markdownify | strip_html | append: '[more]'}}
+{{post.excerpt | append: '[more]' | markdownify | strip_html}}
 
 <!-- [{{post.title}}]({{post.url}}) -->
 <!-- ------------------------------ -->
