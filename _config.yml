@@ -1,5 +1,5 @@
 title: Antonio E. Porreca
-description: My website
+description: Antonio E. Porreca’s Website
 url: https://aeporreca.org
 author:
   name: Antonio E. Porreca
@@ -10,3 +10,4 @@ sass:
 plugins:
 - jekyll-redirect-from
 - jekyll-sitemap
+- jekyll-feed
