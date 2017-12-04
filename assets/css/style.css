@@ -51,6 +51,10 @@ ol, ul {
   padding-left: 0em;
 }
 
+li {
+  margin: 10px 0;
+}
+
 blockquote {
   font-style: italic;
 }
