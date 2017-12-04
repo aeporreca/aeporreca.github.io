@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>A relatively serious proof that P &ne; NP? &bullet;&#32;
+Antonio E. Porreca</title>
+<link type="application/atom+xml" rel="alternate" href="https://aeporreca.org/feed.xml" title="Antonio E. Porreca" />
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=0.9">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</head>
+
+<body>
+<div id="page">
+<div id="site-title">
+  <a href="/">Antonio E. Porreca</a>
+</div>
+
+<div id="menu-bar">
+<a href="/">Home</a>
+&bullet;
+<a href="/papers/">Papers</a>
+&bullet;
+<a href="/talks/">Talks</a>
+&bullet;
+<a href="/committees/">Committees</a>
+&bullet;
+<a href="/blog/">Blog</a>
+</div>
+
+<h1 id="title">A relatively serious proof that P &ne; NP?</h1>
+<p class="post-date">09 August 2010</p>
+<p><em>Note: I’ve stopped updating this post, now that I’ve collected quite a lot of comments. For the latest news, I suggest checking <a href="http://twitter.com/aeporreca">my tweets</a> and, in particular, the <a href="http://michaelnielsen.org/polymath1/index.php?title=Deolalikar%27s_P!%3DNP_paper">Polymath wiki page</a> (edited by more people than just yours truly). Maybe I’ll have another post in the next few days, if something shocking happens.</em></p>
+
+<p>The news seems to have originated from a <a href="http://gregbaker.ca/blog/2010/08/07/p-n-np/">post</a> on Greg Baker’s blog. The author of the claimed proof of P ≠ NP is <a href="http://www.hpl.hp.com/personal/Vinay_Deolalikar/">Vinay Deolalikar</a>, principal research scientist at HP Labs (though “[t]his work was pursued independently of [his] duties as a HP Labs researcher, and without the knowledge of others”). Judging from his past publication history, we can’t afford to immediately dismiss the author as a crank this time.</p>
+
+<p>It seems that a preliminary version of the <a href="http://www.hpl.hp.com/personal/Vinay_Deolalikar/Papers/pnp_preliminary.pdf">paper</a>, dated 6 August (note: there’s a new version <del datetime="2010-08-10T18:52:54+00:00">with “minor updates” <a href="http://www.hpl.hp.com/personal/Vinay_Deolalikar/Papers/pnp_updated.pdf">here</a></del> <a href="http://www.hpl.hp.com/personal/Vinay_Deolalikar/Papers/pnp_updated-mjr.pdf">here</a>), was circulated by Deolalikar to “several leading researchers in various areas”, rather amusingly in both “10pt and 12pt fonts” (apparently, the proof does not relativise to 11pt). According to Baker, <a href="http://www.cs.toronto.edu/~sacook/">Stephen Cook</a> commented “This appears to be a relatively serious claim to have solved P vs NP”. The story started spreading when someone uploaded the paper to <a href="http://www.scribd.com/doc/35539144/pnp12pt">Scribd</a> without the author’s knowledge.</p>
+
+<p>The paper is very long (<del datetime="2010-08-09T19:55:39+00:00">103</del> <del datetime="2010-08-10T18:56:17+00:00">104</del> 107 pages in the 12pt version) and involves “several fields spanning logic, statistics, graphical models, random ensembles, and statistical physics”. So, before engaging in a serious reading, I’m going to wait for someone more qualified than me to make a preliminary evaluation. In particular, the word “physics” sounds pretty scary to me in this context.</p>
+
+<p>What do computer scientists and related people on the web think about it? Here is a list of people who commented on Deolalikar’s paper (until 10 August).</p>
+
+<ul>
+  <li>Richard Lipton <a href="http://rjlipton.wordpress.com/2010/08/08/a-proof-that-p-is-not-equal-to-np/">thinks</a> this is a “well written paper, by a serious researcher” and “who knows—perhaps this is the solution we have all have been waiting for”.</li>
+  <li>Lance Fortnow is <a href="http://twitter.com/fortnow/status/20673954168">laconically cautious</a>: “Much ado about an unverified proof”.</li>
+  <li>Dave Bacon <a href="http://dabacon.org/pontiff/?p=4286">thinks</a> “this a fairly serious attack by a serious researcher”.</li>
+  <li>Scott Aaronson is willing to supplement the million dollar Clay Millennium prize by $200,000 if the proof turns out to be correct, though he <a href="http://scottaaronson.com/blog/?p=456">remarks</a> that “even if this attempt fails, it seems to introduce some thought-provoking new ideas”.</li>
+  <li>Daniel Lemire doesn’t <a href="http://www.daniel-lemire.com/blog/archives/2010/08/09/how-to-get-everyone-talking-about-your-research/">comment</a> directly on the contents the paper, but on some reasons why Deolalikar gets so much attention: well-written paper, and enough reputation to be considered as a peer.</li>
+  <li>Suresh Venkatasubramanian seems to <a href="http://twitter.com/geomblog/status/20713035743">think</a> that understanding this paper does indeed require knowledge of many fields. He’s also <a href="http://geomblog.blogspot.com/2010/08/on-deolalikar-proof-crowdsourcing.html">proposing</a> a collaborative effort to identify any issue with the current version of the proof.</li>
+  <li>William Gasarch would <a href="http://blog.computationalcomplexity.org/2010/08/that-p-ne-np-proof-whats-up-with-that.html">bet</a> that Deolalikar “proved something very interesting, but not P ≠ NP”: we just haven’t made enough progress on that problem yet.</li>
+  <li>Bruce Schneier also <a href="http://www.schneier.com/blog/archives/2010/08/p_np_1.html">bets</a> that the proof is flawed, despite the author being a “respected researcher”.</li>
+  <li>Ryan Williams is quite <a href="http://twitter.com/rrwilliams/status/20741046788">sceptical</a> (his technical comments <a href="http://twitter.com/rrwilliams/status/20741170730">here</a>, <a href="http://twitter.com/rrwilliams/status/20741266130">here</a>, <a href="http://twitter.com/rrwilliams/status/20741316229">here</a> and <a href="http://twitter.com/rrwilliams/status/20741339603">here</a>).</li>
+  <li>Richard Lipton and Ken Regan <a href="http://rjlipton.wordpress.com/2010/08/09/issues-in-the-proof-that-p%E2%89%A0np/">highlight</a> some technical issues with the proof.</li>
+  <li>In the mean time, Geomblog <a href="http://geomblog.blogspot.com/2010/08/polymath-home-for-analysis-of.html">reports</a> that the analysis of Deolalikar’s proof moved to a <a href="http://michaelnielsen.org/polymath1/index.php?title=Deolalikar%27s_P%21%3DNP_paper">new wiki</a>, in collaboration with the Polymath project.</li>
+  <li>Terence Tao <a href="http://www.google.com/buzz/114134834346472219368/1vfSCPtRQZf/Vinay-Deolaikar-recently-released-a-102-page">says</a> “[t]his is a serious effort, but one which sits somewhat orthogonally to the existing work on this problem”, so a sensible evaluation might require quite some time.</li>
+  <li>András Salamon is also “<a href="http://constraints.wordpress.com/2010/08/09/deolalikars-manuscript/">sceptical</a>”, as “the technique used is unlikely to work to prove the desired result”. However, “the paper is definitely worth reading” anyway.</li>
+  <li>More detailed <a href="http://twitter.com/rrwilliams/status/20805879147">comments</a> by Ryan Williams on the <a href="http://michaelnielsen.org/polymath1/index.php?title=Deolalikar%27s_P!%3DNP_paper#Issues_with_random_k-SAT">Polymath wiki</a>.</li>
+  <li>In another <a href="http://dabacon.org/pontiff/?p=4292">post</a>, Dave Bacon comments on the reasons behind the interest drawn by the paper (it’s very broad in scope and contains a lot of review). And, by the way, he and his colleagues are sceptical too.</li>
+  <li>Charanjit Jutla <a href="http://rjlipton.wordpress.com/2010/08/09/issues-in-the-proof-that-p%E2%89%A0np/#comment-4712">thinks</a> there’s a “huge (unfixable) gap”.</li>
+  <li>As of 10 August, 22:58 UTC there isn’t any mention of the P ≠ NP paper on Deolalikar’s <a href="http://www.hpl.hp.com/personal/Vinay_Deolalikar/">home page</a> anymore (though the paper itself is still available in its <a href="http://www.hpl.hp.com/personal/Vinay_Deolalikar/Papers/pnp_updated-mjr.pdf">third version</a>).</li>
+</ul>
+
+<p>The proof also made it to Gerhard Woeginger’s <a href="http://www.win.tue.nl/~gwoegi/P-versus-NP.htm">P-versus-NP page</a> and, somehow, to <a href="http://isohunt.com/torrent_details/204525141/?tab=summary">BitTorrent</a> (?). <em>Nature news</em> has an article on this story: <a href="http://www.nature.com/news/2010/100810/full/news.2010.398.html">Million-dollar problem cracked?</a>.</p>
+
+<p>On a side note, I’m genuinely surprised by the amount of <a href="http://search.twitter.com/search?q=P%20NP">buzz</a> on Twitter generated by this story (mostly deriving from <a href="http://science.slashdot.org/story/10/08/08/226227/Claimed-Proof-That-P--NP">Slashdot</a> and <a href="http://news.ycombinator.net/item?id=1585850">Hacker News</a> I think). Independently of the actual correctness of the proof, I believe this is a good thing, as it suggests that there’s enough public interest for the most important open problem in computer science.</p>
+
+</div>
+</body>
+</html>
+
