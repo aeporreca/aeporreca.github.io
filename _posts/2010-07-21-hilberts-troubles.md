@@ -11,7 +11,7 @@ While digging in the early computability literature, I found a precious and long
     <kurt> just 1 sec, brb
     * kurt is away: proving some stuff
     * kurt is back
-    <kurt> lol dave, taek a look at this: http://is.gd/dAo7d
+    <kurt> lol dave, taek a look at this: https://doi.org/10.1007/BF01700692
     <david> FFFUUUUUUUUUUUU
     <david> at least solve teh entsk^Wentschi^W entscheidungsproblem...
     <alonzo> cant do that, lambada calculus proves it
