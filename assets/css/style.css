@@ -44,7 +44,7 @@ a, u {
   color: #A8201A;
 }
 
-#site-title a {
+#site-title a, .post-title a {
   color: #143642;
 }
 
