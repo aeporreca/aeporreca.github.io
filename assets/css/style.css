@@ -67,3 +67,8 @@ strong {
 pre, code, kbd, samp, tt {
   font-size: 0.9em;
 }
+
+.left-right-padded {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
