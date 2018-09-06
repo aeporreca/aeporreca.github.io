@@ -77,6 +77,6 @@ pre, code, kbd, samp, tt {
   border-radius: 50%;
   width: 12em;
   max-width: 33%;
-  margin-left: 1em;
-  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
 }
