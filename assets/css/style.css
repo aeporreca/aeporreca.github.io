@@ -71,3 +71,11 @@ pre, code, kbd, samp, tt {
   padding-left: 0.25em;
   padding-right: 0.25em;
 }
+
+.my-photo {
+  float: right;
+  border-radius: 50%;
+  height: 12em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
