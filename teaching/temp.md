@@ -26,11 +26,11 @@ Dessinez l’arborescence de tous les répertoires et fichiers depuis le répert
 
 Écrivez une commande qui supprime le répertoire 'Septembre_2018'. Pour cela, utilisez la commande rmdir.
 
-Python
+# Python
 
 
 
-# Ceci est un commentaire en python. Référence Python 3: https://docs.python.org/fr/3/
+    # Ceci est un commentaire en python. Référence Python 3: https://docs.python.org/fr/3/
 
 Python, un langage interprété.
 
