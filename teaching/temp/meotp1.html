@@ -1,0 +1,227 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>Mise en œuvre informatique TP1 &bullet; Antonio E. Porreca</title>
+
+<link type="application/atom+xml" rel="alternate" href="https://aeporreca.org/feed.xml" title="Antonio E. Porreca" />
+
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<meta property="og:title" content="Mise en œuvre informatique TP1" />
+<meta name="author" content="Antonio E. Porreca" />
+<meta property="og:locale" content="en_UK" />
+<meta name="description" content="Antonio E. Porreca’s Website" />
+<meta property="og:description" content="Antonio E. Porreca’s Website" />
+<link rel="canonical" href="https://aeporreca.org/teaching/temp/meotp1" />
+<meta property="og:url" content="https://aeporreca.org/teaching/temp/meotp1" />
+<meta property="og:site_name" content="Antonio E. Porreca" />
+<script type="application/ld+json">
+{"url":"https://aeporreca.org/teaching/temp/meotp1","headline":"Mise en œuvre informatique TP1","dateModified":null,"datePublished":null,"sameAs":null,"author":{"@type":"Person","name":"Antonio E. Porreca"},"mainEntityOfPage":null,"description":"Antonio E. Porreca’s Website","name":null,"image":null,"publisher":null,"@type":"WebPage","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+<div id="page">
+<div id="site-title">
+  <a href="/">Antonio E. Porreca</a>
+</div>
+
+<div id="menu-bar">
+<a href="/">Home</a>
+&bullet;
+<a href="/papers">Papers</a>
+&bullet;
+<a href="/talks">Talks</a>
+&bullet;
+<a href="/committees">Committees</a>
+&bullet;
+<a href="/teaching">Teaching</a>
+&bullet;
+<a href="/blog">Blog</a>
+&bullet;
+<a href="https://twitter.com/aeporreca">Twitter</a>
+</div>
+
+<h1 id="title">Mise en œuvre informatique TP1</h1>
+
+<h1 id="utilisation-du-terminal">Utilisation du terminal</h1>
+
+<p>Aide pour les commandes Unix : man (MANual). Ouvrez un terminal. Par défaut, vous êtes dans votre espace de travail (home).</p>
+
+<p>Affichez les éléments contenus dans le répertoire principal (racine ~ = ou “répertoire home”) en utilisant la commande ls.</p>
+
+<p>Si le répertoire principal ne contient pas un sous-répertoire nommé ‘Documents’,</p>
+
+<p>créez-le en utilisant la commande mkdir.</p>
+
+<p>Depuis ‘Documents’, créez un sous-répertoire nommé ‘Septembre_2018’. Pour se déplacer d’un répertoire à un autre, utilisez la commande cd.</p>
+
+<p>Créez deux fichiers ‘tp1.py’ et ‘tp2.py’ dans le dossier ‘Septembre_2018’.</p>
+
+<p>Pour cela, utilisez la commande touch.</p>
+
+<p>Quelle est la commande qui affiche à l’écran le nom de votre répertoire courant ?</p>
+
+<p>Écrivez les commandes qui vous permettent d’aller dans le répertoire principal et d’afficher récursivement son contenu (sous-dossiers et fichiers).</p>
+
+<p>Dessinez l’arborescence de tous les répertoires et fichiers depuis le répertoire principal.</p>
+
+<p>Écrivez une commande qui déplace dans ‘Documents’ tous les fichiers .py du répertoire ‘Septembre_2018’. Pour cela, utilisez la commande mv.</p>
+
+<p>Écrivez une commande qui supprime le répertoire ‘Septembre_2018’. Pour cela, utilisez la commande rmdir.</p>
+
+<h1 id="python">Python</h1>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Ceci est un commentaire en python. Référence Python 3: https://docs.python.org/fr/3/
+</code></pre></div></div>
+
+<p>Python, un langage interprété.</p>
+
+<p>Vous allez d’abord utiliser python en mode interactif, c’est-à-dire de manière à dialoguer avec lui directement depuis le clavier.</p>
+
+<p>Vous pouvez utiliser l’interpréteur directement comme une simple calculatrice de bureau.</p>
+
+<p>Dans la console python, entrez les expressions ci-dessous et observez le résultat :</p>
+
+<p>Pour ouvrir la console, il suffit de cliquer sur le bouton Python console en bas de votre fenêtre de Pycharm :</p>
+
+<p>5+10</p>
+
+<p>7 - 9</p>
+
+<p>7+3 * 5</p>
+
+<p>(7 +3) *5</p>
+
+<p>20/6</p>
+
+<p>8,7 / 5</p>
+
+<p>Notez que le séparateur décimal est toujours un point, et non une virgule!</p>
+
+<p>Les opérateurs arithmétiques : + (addition) / ( division) - (soustraction) * ( multiplication) % (reste de la division entière) // (division entière) ** (puissance)</p>
+
+<h1 id="variables-et-types">Variables et types</h1>
+
+<p>Remarques préliminaires</p>
+
+<p>Les variables sont utilisées pour stocker des valeurs afin que</p>
+
+<p>nous puissions nous y référer ultérieurement.</p>
+
+<p>Un nom de variable est une séquence de lettres (a → z , A → Z)</p>
+
+<p>et de chiffres (0 → 9), qui doit toujours commencer par une lettre. Seules les lettres ordinaires sont autorisées. Les lettres accentuées, les cédilles, les espaces, les caractères spéciaux tels que $, #, @, etc. sont interdits, à l’exception</p>
+
+<p>du caractère _ (souligné).</p>
+
+<p>La casse est significative (les caractères majuscules et minuscules sont distingués). Attention : Joseph, joseph, JOSEPH sont donc des variables différentes. Soyez attentifs !</p>
+
+<p>L’opération d’affectation est représentée par le signe égale “=” exemple: nom_de_la_variable par la valeur 2 en Python: nom_de_la_variable = 2. Attention, elle ne signifie pas l’égalité au sens mathématiques.</p>
+
+<p>Sous Python, on peut assigner une valeur à plusieurs variables</p>
+
+<p>simultanément. Exemple : a = b = 8</p>
+
+<p>print() : permet d’afficher la valeur d’une variable. Exemple: print(nom_de_la_variable)</p>
+
+<p>Il est possible de connaître le type d’une variable en utilisant la</p>
+
+<p>fonction type : print(type(nom_de_la_variable))</p>
+
+<p>int : désigne un entier</p>
+
+<p>float : désigne un nombre décimal</p>
+
+<p>str : désigne une chaîne de caractères Exercice</p>
+
+<p>Affectez les valeurs 7.692 et 21.8 aux variables a et b. Calculez leur somme dans une variable nommée resultat et affichez le contenu de cette dernière.</p>
+
+<p>On cherche à calculer la valeur d’un téléphone valant 999 dollars US en euros. Affectez cette valeur à une variable telephone_usd. Calculez la conversion en euros et affectez le résultat à une variable nommée telephone_euro. Rappel: 1 dollar = 0.86 euro lors de la création de cp TP.</p>
+
+<p>Affectez la valeur 2 à une variable nommée ma_variable.</p>
+
+<p>Quel est le type de cette variable ? Répétez l’opération avec les</p>
+
+<p>valeurs suivantes:</p>
+
+<p>2.5</p>
+
+<p>2 + 2.5</p>
+
+<p>3 * 1.0</p>
+
+<p>3.14 * 1</p>
+
+<p>‘z’</p>
+
+<p>“bonjour”</p>
+
+<p>10 / 3</p>
+
+<p>10 // 3 Note : En python, une variable peut changer de type au gré des valeurs qu’elle prend.</p>
+
+<h1 id="exercice--">Exercice -</h1>
+
+<p>Définissez deux variables : a et b ayant pour valeur respectivement 5 et 3.</p>
+
+<p>Afficher la phrase suivante : “a vaut 5 et b vaut 3, leur somme fait 8” en utilisant les valeurs effectives des variables. Note : print() peut prendre une liste de choses à afficher séparées par des virgules. Exemple : print(“x vaut”, x, “et y vaut”, y)</p>
+
+<p>L’opérateur % entre deux nombres calcule le reste de la division du premier par le second. Utilisez cet opérateur pour savoir si « a est un multiple de b ? ».</p>
+
+<p>Écrivez les lignes de code permettant d’échanger les valeurs de a et b, en utilisant une variable temporaire tmp.</p>
+
+<p>Échangez à nouveau les valeurs de a et b, mais sans utiliser de variable temporaire. Note : en python, on peut assigner plusieurs variables d’un seul coup à l’aide de l’opérateur égal : x, y = 1, 2 met 1 dans x et 2 dans y. Dans cet exercice, on ne vous autorise pas à utiliser cette méthode (utilisez des additions et soustractions).</p>
+
+<h1 id="manipulation-des-chaîne-de-caractères">Manipulation des chaîne de caractères</h1>
+
+<p>Préliminaires</p>
+
+<p>Pour les chaînes de caractères, deux opérations sont possibles, l’addition et la multiplication, exemple:</p>
+
+<p>chaine = “Salut” L’affichage de la variable chaine donne : ‘Salut’ chaine = chaine + “ Python” L’affichage de la variable chaine donne : ‘Salut Python’ (notez l’espace avant Python). chaine = chaine * 3 L’affichage de la variable chaine donne : ‘SalutSalutSalut’</p>
+
+<p>L’opérateur d’addition + permet de concaténer (assembler)</p>
+
+<p>deux chaînes de caractères et l’opérateur de multiplication * permet de dupliquer plusieurs fois une chaîne. On ne peut “ajouter” à une chaîne qu’une autre chaîne, et on ne peut multiplier une chaîne que par un entier.</p>
+
+<p>Lorsque l’on utilise print(), on peut afficher à la suite plusieurs valeurs de types différents (par exemple print(1, “hello”, 3.14). Cela ne fonctionne pas avec l’addition entre chaînes de caractères. Pour y arriver, il faut d’abord convertir les valeurs de types différent vers le type chaîne de caractères en utilisant str(x) où x est la valeur à convertir. Par exemple resultat = str(1) + “hello” + str(3.14).</p>
+
+<p>Créez une variable contenant “rouge”, une autre contenant “ballon”. Assignez à une troisième variable la concaténation de ces deux chaînes de manière à ce qu’elle contienne “ballon rouge”. Affichez le résultat.</p>
+
+<p>Les chaînes de caractères peuvent être écrites soit encadrées par des guillemets simples ‘abc’, soit par des gillemets doubles “abc”. Il faut utiliser le même type de guillemets avant et après le texte. On peut insérer le type de guillemet utilisé pour encadrer la chaîne dans celle-ci en le préfixant du caractère \ (antislash). Créez une chaîne de caractères contenant le mot aujourd’hui avec les deux méthodes.</p>
+
+<p>Quelle est la différence entre ces deux instructions Python :</p>
+
+<p>x = 2018 x = “2018” Vous avez ici la notion de types et de typage : Chaque valeur en Python se voit associer un type, ceci précise quelles sont les opérations permises sur ces valeurs, et quel est leur sens.</p>
+
+<p>En Python les variables (comme x) n’ont pas de type au départ. C’est au moment de l’exécution, de l’évaluation des valeurs, que le système vérifie le type, et réagit “bien” ou “mal” vis à vis les opérations demandées.</p>
+
+<p>Cette propriété porte le nom de typage dynamique.</p>
+
+<p>Vérifiez ce qui se passe quand on évalue x+x dans les deux cas.</p>
+
+<h1 id="rappel">Rappel:</h1>
+
+<p>La fonction print() : pour afficher des messages et des valeurs</p>
+
+<p>a. Écrire un programme qui affecte les variables note1, note2, note3 avec les valeurs 15.5, 12.75 et 14.25 respectivement. Ensuite, calculez la moyenne de ces notes et stockez le résultat dans une variable nommée moyenne. Affichez la valeur de la variable moyenne précédée du message suivant : “La moyenne des trois notes est”:</p>
+
+<p>b. Si 15 étudiants utilisent 5 ordinateurs, combien utiliseront d’ordinateurs 90 étudiants ? Écrire un programme contenant des variables bien nommées avec les données du problème, puis calculant le résultat dans une variable et l’affichant.</p>
+
+<p>c. Un brin d’ADN est constitué des bases A,T,C et G. Soit deux gènes “AACTG” et “GAATA”, on souhaite céer un nouveau gène qui soit la concaténation du premier et du second, puis créer un brin d’ADN qui répète 7 fois le brin ainsi créé. Écrire un programme qui contienne une variable pour chacun de ces gènes (chaînes de caractères), puis calcule le brin d’ADN (concaténation et réplication) dans une nouvelle variable, et affiche le résultat.</p>
+
+</div>
+</body>
+</html>
+
