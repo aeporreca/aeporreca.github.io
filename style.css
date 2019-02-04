@@ -75,6 +75,7 @@ pre, code, kbd, samp, tt {
 .my-photo {
   width: 12em;
   max-width: 33%;
+  margin-top: -3em;
   margin-bottom: 0.5em;
   margin-left: 0.5em;
   float: right;
