@@ -73,10 +73,10 @@ pre, code, kbd, samp, tt {
 }
 
 .my-photo {
-  float: right;
-  border-radius: 50%;
   width: 12em;
   max-width: 33%;
-  margin-left: 0.5em;
   margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  float: right;
+  border-radius: 50%;
 }
