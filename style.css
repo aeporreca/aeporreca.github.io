@@ -81,3 +81,11 @@ pre, code, kbd, samp, tt {
   float: right;
   border-radius: 50%;
 }
+
+.alert {
+  color: #FFFFF0;
+  background-color: #A8201A;
+  font-weight: 700;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
