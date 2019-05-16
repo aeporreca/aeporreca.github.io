@@ -1,11 +1,74 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <meta charset="utf-8">
-  <title>Redirecting&hellip;</title>
-  <link rel="canonical" href="https://aeporreca.org/blog/undecidability-as-complexity/">
-  <script>location="https://aeporreca.org/blog/undecidability-as-complexity/"</script>
-  <meta http-equiv="refresh" content="0; url=https://aeporreca.org/blog/undecidability-as-complexity/">
-  <meta name="robots" content="noindex">
-  <h1>Redirecting&hellip;</h1>
-  <a href="https://aeporreca.org/blog/undecidability-as-complexity/">Click here if you are not redirected.</a>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Undecidability in terms of complexity &bullet; Antonio E. Porreca</title>
+
+<link type="application/atom+xml" rel="alternate" href="https://aeporreca.org/feed.xml" title="Antonio E. Porreca" />
+
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Undecidability in terms of complexity" />
+<meta name="author" content="Antonio E. Porreca" />
+<meta property="og:locale" content="en_UK" />
+<meta name="description" content="In his classic book Computational Complexity, Papadimitriou writes (page 59) that Undecidability is in some sense the most lethal form of complexity." />
+<meta property="og:description" content="In his classic book Computational Complexity, Papadimitriou writes (page 59) that Undecidability is in some sense the most lethal form of complexity." />
+<link rel="canonical" href="https://aeporreca.org/blog/undecidability-as-complexity/" />
+<meta property="og:url" content="https://aeporreca.org/blog/undecidability-as-complexity/" />
+<meta property="og:site_name" content="Antonio E. Porreca" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-12-13T00:00:00+01:00" />
+<script type="application/ld+json">
+{"description":"In his classic book Computational Complexity, Papadimitriou writes (page 59) that Undecidability is in some sense the most lethal form of complexity.","author":{"@type":"Person","name":"Antonio E. Porreca"},"@type":"BlogPosting","url":"https://aeporreca.org/blog/undecidability-as-complexity/","headline":"Undecidability in terms of complexity","dateModified":"2010-12-13T00:00:00+01:00","datePublished":"2010-12-13T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://aeporreca.org/blog/undecidability-as-complexity/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+<div id="page">
+<div id="site-title">
+  <a href="/">Antonio E. Porreca</a>
+</div>
+
+<div id="menu-bar">
+<a href="/">Home</a>&nbsp;&bullet;
+<a href="/papers">Papers</a>&nbsp;&bullet;
+<a href="/talks">Talks</a>&nbsp;&bullet;
+<a href="/committees">Committees</a>&nbsp;&bullet;
+<a href="/teaching">Teaching</a>&nbsp;&bullet;
+<a href="/blog">Blog</a>&nbsp;&bullet;
+<a href="https://twitter.com/aeporreca">Twitter</a>
+</div>
+
+<h1 id="title">Undecidability in terms of complexity</h1>
+<p class="post-date">13 December 2010</p>
+<p>In his classic book <a href="http://books.google.com/books?id=JogZAQAAIAAJ"><em>Computational Complexity</em></a>, Papadimitriou writes (page 59) that</p>
+
+<blockquote>
+  <p>Undecidability is in some sense the most lethal form of complexity.</p>
+</blockquote>
+
+<p>I’ve <a href="http://mathoverflow.net/questions/8632/cut-elimination/8634#8634">just come across</a> a paper with a very interesting remark along the same lines: <a href="http://www.ams.org/journals/bull/1997-34-02/S0273-0979-97-00715-5/">Making proofs without Modus Ponens: An introduction to the combinatorics and complexity of cut elimination</a> by A. Carbone and S. Semmes, published in the <em>Bulletin of the American Mathematical Society</em>. This paper is about the length of proofs (a subject I’ve already touched upon <a href="http://aeporreca.org/2010/07/04/length-of-proofs/">here</a> and <a href="http://aeporreca.org/2010/07/12/length-of-proofs-2/">here</a>) without <a href="http://en.wikipedia.org/wiki/Cut-elimination_theorem">cut elimination</a>.</p>
+
+<p>On page 113, the authors write</p>
+
+<blockquote>
+  <p>By contrast [with propositional logic] in predicate logic one typically faces issues of algorithmic decidability or undecidability. That is, whether there is an algorithm at all that always gives the right answer, never mind how long it takes. The problem of determining whether a formula in predicate logic is a tautology is algorithmically undecidable. One can think of this as a matter of complexity, as follows. The tautologies in predicate logic of length at most $n$ form a finite set for which one can choose a finite set of proofs. Let $f(n)$ denote the maximum of the lengths of the shortest proofs of tautologies of length $\le n$. The fact that there is no algorithm for determining whether or not a formula is a tautology means that $f(n)$ grows very fast, faster than any recursive function.</p>
+</blockquote>
+
+<p>Essentially, this means that we can’t design an algorithm to solve an undecidable problem because the search space is too large, and the only way to somehow bound it is via a function that grows faster than any computable function. Compare this with the search space of the “witnesses” for an <strong>NP</strong>-complete problem: its size is exponential, which is too large to be explored efficiently (at least, as far as we know at the moment), but still small enough to make the problem decidable.</p>
+
+</div>
+</body>
 </html>
+

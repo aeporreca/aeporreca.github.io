@@ -1,11 +1,71 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <meta charset="utf-8">
-  <title>Redirecting&hellip;</title>
-  <link rel="canonical" href="https://aeporreca.org/blog/primitive-recursion/">
-  <script>location="https://aeporreca.org/blog/primitive-recursion/"</script>
-  <meta http-equiv="refresh" content="0; url=https://aeporreca.org/blog/primitive-recursion/">
-  <meta name="robots" content="noindex">
-  <h1>Redirecting&hellip;</h1>
-  <a href="https://aeporreca.org/blog/primitive-recursion/">Click here if you are not redirected.</a>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>How I learned to stop worrying about Turing completeness and love primitive recursion &bullet; Antonio E. Porreca</title>
+
+<link type="application/atom+xml" rel="alternate" href="https://aeporreca.org/feed.xml" title="Antonio E. Porreca" />
+
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="How I learned to stop worrying about Turing completeness and love primitive recursion" />
+<meta name="author" content="Antonio E. Porreca" />
+<meta property="og:locale" content="en_UK" />
+<meta name="description" content="The primitive recursive functions are a class of computable arithmetic functions with a reasonably natural definition. They do not exhaust all computable functions (e.g., Ackermann’s function grows faster than any PR function). Here is a list of reasons to like them anyway." />
+<meta property="og:description" content="The primitive recursive functions are a class of computable arithmetic functions with a reasonably natural definition. They do not exhaust all computable functions (e.g., Ackermann’s function grows faster than any PR function). Here is a list of reasons to like them anyway." />
+<link rel="canonical" href="https://aeporreca.org/blog/primitive-recursion/" />
+<meta property="og:url" content="https://aeporreca.org/blog/primitive-recursion/" />
+<meta property="og:site_name" content="Antonio E. Porreca" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-07-11T00:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"The primitive recursive functions are a class of computable arithmetic functions with a reasonably natural definition. They do not exhaust all computable functions (e.g., Ackermann’s function grows faster than any PR function). Here is a list of reasons to like them anyway.","author":{"@type":"Person","name":"Antonio E. Porreca"},"@type":"BlogPosting","url":"https://aeporreca.org/blog/primitive-recursion/","headline":"How I learned to stop worrying about Turing completeness and love primitive recursion","dateModified":"2010-07-11T00:00:00+02:00","datePublished":"2010-07-11T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://aeporreca.org/blog/primitive-recursion/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+<div id="page">
+<div id="site-title">
+  <a href="/">Antonio E. Porreca</a>
+</div>
+
+<div id="menu-bar">
+<a href="/">Home</a>&nbsp;&bullet;
+<a href="/papers">Papers</a>&nbsp;&bullet;
+<a href="/talks">Talks</a>&nbsp;&bullet;
+<a href="/committees">Committees</a>&nbsp;&bullet;
+<a href="/teaching">Teaching</a>&nbsp;&bullet;
+<a href="/blog">Blog</a>&nbsp;&bullet;
+<a href="https://twitter.com/aeporreca">Twitter</a>
+</div>
+
+<h1 id="title">How I learned to stop worrying about Turing completeness and love primitive recursion</h1>
+<p class="post-date">11 July 2010</p>
+<p>The primitive recursive functions are a class of computable arithmetic functions with a reasonably natural <a href="http://en.wikipedia.org/wiki/Primitive_recursive_function#Definition">definition</a>. They do not exhaust all computable functions (e.g., <a href="http://en.wikipedia.org/wiki/Ackermann_function">Ackermann’s function</a> grows faster than any <abbr title="primitive recursive">PR</abbr> function). Here is a list of reasons to like them anyway.</p>
+
+<ul>
+<li>The <abbr title="primitive recursive">PR</abbr> functions are exactly the functions that can be computed by using only <em>for</em> loops (i.e., without unbounded kinds of loop such as <em>while</em> and <em>repeat-until</em>).</li>
+<li>Each time you apply the primitive recursion schema, you get new functions. Meaning: with <em>n</em> + 1 nested <em>for</em> loops you can compute functions that you can't compute using only <em>n</em> nested <em>for</em> loops.</li>
+<li>Any computable function can be obtained by using <abbr title="primitive recursive">PR</abbr> functions plus a single application of the <a href="http://en.wikipedia.org/wiki/Mu_operator"><em>μ</em> operator</a>. In other words, you just need to use one <em>while</em> loop (together with the <em>for</em> loops) to obtain a Turing machine. This is called <a href="http://en.wikipedia.org/wiki/Kleene's_T_predicate#Normal_form_theorem">Kleene's normal form theorem</a>.</li>
+<li>Every recursively enumerable set is also primitively recursively enumerable. See this <a href="http://mathoverflow.net/questions/21087">question</a> on MathOverflow, where I recently discovered this fact.</li>
+<li>The <abbr title="primitive recursive">PR</abbr> functions are exactly the functions that can be computed by Turing machines operating within a <abbr title="primitive recursive">PR</abbr> time bound. Isn't this amazing? See, e.g., this <a href="http://doi.acm.org/10.1145/800196.806014">paper</a> by A.R. Meyer and D.M. Ritchie (yes, <a href="http://cm.bell-labs.com/cm/cs/cbook/">that</a> D.M. Ritchie).
+</li><li>Any function of practical use is primitive recursive. This is a consequence of the previous point: polynomials, but also exponentials (and <a href="http://en.wikipedia.org/wiki/Tetration">much</a>, <a href="http://en.wikipedia.org/wiki/Knuth's_up-arrow_notation">much</a> worse functions) are all <abbr title="primitive recursive">PR</abbr>. If a function is not <abbr title="primitive recursive">PR</abbr>, then you don't have enough time to compute it.</li>
+</ul>
+
+<p>I strongly urge you to like the primitive recursive functions too.</p>
+
+</div>
+</body>
 </html>
+

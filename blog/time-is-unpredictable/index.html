@@ -1,11 +1,94 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <meta charset="utf-8">
-  <title>Redirecting&hellip;</title>
-  <link rel="canonical" href="https://aeporreca.org/blog/time-is-unpredictable/">
-  <script>location="https://aeporreca.org/blog/time-is-unpredictable/"</script>
-  <meta http-equiv="refresh" content="0; url=https://aeporreca.org/blog/time-is-unpredictable/">
-  <meta name="robots" content="noindex">
-  <h1>Redirecting&hellip;</h1>
-  <a href="https://aeporreca.org/blog/time-is-unpredictable/">Click here if you are not redirected.</a>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Time is unpredictable &bullet; Antonio E. Porreca</title>
+
+<link type="application/atom+xml" rel="alternate" href="https://aeporreca.org/feed.xml" title="Antonio E. Porreca" />
+
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Time is unpredictable" />
+<meta name="author" content="Antonio E. Porreca" />
+<meta property="og:locale" content="en_UK" />
+<meta name="description" content="Is there an automatic procedure to determine whether a given Turing machine, known to be halting, operates within time bound $O(f)$ (assuming $f$ is a computable function)?" />
+<meta property="og:description" content="Is there an automatic procedure to determine whether a given Turing machine, known to be halting, operates within time bound $O(f)$ (assuming $f$ is a computable function)?" />
+<link rel="canonical" href="https://aeporreca.org/blog/time-is-unpredictable/" />
+<meta property="og:url" content="https://aeporreca.org/blog/time-is-unpredictable/" />
+<meta property="og:site_name" content="Antonio E. Porreca" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-02-19T00:00:00+01:00" />
+<script type="application/ld+json">
+{"description":"Is there an automatic procedure to determine whether a given Turing machine, known to be halting, operates within time bound $O(f)$ (assuming $f$ is a computable function)?","author":{"@type":"Person","name":"Antonio E. Porreca"},"@type":"BlogPosting","url":"https://aeporreca.org/blog/time-is-unpredictable/","headline":"Time is unpredictable","dateModified":"2011-02-19T00:00:00+01:00","datePublished":"2011-02-19T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://aeporreca.org/blog/time-is-unpredictable/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+<div id="page">
+<div id="site-title">
+  <a href="/">Antonio E. Porreca</a>
+</div>
+
+<div id="menu-bar">
+<a href="/">Home</a>&nbsp;&bullet;
+<a href="/papers">Papers</a>&nbsp;&bullet;
+<a href="/talks">Talks</a>&nbsp;&bullet;
+<a href="/committees">Committees</a>&nbsp;&bullet;
+<a href="/teaching">Teaching</a>&nbsp;&bullet;
+<a href="/blog">Blog</a>&nbsp;&bullet;
+<a href="https://twitter.com/aeporreca">Twitter</a>
+</div>
+
+<h1 id="title">Time is unpredictable</h1>
+<p class="post-date">19 February 2011</p>
+<p><em>This post is inspired by the question <a href="http://cstheory.stackexchange.com/q/5004/182">Are runtime bounds in P decidable?</a> asked by <a href="http://www.mrfm.org/">John Sidles</a> on the CSTheory website, and the <a href="http://cstheory.stackexchange.com/questions/5004/are-runtime-bounds-in-p-decidable-answer-no/5006#5006">answer</a> given by <a href="http://www.ccs.neu.edu/home/viola/">Emanuele Viola</a>.</em></p>
+
+<p>Is there an automatic procedure to determine whether a given Turing machine, <em>known</em> to be halting, operates within time bound $O(f)$ (assuming $f$ is a computable function)?</p>
+
+<p>Predictably, the answer turns out to be negative.</p>
+
+<p>Let’s start by formalising the problem. Assume $M$ is the Turing machine whose runtime we’re interested in, and $F$ is another TM computing the time bound $f$; then</p>
+
+<script type="math/tex; mode=display">L = \{ (M, F) : M \text{ halts within } O(F) \text{ steps} \}.</script>
+
+<p>Also let $H$ be the halting problem:</p>
+
+<script type="math/tex; mode=display">H = \{ (M’, x) : M \text{ halts on input } x \}.</script>
+
+<p>We can now define the function $R(M’, x) = (M, F)$, where $F$ computes $n^2$ and $M$, on input $y$, behaves as follows:</p>
+
+<ul>
+  <li>Simulate $M’$ on $x$ for $n = \lvert y \rvert$ steps.</li>
+  <li>If $M’$ has already halted, then loop for $n^2$ steps.</li>
+  <li>Otherwise, loop for $n^3$ steps.</li>
+</ul>
+
+<p>We’re finally ready to prove our undecidability result.</p>
+
+<p><strong>Theorem.</strong> $R$ is a many-one reduction from $H$ to $L$.</p>
+
+<p><em>Proof.</em> Clearly $R$ is a computable function, so we just need to show that</p>
+
+<script type="math/tex; mode=display">(M', x) \in H \iff (M, F) \in L.</script>
+
+<p>If  $(M’, x) \in H$, that is, if $M’$ halts on input $x$, then it does so in $k$ steps (for some $k \in \mathbb{N}$). Hence $M$ runs in $O(n^2)$ time (notice that it runs in $n^3$ time for $\lvert y \rvert &lt; k$, but it’s only the asymptotic behaviour that matters for us). Thus $(M, F) \in L$.</p>
+
+<p>On the other hand, if $M’$ does not halt on $x$, then $M$ never completes its simulation, and the runtime for $M$ is $O(n^3)$. Thus $(M, F) \notin L$. □</p>
+
+<p><strong>Remark.</strong> We’ve actually proved a stronger statement, i.e., that the set of Turing machines running in $O(n^2)$ time is undecidable, even if we restrict the domain to machines halting in polynomial time. Similar undecidability results hold for an infinite class of time bounds.</p>
+
+</div>
+</body>
 </html>
+
