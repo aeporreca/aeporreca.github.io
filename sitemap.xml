@@ -75,6 +75,9 @@
 <loc>https://aeporreca.org/committees/</loc>
 </url>
 <url>
+<loc>https://aeporreca.org/talks/</loc>
+</url>
+<url>
 <loc>https://aeporreca.org/</loc>
 </url>
 <url>
@@ -82,9 +85,6 @@
 </url>
 <url>
 <loc>https://aeporreca.org/papers/</loc>
-</url>
-<url>
-<loc>https://aeporreca.org/talks/</loc>
 </url>
 <url>
 <loc>https://aeporreca.org/teaching/</loc>
@@ -444,6 +444,10 @@
 <url>
 <loc>https://aeporreca.org/talks/state-sequences-of-interactive-processes-of-reaction-systems.pdf</loc>
 <lastmod>2018-06-10T21:52:31+02:00</lastmod>
+</url>
+<url>
+<loc>https://aeporreca.org/talks/state-sequences-of-reaction-systems.pdf</loc>
+<lastmod>2019-05-21T13:34:25+02:00</lastmod>
 </url>
 <url>
 <loc>https://aeporreca.org/talks/sublinear-space-p-systems-with-active-membranes.pdf</loc>
