@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>The semiring of dynamical systems &bullet; Antonio E. Porreca</title>
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Antonio E. Porreca" />
+
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="The semiring of dynamical systems" />
+<meta name="author" content="Antonio E. Porreca" />
+<meta property="og:locale" content="en_UK" />
+<meta name="description" content="This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️)." />
+<meta property="og:description" content="This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️)." />
+<link rel="canonical" href="http://localhost:4000/blog/semiring-of-dynamical-systems/" />
+<meta property="og:url" content="http://localhost:4000/blog/semiring-of-dynamical-systems/" />
+<meta property="og:site_name" content="Antonio E. Porreca" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-28T00:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️).","@type":"BlogPosting","headline":"The semiring of dynamical systems","dateModified":"2020-06-28T00:00:00+02:00","datePublished":"2020-06-28T00:00:00+02:00","url":"http://localhost:4000/blog/semiring-of-dynamical-systems/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/%F0%9F%90%B3"},"name":"Antonio E. Porreca"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/semiring-of-dynamical-systems/"},"author":{"@type":"Person","name":"Antonio E. Porreca"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+<div id="page">
+<div id="site-title">
+  <a href="/">Antonio E. Porreca 🐳</a>
+  <a href="https://mobilisation-amu.frama.wiki"><img src="/files/carre-rouge.png" style="width: 30%; position: absolute; right: 1.5em; top: 0.5em;" alt="Mobilisation contre la réforme des retraites et la LPPR à AMU"></a>
+</div>
+
+<div id="menu-bar">
+<a href="/">Home</a>&nbsp;&bullet;
+<a href="/papers/">Papers</a>&nbsp;&bullet;
+<a href="/talks/">Talks</a>&nbsp;&bullet;
+<a href="/committees/">Committees</a>&nbsp;&bullet;
+<a href="/teaching/">Teaching</a>&nbsp;&bullet;
+<a href="https://github.com/aeporreca">Code</a>&nbsp;&bullet;
+<a href="/languages/">Languages</a>&nbsp;&bullet;
+<a href="/blog/">Blog</a>&nbsp;&bullet;
+<a href="https://twitter.com/aeporreca">Twitter</a>
+</div>
+
+<h1 id="title">The semiring of dynamical systems</h1>
+<p class="post-date">28 June 2020</p>
+<p>This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️).</p>
+
+<p><img src="/files/pictures/sdtable.png" style="max-width: 100%" /></p>
+
+<p>Here, a dynamical system $(A,f)$ is a just finite set $A$ of states (including $\varnothing$) with a state transition function $f \colon A \to A$ (any function will do). Each such dynamical system consists of one or more limit cycles with oriented trees having the points of those cycles as their roots.</p>
+
+<p>You can define operations on dynamical systems (modulo isomorphism) and obtain a semiring $(\mathbf{D},+,×)$.</p>
+
+<p>The sum $+$ is defined as $(A,f) + (B,g) = (A⊎B, f+g)$ where $(f+g)(x) = f(x)$ if $x ∈ A$ and $(f+g)(x) = g(x)$ if $x ∈ B$. The empty dynamical system $\varnothing$ is the identity of $+$.</p>
+
+<p>The product $×$ is $(A,f) × (B,g) = (A×B, f×g)$ where $(f×g)(x,y) = (f(x),g(y))$. The dynamical system with one point $({x},\mathrm{id})$ is the identity of $×$.</p>
+
+<p>In terms of graphs of the dynamics $(V,E) = (A, \{ (x,f(x)) : x ∈ A \})$, the sum is disjoint union and the product is the tensor (or Kronecker) product.</p>
+
+<p>$(\mathbf{D},+,×)$ has the natural numbers $(ℕ,+,×)$ as a subsemiring. It’s the image of the injective homomorphism $ϕ: ℕ → \mathbf{D}$ defined as $ϕ(n) =$ the dynamical system consisting of exactly n fixed points. These behave as expected with respect to the others, e.g., $ϕ(n) × A = \underbrace{A + ⋯ + A}_{n \text{ times}}$.</p>
+
+<p>$(\mathbf{D},+,×)$ is quite complex as a semiring. There are infinitely many elements with multiple factorisations into irreducibles, the smallest one being $C₂+C₂ = (C₂)² = 2C₂$, where $C₂$ is the cycle of length two (see the table above). We don’t know yet which are its prime elements, or if any exists at all.</p>
+
+<p>Furthermore, the majority of elements of $\mathbf{D}$ are irreducible. More specifically, we have $\lim_{n \to \infty} \frac{\text{# of reducible dynamical systems of size } n}{\text{# of dynamical systems of size } n} = 0$. This was proved by Valentina Dorigatti in her master’s thesis.</p>
+
+<p>You can study a form of (de)composition of dynamical systems by considering polynomial equations. In the following the polynomials are always over $\mathbf{D}[\vec{X}]$ or its subsemiring $ℕ[\vec{X}]$, with many variables $\vec{X} = (X_1,…,X_n)$. The general form of an equation is $p(\vec{X}) = q(\vec{X})$, since you cannot move everything to the left-hand side due to the lack of subtraction.</p>
+
+<p>Each equation $p(\vec{X}) = q(\vec{X})$ over $\mathbf{D}[\vec{X}]$ has an associated equation $p(\vec{X}) = q(\vec{X})$ over $ℕ[\vec{X}]$, obtained by replacing each dynamical system $A$ by its size $|A|$. If $p,q ∈ ℕ[\vec{X}]$ are polynomials over $ℕ$ and $(A_1,…A_n)$ is a solution in $\mathbf{D}$ to $p(\vec{X}) = q(\vec{X})$, then $(|A_1|,|A_2|,…)$ is another solution, this time over the naturals.</p>
+
+<p>So, by searching for solutions in the larger semiring $\mathbf{D}$ we might sometimes find new solutions to equations with natural coefficients, but only if a natural solution already exists. This means that Hilbert’s 10th problem over $\mathbf{D}$ has a negative answer! There is no algorithm for deciding if an equation over $\mathbf{D}[\vec{X}]$ has a solution (much less finding one), otherwise you could use that algorithm for $ℕ[\vec{X}]$ too.</p>
+
+<p>Equations with a constant side like $p(\vec{X}) = A$ with $p ∈ \mathbf{D}[\vec{X}]$ and $A ∈ \mathbf{D}$ are decidable and in $\mathsf{NP}$: since $+$ and $×$ are monotonic wrt the size of the dynamical systems, the value $|A|$ gives you a bound to the size of the solution, which you can guess and check in polynomial time.</p>
+
+<p>You can do the check in polynomial time because the graphs of the dynamics, being just some cycles with trees going into them, are planar; the graph isomorphism problem for planar graphs is in $\mathsf{L} ⊆ \mathsf{P}$, and actually <a href="https://doi.org/10.1109/CCC.2009.16">complete for it</a>.</p>
+
+<p>Unfortunately, deciding if $p(\vec{X}) = A$ has a solution is $\mathsf{NP}$-complete. We can prove it by reduction from One-in-three 3SAT, the problem of finding if a Boolean formula $\varphi$ in ternary conjunctive normal form has a satisfying assignment where exactly one literal per clause is true.</p>
+
+<p>For each variable $X$ of formula $\varphi$ we construct an equation $X + X’ = 1$. Here $X’$ represents the literal $¬X$, and exactly one of $X$ and $X’$ will be $1$, while the other will be $0$. For each clause, e.g., $(X_1 ∨ ¬X_2 ∨ X_3)$, we have an equation $X_1 + X_2’ + X_3 = 1$, which forces exactly one literal to $1$, and the others to $0$.</p>
+
+<p>This gives us a system of $m$ linear equations of the form $p_i(\vec{X}) = 1$. By multiplying all left- and right-hand sides we get $∏_{i=1}^m p_i(\vec{X}) = 1$, which has the same solution as the system of linear equations. This proves the $\mathsf{NP}$-hardness, but only uses the subsemiring $ℕ$ of $\mathbf{D}$.</p>
+
+<p>With a little more work, and thanks to the colleague Florian Bridoux and the research intern Émile Touileb I’m currently supervising, we can prove that deciding if a <em>single</em> linear equation over $\mathbf{D}[\vec{X}]$ has solution is $\mathsf{NP}$-complete; this finally exploits its non-natural elements.</p>
+
+<p>With another research intern I supervised, Caroline Gaze-Maillot, we have recently analysed dynamical systems $(A,f)$ more abstractly, in terms of their “profiles” $(|A|_1,|A|_2,…)$, where $|A|_i$ is the number of points at distance $i$ (in terms of number of applications of $f$) from their limit cycle.</p>
+
+<p>We discovered that the profiles of dynamical systems also form a semiring $(\mathbf{P},+,×)$, with “taking the profile” being a semiring homomorphism $\mathbf{D} → \mathbf{P}$, and this is also complicated stuff, with multiple factorisations, polynomial equations that are undecidable or $\mathsf{NP}$-complete, etc.</p>
+
+<p>Shout-out to everyone who worked on this: Florian Bridoux, Alberto Dennunzio, Valentina Dorigatti, Enrico Formenti, Caroline Gaze-Maillot, Maximilien Gadouleau, Luca Manzoni, Luciano Margara, Valentin Montmirail, Sara Riva, Émile Touileb.</p>
+
+<h2 id="bibliography">Bibliography</h2>
+
+<ol>
+  <li>
+    <p>Dennunzio, A., Dorigatti, V., Formenti, E., Manzoni, L., Porreca, A.E.: Polynomial equations over finite, discrete-time dynamical systems. In: Mauri, G., El Yacoubi, S., Dennunzio, A., Nishinari, K., and Manzoni, L. (eds.) <em>Cellular Automata, 13th International Conference on Cellular Automata for Research and Industry, ACRI 2018</em>. pp. 298–306. Springer (2018). [<a href="https://doi.org/10.1007/978-3-319-99813-8_27">link</a>] [<a href="http://127.0.0.1:4000/papers/polynomial-equations-over-finite-discrete-time-dynamical-systems.pdf">preprint</a>]</p>
+  </li>
+  <li>
+    <p>Dennunzio, A., Formenti, E., Margara, L., Montmirail, V., Riva, S.: Solving equations on discrete dynamical systems (extended version) (2019). [<a href="https://arxiv.org/abs/1904.13115">preprint</a>]</p>
+  </li>
+  <li>
+    <p>Porreca, A.E.: Composing behaviours in the semiring of dynamical systems, invited talk at <em>International Workshop on Boolean Neworks (IWBN 2020)</em>, Universidad de Concepción, Chile (2020). (Talk given by Florian Bridoux due to my inability to attend the workshop.) [<a href="https://aeporreca.org/talks/composing-behaviours-in-semiring-of-dynamical-systems.pdf">slides</a>]</p>
+  </li>
+</ol>
+
+<!--  LocalWords:  semiring homomorphism
+ -->
+
+</div>
+</body>
+</html>
+
