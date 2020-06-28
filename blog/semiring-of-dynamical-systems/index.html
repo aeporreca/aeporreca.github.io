@@ -81,7 +81,7 @@
 
 <p>So, by searching for solutions in the larger semiring $\mathbf{D}$ we might sometimes find new solutions to equations with natural coefficients, but only if a natural solution already exists. This means that Hilbert’s 10th problem over $\mathbf{D}$ has a negative answer! There is no algorithm for deciding if an equation over $\mathbf{D}[\vec{X}]$ has a solution (much less finding one), otherwise you could use that algorithm for $ℕ[\vec{X}]$ too.</p>
 
-<p>Equations with a constant side like $p(\vec{X}) = A$ with $p ∈ \mathbf{D}[\vec{X}]$ and $A ∈ \mathbf{D}$ are decidable and in $\mathsf{NP}$: since $+$ and $×$ are monotonic wrt the size of the dynamical systems, the value $|A|$ gives you a bound to the size of the solution, which you can guess and check in polynomial time.</p>
+<p>Equations with a constant side like $p(\vec{X}) = A$ with $p ∈ \mathbf{D}[\vec{X}]$ and $A ∈ \mathbf{D}$ are decidable and in $\mathsf{NP}$: since $+$ and $×$ are monotonic with respect to the size of the dynamical systems, the value $|A|$ gives you a bound to the size of the solution, which you can guess and check in polynomial time.</p>
 
 <p>You can do the check in polynomial time because the graphs of the dynamics, being just some cycles with trees going into them, are planar; the graph isomorphism problem for planar graphs is in $\mathsf{L} ⊆ \mathsf{P}$, and actually <a href="https://doi.org/10.1109/CCC.2009.16">complete for it</a>.</p>
 
