@@ -57,11 +57,11 @@
 <p class="post-date">28 June 2020</p>
 <p>This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️).</p>
 
-<p><img src="../files/product-table-of-dynamical-systems.png" style="max-width: 100%" /></p>
+<p><img src="../files/product-table-of-dynamical-systems.svg" style="max-width: 100%" /></p>
 
 <p>Here, a dynamical system $(A,f)$ is just a finite set $A$ of states (including $\varnothing$) with a state transition function $f \colon A \to A$ (any function will do). Each such dynamical system consists of one or more limit cycles with oriented trees having the points of those cycles as their roots.</p>
 
-<p>You can define operations on dynamical systems (modulo isomorphism) and obtain a semiring $(\mathbf{D},+,×)$.</p>
+<p>You can define operations on dynamical systems (modulo isomorphism) and obtain a commutative semiring $(\mathbf{D},+,×)$.</p>
 
 <p>The sum $+$ is defined as $(A,f) + (B,g) = (A⊎B, f+g)$ where $(f+g)(x) = f(x)$ if $x ∈ A$ and $(f+g)(x) = g(x)$ if $x ∈ B$. The empty dynamical system $0_{\mathbf{D}} = (\varnothing, \varnothing)$ is the identity of $+$.</p>
 
@@ -95,7 +95,7 @@
 
 <p>With another research intern I supervised, Caroline Gaze-Maillot, we have recently analysed dynamical systems $(A,f)$ more abstractly, in terms of their “profiles” $(|A|_1,|A|_2,…)$, where $|A|_i$ is the number of points at distance $i$ (in terms of number of applications of $f$) from their limit cycle.</p>
 
-<p>We discovered that the profiles of dynamical systems also form a semiring $(\mathbf{P},+,×)$, with “taking the profile” being a semiring homomorphism $\mathbf{D} → \mathbf{P}$, and this is also complicated stuff, with multiple factorisations, polynomial equations that are undecidable or $\mathsf{NP}$-complete, etc.</p>
+<p>We discovered that the profiles of dynamical systems also form a commutative semiring $(\mathbf{P},+,×)$, with “taking the profile” being a semiring homomorphism $\mathbf{D} → \mathbf{P}$, and this is also complicated stuff, with multiple factorisations, polynomial equations that are undecidable or $\mathsf{NP}$-complete, etc.</p>
 
 <p>Shout-out to everyone who worked on this: Florian Bridoux, Alberto Dennunzio, Valentina Dorigatti, Enrico Formenti, Caroline Gaze-Maillot, Maximilien Gadouleau, Luca Manzoni, Luciano Margara, Valentin Montmirail, Sara Riva, Émile Touileb.</p>
 
