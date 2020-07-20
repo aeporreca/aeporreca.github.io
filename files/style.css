@@ -6,6 +6,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
   font-weight: 400;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
 }
 
 #page {
@@ -79,7 +83,7 @@ pre, code, kbd, samp, tt {
   max-width: 33%;
   margin-top: -2em;
   margin-bottom: 0.5em;
-  margin-left: 0.5em;
+  margin-left: 1.5em;
   float: right;
   border-radius: 50%;
 }
