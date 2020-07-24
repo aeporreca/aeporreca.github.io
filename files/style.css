@@ -6,10 +6,13 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
   font-weight: 400;
-  text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
+}
+
+p {
+  text-align: justify;
 }
 
 #page {
