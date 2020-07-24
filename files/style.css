@@ -11,10 +11,6 @@ body {
   -moz-hyphens: auto;
 }
 
-p {
-  text-align: justify;
-}
-
 #page {
   padding-top: 50px;
   padding-bottom: 50px;
