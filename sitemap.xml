@@ -76,13 +76,7 @@
 <loc>https://aeporreca.org/students/</loc>
 </url>
 <url>
-<loc>https://aeporreca.org/papers/</loc>
-</url>
-<url>
 <loc>https://aeporreca.org/committees/</loc>
-</url>
-<url>
-<loc>https://aeporreca.org/talks/</loc>
 </url>
 <url>
 <loc>https://aeporreca.org/blog/</loc>
@@ -110,6 +104,12 @@
 </url>
 <url>
 <loc>https://aeporreca.org/</loc>
+</url>
+<url>
+<loc>https://aeporreca.org/talks/</loc>
+</url>
+<url>
+<loc>https://aeporreca.org/papers/</loc>
 </url>
 <url>
 <loc>https://aeporreca.org/languages/western-armenian/textbook-of-modern-western-armenian-solutions/</loc>
