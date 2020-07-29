@@ -12,24 +12,28 @@ body {
 }
 
 #page {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   width: 90%;
   max-width: 700px;
   margin: 0 auto;
+  position: relative;
+  overflow: visible;
 }
 
 #menu-bar {
   font-size: 120%;
   line-height: 1.2;
   font-weight: 400;
-  width: 80%;
 }
 
 #site-title {
   font-weight: 900;
   font-size: 250%;
   line-height: 1;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
 }
 
 .post-date {
@@ -54,10 +58,7 @@ a, u {
 
 ol, ul {
   padding-left: 0em;
-}
-
-li {
-  margin: 10px 0;
+  list-style-position: inside;
 }
 
 blockquote {
@@ -93,6 +94,15 @@ pre, code, kbd, samp, tt {
   font-weight: 700;
   padding-left: 0.25em;
   padding-right: 0.25em;
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 16px;
+  }
+  #site-title {
+    font-size: 180%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
