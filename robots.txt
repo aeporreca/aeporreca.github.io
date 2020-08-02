@@ -1,1 +1,4 @@
+User-Agent: *
+Disallow: 
+Disallow: /temp/
 Sitemap: https://aeporreca.org/sitemap.xml
