@@ -25,6 +25,9 @@ body {
   font-size: 120%;
   line-height: 1.2;
   font-weight: 400;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
 }
 
 #site-title {
@@ -46,6 +49,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   margin-top: 1em;
   margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 180%;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 150%;
 }
 
 a, u {
