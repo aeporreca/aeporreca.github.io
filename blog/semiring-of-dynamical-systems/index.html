@@ -26,15 +26,15 @@
 <meta property="og:title" content="The semiring of dynamical systems" />
 <meta name="author" content="Antonio E. Porreca" />
 <meta property="og:locale" content="en_UK" />
-<meta name="description" content="This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️)." />
-<meta property="og:description" content="This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️)." />
+<meta name="description" content="This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems [4]. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️)." />
+<meta property="og:description" content="This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems [4]. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️)." />
 <link rel="canonical" href="https://aeporreca.org/blog/semiring-of-dynamical-systems/" />
 <meta property="og:url" content="https://aeporreca.org/blog/semiring-of-dynamical-systems/" />
 <meta property="og:site_name" content="Antonio E. Porreca" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-06-28T00:00:00+02:00" />
 <script type="application/ld+json">
-{"description":"This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️).","mainEntityOfPage":{"@type":"WebPage","@id":"https://aeporreca.org/blog/semiring-of-dynamical-systems/"},"@type":"BlogPosting","url":"https://aeporreca.org/blog/semiring-of-dynamical-systems/","headline":"The semiring of dynamical systems","dateModified":"2020-06-28T00:00:00+02:00","datePublished":"2020-06-28T00:00:00+02:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://aeporreca.org/%F0%9F%90%B3"},"name":"Antonio E. Porreca"},"author":{"@type":"Person","name":"Antonio E. Porreca"},"@context":"https://schema.org"}</script>
+{"description":"This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems [4]. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️).","@type":"BlogPosting","headline":"The semiring of dynamical systems","dateModified":"2020-06-28T00:00:00+02:00","datePublished":"2020-06-28T00:00:00+02:00","url":"https://aeporreca.org/blog/semiring-of-dynamical-systems/","mainEntityOfPage":{"@type":"WebPage","@id":"https://aeporreca.org/blog/semiring-of-dynamical-systems/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://aeporreca.org/%F0%9F%90%B3"},"name":"Antonio E. Porreca"},"author":{"@type":"Person","name":"Antonio E. Porreca"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -66,7 +66,7 @@
 
 <h1 id="title">The semiring of dynamical systems</h1>
 <p class="post-date">28 June 2020</p>
-<p>This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️).</p>
+<p>This is a post about something I’m working on at the moment, the semiring of finite, discrete time dynamical systems <a class="citation" href="#Dennunzio2018b">[1]</a>. Here’s a picture to get you interested, a portion of the multiplication table of dynamical systems (everyone loves this️).</p>
 
 <p><img src="../files/product-table-of-dynamical-systems.svg" style="max-width: 100%" /></p>
 
@@ -96,7 +96,7 @@
 
 <p>You can do the check in polynomial time because the graphs of the dynamics, being just some cycles with trees going into them, are planar; the graph isomorphism problem for planar graphs is in $\mathsf{L} ⊆ \mathsf{P}$, and actually <a href="https://doi.org/10.1109/CCC.2009.16">complete for it</a>.</p>
 
-<p>Unfortunately, deciding if $p(\vec{X}) = A$ has a solution is $\mathsf{NP}$-complete. We can prove it by reduction from One-in-three 3SAT, the problem of finding if a Boolean formula $\varphi$ in ternary conjunctive normal form has a satisfying assignment where exactly one literal per clause is true.</p>
+<p>Unfortunately, deciding if $p(\vec{X}) = A$ has a solution is $\mathsf{NP}$-complete <a class="citation" href="#Porreca2020a">[2]</a>. We can prove it by reduction from One-in-three 3SAT, the problem of finding if a Boolean formula $\varphi$ in ternary conjunctive normal form has a satisfying assignment where exactly one literal per clause is true.</p>
 
 <p>For each variable $X$ of formula $\varphi$ we construct an equation $X + X’ = 1$. Here $X’$ represents the literal $¬X$, and exactly one of $X$ and $X’$ will be $1$, while the other will be $0$. For each clause, e.g., $(X_1 ∨ ¬X_2 ∨ X_3)$, we have an equation $X_1 + X_2’ + X_3 = 1$, which forces exactly one literal to $1$, and the others to $0$.</p>
 
@@ -104,7 +104,7 @@
 
 <p>With a little more work, and thanks to the colleague <a href="https://pageperso.lis-lab.fr/florian.bridoux/">Florian Bridoux</a> and the research intern Émile Touileb I’m currently supervising, we can prove that deciding if a <em>single</em> linear equation over $\mathbf{D}[\vec{X}]$ has solution is $\mathsf{NP}$-complete; this finally exploits its non-natural elements.</p>
 
-<p>With another research intern I supervised, Caroline Gaze-Maillot, we have recently analysed dynamical systems $(A,f)$ more abstractly, in terms of their “profiles” $(|A|_1,|A|_2,…)$, where $|A|_i$ is the number of points at distance $i$ (in terms of number of applications of $f$) from their limit cycle. The term is inspired by the topographic profile of a terrain, and here’s an example of dynamical system having profile $(8, 7, 8, 4)$:</p>
+<p>With another research intern I supervised, Caroline Gaze-Maillot, we have recently analysed dynamical systems $(A,f)$ more abstractly, in terms of their “profiles” $(|A|_1,|A|_2,…)$, where $|A|_i$ is the number of points at distance $i$ (in terms of number of applications of $f$) from their limit cycle <a class="citation" href="#GazeMaillot2020b">[3]</a>. The term is inspired by the topographic profile of a terrain, and here’s an example of dynamical system having profile $(8, 7, 8, 4)$:</p>
 
 <p><img src="../files/profile-of-dynamical-system.svg" style="max-width: 100%" /></p>
 
@@ -112,15 +112,24 @@
 
 <p>We discovered that the profiles of dynamical systems also form a commutative semiring $(\mathbf{P},+,×)$, with “taking the profile” being a semiring homomorphism $\mathbf{D} → \mathbf{P}$, and this is also complicated stuff, with multiple factorisations, polynomial equations that are undecidable or $\mathsf{NP}$-complete, etc.</p>
 
+<p>Some further work has been done on equations when one is only interested in the asymptotic behaviour of the systems, that is, on the their limit cycles <a class="citation" href="#Dennunzio2019d">[4]</a>.</p>
+
 <p>Shout-out to everyone who worked on this: <a href="https://pageperso.lis-lab.fr/florian.bridoux/">Florian Bridoux</a>, <a href="https://www.unimib.it/alberto-dennunzio">Alberto Dennunzio</a>, <a href="https://www.uninsubria.it/hpp/valentina.dorigatti">Valentina Dorigatti</a>, <a href="http://mc3.i3s.unice.fr/~formenti/">Enrico Formenti</a>, Caroline Gaze-Maillot, <a href="https://community.dur.ac.uk/m.r.gadouleau/">Maximilien Gadouleau</a>, <a href="https://dssc.units.it/people/luca-manzoni">Luca Manzoni</a>, <a href="http://www.cs.unibo.it/~margara/">Luciano Margara</a>, <a href="http://www.valentin-montmirail.com">Valentin Montmirail</a>, <a href="https://aeporreca.org">yours truly</a>, <a href="http://www.i3s.unice.fr/~riva/">Sara Riva</a>, and Émile Touileb.</p>
 
 <h2 id="bibliography">Bibliography</h2>
 
-<ol>
-  <li>Dennunzio, A., Dorigatti, V., Formenti, E., Manzoni, L., Porreca, A.E.: Polynomial equations over finite, discrete-time dynamical systems. In: Mauri, G., El Yacoubi, S., Dennunzio, A., Nishinari, K., and Manzoni, L. (eds.) <em>Cellular Automata, 13th International Conference on Cellular Automata for Research and Industry, ACRI 2018</em>. pp. 298–306. Springer (2018). [<a href="https://doi.org/10.1007/978-3-319-99813-8_27">link</a>] [<a href="/papers/polynomial-equations-over-finite-discrete-time-dynamical-systems.pdf">preprint</a>]</li>
-  <li>Dennunzio, A., Formenti, E., Margara, L., Montmirail, V., Riva, S.: Solving equations on discrete dynamical systems (extended version) (2019). [<a href="https://arxiv.org/abs/1904.13115">preprint</a>]</li>
-  <li>Porreca, A.E.: Composing behaviours in the semiring of dynamical systems, invited talk at <em>International Workshop on Boolean Networks (IWBN 2020)</em>, Universidad de Concepción, Chile (2020). (Talk given by Florian Bridoux due to my inability to attend the workshop.) [<a href="/talks/composing-behaviours-in-semiring-of-dynamical-systems.pdf">slides</a>]</li>
-</ol>
+<ol class="bibliography"><li><span id="GazeMaillot2020b">Gaze-Maillot, C., Porreca, A.E.: Profiles of dynamical systems and their algebra. <i>arXiv e-prints</i>. (2020).</span>
+[<a href="https://arxiv.org/abs/2008.00843">link</a>]
+[<a href="profiles-of-dynamical-systems-and-their-algebra.pdf">preprint</a>]</li>
+<li><span id="Porreca2020a">Porreca, A.E.: Composing behaviours in the semiring of dynamical systems. In: <i>International Workshop on Boolean Networks (IWBN 2020)</i> (2020).</span>
+[<a href="https://doi.org/10.5281/zenodo.3934396">link</a>]
+</li>
+<li><span id="Dennunzio2019d">Dennunzio, A., Formenti, E., Margara, L., Montmirail, V., Riva, S.: Solving equations on discrete dynamical systems (extended version). <i>arXiv e-prints</i>. (2019).</span>
+[<a href="https://arxiv.org/abs/1904.13115">link</a>]
+</li>
+<li><span id="Dennunzio2018b">Dennunzio, A., Dorigatti, V., Formenti, E., Manzoni, L., Porreca, A.E.: Polynomial equations over finite, discrete-time dynamical systems. In: Mauri, G., El Yacoubi, S., Dennunzio, A., Nishinari, K., and Manzoni, L. (eds.) <i>Cellular Automata, 13th International Conference on Cellular Automata for Research and Industry, ACRI 2018</i>. pp. 298–306. Springer (2018).</span>
+[<a href="https://doi.org/10.1007/978-3-319-99813-8_27">link</a>]
+[<a href="polynomial-equations-over-finite-discrete-time-dynamical-systems.pdf">preprint</a>]</li></ol>
 
 </div>
 </body>
